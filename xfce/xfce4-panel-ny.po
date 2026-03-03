@@ -1,0 +1,961 @@
+# Nyanja translations for xfce4-panel package.
+# Copyright (C) 2026 THE xfce4-panel'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-panel package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-panel 4.18\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-03 22:01+0200\n"
+"PO-Revision-Date: 2026-03-03 23:42+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ny\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: common/panel-utils.c:428
+#, c-format
+msgid "Monitor %d"
+msgstr "Monitala %d"
+
+#: libxfce4panel/xfce-panel-plugin.c:1109 panel/panel-preferences-dialog.c:1499
+msgid "Remove"
+msgstr "Chotsani"
+
+#: libxfce4panel/xfce-panel-plugin.c:1110
+msgid ""
+"Removing the item from the panel also means its configuration will be lost."
+msgstr ""
+
+#: libxfce4panel/xfce-panel-plugin.c:1114 panel/panel-preferences-dialog.c:1506
+#, c-format
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr ""
+
+#: libxfce4panel/xfce-panel-plugin.c:1236
+msgid "_Properties"
+msgstr ""
+
+#: libxfce4panel/xfce-panel-plugin.c:1247 panel/panel-window.c:4020
+msgid "_About"
+msgstr "_Zambiri"
+
+#: libxfce4panel/xfce-panel-plugin.c:1258
+msgid "_Move"
+msgstr "_Sunthani"
+
+#: libxfce4panel/xfce-panel-plugin.c:1274 panel/panel-application.c:357
+#: panel/panel-plugin-external.c:420 panel/panel-preferences-dialog.c:1076
+#: plugins/launcher/launcher-dialog.c:935
+msgid "_Remove"
+msgstr "_Chotsani"
+
+#: libxfce4panel/xfce-panel-plugin.c:1292
+msgid "Pane_l"
+msgstr "Pane_lo"
+
+#: libxfce4panel/xfce-panel-plugin.c:1300 panel/panel-window.c:3957
+msgid "Add _New Items..."
+msgstr ""
+
+#: libxfce4panel/xfce-panel-plugin.c:1311 panel/panel-window.c:3968
+msgid "Panel Pr_eferences..."
+msgstr ""
+
+#: libxfce4panel/xfce-panel-plugin.c:1328 panel/panel-window.c:3995
+msgid "Log _Out"
+msgstr "Tulu_kani"
+
+#: libxfce4panel/xfce-panel-plugin.c:1344 panel/panel-item-dialog.c:201
+#: panel/panel-window.c:4011
+msgid "_Help"
+msgstr "_Thandizo"
+
+#: libxfce4panel/xfce-panel-plugin.c:1355
+msgid "About"
+msgstr "Zambiri"
+
+#: panel/main.c:66
+msgid "Show the 'Panel Preferences' dialog"
+msgstr ""
+
+#: panel/main.c:66 panel/main.c:67
+msgid "PANEL-NUMBER"
+msgstr "PANEL-NAMBALA"
+
+#: panel/main.c:67
+msgid "Show the 'Add New Items' dialog"
+msgstr ""
+
+#: panel/main.c:68
+msgid "Save the panel configuration"
+msgstr ""
+
+#: panel/main.c:69
+msgid "Add a new plugin to the panel"
+msgstr ""
+
+#: panel/main.c:69
+msgid "PLUGIN-NAME"
+msgstr ""
+
+#: panel/main.c:70
+msgid "Restart the running panel instance"
+msgstr ""
+
+#: panel/main.c:71
+msgid "Quit the running panel instance"
+msgstr ""
+
+#: panel/main.c:72
+msgid "Do not wait for a window manager on startup"
+msgstr ""
+
+#: panel/main.c:73
+msgid "Print version information and exit"
+msgstr ""
+
+#: panel/main.c:258
+msgid "[ARGUMENTS...]"
+msgstr ""
+
+#: panel/main.c:268
+#, c-format
+msgid "Type \"%s --help\" for usage."
+msgstr ""
+
+#: panel/main.c:285
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: panel/main.c:286
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: panel/main.c:394
+msgid "There is already a running instance"
+msgstr ""
+
+#: panel/main.c:405
+msgid "Restarting..."
+msgstr "Kuyambiranso..."
+
+#: panel/main.c:422
+msgid "Failed to show the preferences dialog"
+msgstr ""
+
+#: panel/main.c:424
+msgid "Failed to show the add new items dialog"
+msgstr ""
+
+#: panel/main.c:426
+msgid "Failed to save the panel configuration"
+msgstr ""
+
+#: panel/main.c:428
+msgid "Failed to add a plugin to the panel"
+msgstr ""
+
+#: panel/main.c:430
+msgid "Failed to restart the panel"
+msgstr ""
+
+#: panel/main.c:432
+msgid "Failed to quit the panel"
+msgstr ""
+
+#: panel/main.c:434
+msgid "Failed to send D-Bus message"
+msgstr ""
+
+#: panel/main.c:442 panel/main.c:462
+#, c-format
+msgid "No running instance of %s was found"
+msgstr ""
+
+#: panel/main.c:443
+msgid ""
+"Do you want to start the panel? If you do, make sure you save the session on "
+"logout, so the panel is automatically started the next time you login."
+msgstr ""
+
+#: panel/main.c:448
+msgid "Execute"
+msgstr ""
+
+#: panel/panel-application.c:213
+msgid "Failed to launch the migration application"
+msgstr ""
+
+#: panel/panel-application.c:347
+#, c-format
+msgid ""
+"Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel "
+"configuration?"
+msgstr ""
+
+#: panel/panel-application.c:349
+#, c-format
+msgid ""
+"This plugin is in the current xfce4-panel configuration but could not be "
+"loaded, probably due to an installation issue. If you know what you're "
+"doing, you can remove it permanently, otherwise you'd better quit and make a "
+"backup of the current configuration using %s, before checking your "
+"installation and trying to start xfce4-panel again."
+msgstr ""
+
+#: panel/panel-application.c:356
+msgid "Plugin loading failure"
+msgstr ""
+
+#: panel/panel-application.c:357
+msgid "_Quit"
+msgstr "_Tsekani"
+
+#: panel/panel-application.c:1038
+msgid ""
+"This will create a new launcher plugin on the panel and inserts the dropped "
+"files as menu items."
+msgstr ""
+
+#: panel/panel-application.c:1041
+msgid "Create _Launcher"
+msgstr ""
+
+#: panel/panel-application.c:1042
+#, c-format
+msgid "Create new launcher from %d desktop file"
+msgid_plural "Create new launcher from %d desktop files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/panel-application.c:1809
+msgid ""
+"You have started X without session manager. Clicking Quit will close the X "
+"server."
+msgstr ""
+
+#: panel/panel-application.c:1812
+msgid "Quit"
+msgstr "Tsekani"
+
+#: panel/panel-application.c:1812
+msgid "Are you sure you want to quit the panel?"
+msgstr ""
+
+#: panel/panel-application.c:1820
+#, c-format
+msgid "Failed to execute command \"%s\""
+msgstr ""
+
+#: panel/panel-dbus-client.c:209
+msgid ""
+"Invalid plugin event syntax specified. Use PLUGIN-NAME:NAME[:TYPE:VALUE]."
+msgstr ""
+
+#: panel/panel-dbus-client.c:239
+#, c-format
+msgid ""
+"Invalid hint type \"%s\". Valid types are bool, double, int, string and uint."
+msgstr ""
+
+#: panel/panel-dialogs.c:53
+msgid "Unable to open the e-mail address"
+msgstr ""
+
+#: panel/panel-dialogs.c:79
+msgid "The panel of the Xfce Desktop Environment"
+msgstr ""
+
+#: panel/panel-dialogs.c:83
+msgid "translator-credits"
+msgstr ""
+
+#: panel/panel-dialogs.c:157
+msgid "Add New Item"
+msgstr "Onjezerani Chinthu Chatsopano"
+
+#: panel/panel-dialogs.c:157 plugins/actions/actions.c:864
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+#: plugins/directorymenu/directorymenu.c:932
+msgid "_Cancel"
+msgstr "_Tsekani"
+
+#: panel/panel-dialogs.c:157 panel/panel-item-dialog.c:197
+msgid "_Add"
+msgstr "_Onjezerani"
+
+#: panel/panel-dialogs.c:168
+msgid "Please choose a panel for the new plugin:"
+msgstr ""
+
+#: panel/panel-dialogs.c:188 panel/panel-preferences-dialog.c:1023
+#, c-format
+msgid "Panel %d"
+msgstr "Panelo %d"
+
+#: panel/panel-dialogs.c:227
+msgid ""
+"Because the panel is running in kiosk mode, you are not allowed to make "
+"changes to the panel configuration as a regular user"
+msgstr ""
+
+#: panel/panel-dialogs.c:229
+msgid "Modifying the panel is not allowed"
+msgstr ""
+
+#: panel/panel-item-dialog.c:192
+msgid "Add New Items"
+msgstr "Onjezerani Zinthu Chatsopano"
+
+#: panel/panel-item-dialog.c:205 panel/panel-tic-tac-toe.c:110
+msgid "_Close"
+msgstr "_Tsekani"
+
+#: panel/panel-item-dialog.c:221
+msgid "_Search:"
+msgstr "_Fufuzani:"
+
+#: panel/panel-item-dialog.c:229
+msgid "Enter search phrase here"
+msgstr "Lembani mawu ofufuzila apa"
+
+#: panel/panel-item-dialog.c:618
+#, c-format
+msgid "Internal name: %s"
+msgstr "Dzina la mkati momuno: %s"
+
+#: panel/panel-plugin-external.c:413
+#, c-format
+msgid "Plugin \"%s\" unexpectedly left the panel, do you want to restart it?"
+msgstr ""
+
+#: panel/panel-plugin-external.c:414
+#, c-format
+msgid ""
+"The plugin restarted more than once in the last %d seconds. If you press "
+"Execute the panel will try to restart the plugin otherwise it will be "
+"permanently removed from the panel."
+msgstr ""
+
+#: panel/panel-plugin-external.c:419
+msgid "Plugin Restart"
+msgstr ""
+
+#: panel/panel-plugin-external.c:420
+msgid "_Execute"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:346
+msgid "Show about information of the currently selected item"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:580
+msgid "Automatic"
+msgstr "Zopanga zokha"
+
+#: panel/panel-preferences-dialog.c:589
+msgid "Primary"
+msgstr "Choyambirira"
+
+#: panel/panel-preferences-dialog.c:1075
+msgid "The panel and plugin configurations will be permanently removed"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1084
+#, c-format
+msgid "Are you sure you want to remove panel %d?"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1376
+#, c-format
+msgid "%s <span color=\"grey\" size=\"small\">(external)</span>"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1381
+#, c-format
+msgid ""
+"Internal name: %s-%d\n"
+"PID: %d"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1393
+#, c-format
+msgid "Internal name: %s-%d"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1508
+msgid "If you remove the item from the panel, it is permanently lost."
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1512 plugins/launcher/launcher-dialog.c:930
+#, c-format
+msgid "Are you sure that you want to remove these %d items?"
+msgstr ""
+
+#: panel/panel-preferences-dialog.c:1514
+msgid "If you remove them from the panel, they are permanently lost."
+msgstr ""
+
+#: panel/panel-tic-tac-toe.c:108
+msgid "_New Game"
+msgstr ""
+
+#: panel/panel-tic-tac-toe.c:119
+msgid "_Level:"
+msgstr "_Mlingo:"
+
+#: panel/panel-tic-tac-toe.c:125
+msgid "Novice"
+msgstr "Oyamba kumene"
+
+#: panel/panel-tic-tac-toe.c:126
+msgid "Intermediate"
+msgstr "Wapakatikati"
+
+#: panel/panel-tic-tac-toe.c:127
+msgid "Experienced"
+msgstr "Wodziwa kwambiri"
+
+#: panel/panel-tic-tac-toe.c:128
+msgid "Expert"
+msgstr "Katswiri"
+
+#: panel/panel-window.c:3945
+msgid "Panel"
+msgstr "Panelo"
+
+#: panel/panel-window.c:3982
+msgid "_Lock Panel"
+msgstr "_Lokani Panelo"
+
+#: migrate/main.c:94
+msgid "Failed to load the default configuration"
+msgstr ""
+
+#: migrate/main.c:106
+msgid "Panel config needs migration..."
+msgstr ""
+
+#: migrate/main.c:110
+msgid "Failed to migrate the existing configuration"
+msgstr ""
+
+#: migrate/main.c:116
+msgid "Panel configuration has been updated."
+msgstr ""
+
+#: plugins/actions/actions.c:32
+msgid "Session Menu"
+msgstr ""
+
+#: plugins/actions/actions.c:163
+msgid "Log Out"
+msgstr "Tulukani"
+
+#: plugins/actions/actions.c:164
+msgid "_Log Out"
+msgstr "_Tulukani"
+
+#: plugins/actions/actions.c:165
+msgid "Are you sure you want to log out?"
+msgstr "Mukutsimikiza kuti mukufuna kutuluka?"
+
+#: plugins/actions/actions.c:166
+#, c-format
+msgid "Logging out in %d seconds."
+msgstr "Mutuluka mu masekondi %d ."
+
+#: plugins/actions/actions.c:171
+msgid "Log Out..."
+msgstr "Tulukani..."
+
+#: plugins/actions/actions.c:172
+msgid "Log _Out..."
+msgstr "Tulu_kani..."
+
+#: plugins/actions/actions.c:178
+msgid "Switch User"
+msgstr "Sinthani Ogwiritsa Ntchito"
+
+#: plugins/actions/actions.c:179
+msgid "_Switch User"
+msgstr "_Sinthani Ogwiritsa Ntchito"
+
+#: plugins/actions/actions.c:185
+msgid "Lock Screen"
+msgstr "Chophimba"
+
+#: plugins/actions/actions.c:186
+msgid "Loc_k Screen"
+msgstr "Cho_phimba"
+
+#: plugins/actions/actions.c:192
+msgid "Hibernate"
+msgstr ""
+
+#: plugins/actions/actions.c:193
+msgid "_Hibernate"
+msgstr ""
+
+#: plugins/actions/actions.c:194
+msgid "Do you want to suspend to disk?"
+msgstr ""
+
+#: plugins/actions/actions.c:195
+#, c-format
+msgid "Hibernating computer in %d seconds."
+msgstr ""
+
+#: plugins/actions/actions.c:200
+msgid "Hybrid Sleep"
+msgstr ""
+
+#: plugins/actions/actions.c:201
+msgid "_Hybrid Sleep"
+msgstr ""
+
+#: plugins/actions/actions.c:202
+msgid "Do you want to hibernate and suspend the system?"
+msgstr ""
+
+#: plugins/actions/actions.c:203
+#, c-format
+msgid "Hibernating and Suspending computer in %d seconds."
+msgstr ""
+
+#: plugins/actions/actions.c:208
+msgid "Suspend"
+msgstr ""
+
+#: plugins/actions/actions.c:209
+msgid "Sus_pend"
+msgstr ""
+
+#: plugins/actions/actions.c:210
+msgid "Do you want to suspend to RAM?"
+msgstr ""
+
+#: plugins/actions/actions.c:211
+#, c-format
+msgid "Suspending computer in %d seconds."
+msgstr ""
+
+#: plugins/actions/actions.c:216
+msgid "Restart"
+msgstr "Yambitsaninso"
+
+#: plugins/actions/actions.c:217
+msgid "_Restart"
+msgstr "_Yambitsaninso"
+
+#: plugins/actions/actions.c:218
+msgid "Are you sure you want to restart?"
+msgstr "Mukutsimikiza kuti mukufuna kuyambiranso?"
+
+#: plugins/actions/actions.c:219
+#, c-format
+msgid "Restarting computer in %d seconds."
+msgstr "Kompyuta iyambiranso mu ma sekondi %d."
+
+#: plugins/actions/actions.c:224
+msgid "Shut Down"
+msgstr "Zimitsani"
+
+#: plugins/actions/actions.c:225
+msgid "Shut _Down"
+msgstr "Zimitsa_ni"
+
+#: plugins/actions/actions.c:226
+msgid "Are you sure you want to shut down?"
+msgstr "Mukutsimikiza kuti mukufuna kuzimitsa?"
+
+#: plugins/actions/actions.c:227
+#, c-format
+msgid "Turning off computer in %d seconds."
+msgstr "Kompyuta izima mu ma sekondi %d."
+
+#: plugins/actions/actions.c:726
+msgid "Separator"
+msgstr "Chogawa"
+
+#: plugins/actions/actions.c:1160
+#, c-format
+msgid "Failed to run action \"%s\""
+msgstr "Zakanika kupanga ntchito ya \"%s\""
+
+#: plugins/actions/actions.c:1364
+msgid "Little Mouse"
+msgstr "Mausi yaying'ono"
+
+#: plugins/applicationsmenu/applicationsmenu.c:32
+msgid "Applications"
+msgstr "Ma Apulikeshoni"
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "Select An Icon"
+msgstr ""
+
+#: plugins/applicationsmenu/applicationsmenu.c:601
+#: plugins/directorymenu/directorymenu.c:461
+msgid "_OK"
+msgstr "_INDE"
+
+#: plugins/applicationsmenu/applicationsmenu.c:638 plugins/clock/clock.c:1083
+#: plugins/launcher/launcher.c:2499
+#, c-format
+msgid "Failed to execute command \"%s\"."
+msgstr ""
+
+#: plugins/clock/clock.c:180
+msgid "Week %V"
+msgstr "Wiki %V"
+
+#: plugins/clock/clock.c:326
+msgid "Time _settings"
+msgstr ""
+
+#: plugins/clock/clock.c:513
+msgid "Failed to execute clock command"
+msgstr ""
+
+#: plugins/clock/clock.c:1011
+msgid "Custom Format"
+msgstr ""
+
+#: plugins/clock/clock.c:1062
+msgid "Configuration tool not found, please set it in the settings dialog"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:75
+msgid "Night"
+msgstr "Usiku"
+
+#: plugins/clock/clock-fuzzy.c:76
+msgid "Early morning"
+msgstr "M'mawa kwambiri"
+
+#: plugins/clock/clock-fuzzy.c:77
+msgid "Morning"
+msgstr "M'mawa"
+
+#: plugins/clock/clock-fuzzy.c:78
+msgid "Almost noon"
+msgstr "Pafupifupi masana"
+
+#: plugins/clock/clock-fuzzy.c:79
+msgid "Noon"
+msgstr "Masana"
+
+#: plugins/clock/clock-fuzzy.c:80
+msgid "Afternoon"
+msgstr "Masana wakumadzulo"
+
+#: plugins/clock/clock-fuzzy.c:81
+msgid "Evening"
+msgstr "Madzulo"
+
+#: plugins/clock/clock-fuzzy.c:82
+msgid "Late evening"
+msgstr "Madzulo kwambiri"
+
+#: plugins/clock/clock-fuzzy.c:88
+#, no-c-format
+msgid "%0 o'clock"
+msgstr "%0 koloko"
+
+#: plugins/clock/clock-fuzzy.c:89
+#, no-c-format
+msgid "five past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:90
+#, no-c-format
+msgid "ten past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:91
+#, no-c-format
+msgid "quarter past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:92
+#, no-c-format
+msgid "twenty past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:93
+#, no-c-format
+msgid "twenty five past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:94
+#, no-c-format
+msgid "half past %0"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:95
+#, no-c-format
+msgid "twenty five to %1"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:96
+#, no-c-format
+msgid "twenty to %1"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:97
+#, no-c-format
+msgid "quarter to %1"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:98
+#, no-c-format
+msgid "ten to %1"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:99
+#, no-c-format
+msgid "five to %1"
+msgstr ""
+
+#: plugins/clock/clock-fuzzy.c:100
+#, no-c-format
+msgid "%1 o'clock"
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:293
+msgid "Directory Menu"
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:690
+#, c-format
+msgid "Failed to launch application \"%s\""
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:721
+#, c-format
+msgid "Failed to query content type for \"%s\""
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:730
+#, c-format
+msgid "No default application found for \"%s\""
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:746
+#, c-format
+msgid "Failed to launch default application for \"%s\""
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:840
+#, c-format
+msgid "Failed to execute the preferred application for category \"%s\""
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:921
+msgid "Create New Folder"
+msgstr "Pangani Foda Yatsopano"
+
+#: plugins/directorymenu/directorymenu.c:926
+msgid "Create New Text Document"
+msgstr "Pangani Dokumenti ya Text Yatsopano"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "C_reate"
+msgstr "Pa_ngani"
+
+#: plugins/directorymenu/directorymenu.c:932
+msgid "Create & _Open"
+msgstr "Pangani ndi _Kutsegula"
+
+#: plugins/directorymenu/directorymenu.c:945
+msgid "Enter the new name:"
+msgstr "Lembani dzina latsopano:"
+
+#: plugins/directorymenu/directorymenu.c:981
+#, c-format
+msgid "Failed to create folder: %s"
+msgstr "Zakanika kupanga foda: %s"
+
+#: plugins/directorymenu/directorymenu.c:1063
+msgid "Open Folder"
+msgstr "Tsegulani Foda"
+
+#: plugins/directorymenu/directorymenu.c:1077
+msgid "Open in Terminal"
+msgstr ""
+
+#: plugins/directorymenu/directorymenu.c:1091
+msgid "Create Folder..."
+msgstr "Pangani Foda..."
+
+#: plugins/directorymenu/directorymenu.c:1105
+msgid "Create Text Document..."
+msgstr "Pangani Dokumenti ya Text..."
+
+#: plugins/launcher/launcher.c:428
+msgid "Open launcher menu"
+msgstr ""
+
+#: plugins/launcher/launcher.c:1614
+msgid "Unnamed Item"
+msgstr "Chopanda Dzina"
+
+#: plugins/launcher/launcher.c:1816
+msgid "No items"
+msgstr "Palibe Zinthu"
+
+#: plugins/launcher/launcher-dialog.c:611
+msgid "Failed to open desktop item editor"
+msgstr ""
+
+#: plugins/launcher/launcher-dialog.c:922
+msgid "Unnamed item"
+msgstr "Chopanda Dzina"
+
+#: plugins/launcher/launcher-dialog.c:923
+#, c-format
+msgid "Are you sure you want to remove \"%s\"?"
+msgstr "Mukutsimikiza kuti mukufuna kuchotsa \"%s\"?"
+
+#: plugins/launcher/launcher-dialog.c:936
+msgid "If you delete an item, it will be permanently removed"
+msgstr "Mukachosa kapena kufufuta chinthu, chichoka mpaka kale"
+
+#: plugins/launcher/launcher-dialog.c:1033
+#: plugins/launcher/launcher-dialog.c:1034
+msgid "Add a new empty item"
+msgstr ""
+
+#: plugins/launcher/launcher-dialog.c:1047
+#: plugins/launcher/launcher-dialog.c:1048
+msgid "Add a new hyperlink"
+msgstr ""
+
+#: plugins/pager/pager.c:706
+msgid "Workspace _Settings..."
+msgstr ""
+
+#: plugins/pager/pager.c:806
+msgid "Unable to open the workspace settings"
+msgstr ""
+
+#: plugins/pager/pager-buttons.c:646 plugins/windowmenu/windowmenu.c:1008
+#, c-format
+msgid "Workspace %d"
+msgstr "Pogwirira Ntchito %d"
+
+#: plugins/showdesktop/showdesktop.c:322
+msgid "Restore the minimized windows"
+msgstr ""
+
+#: plugins/showdesktop/showdesktop.c:324
+msgid "Minimize all open windows and show the desktop"
+msgstr ""
+
+#: plugins/showdesktop/showdesktop.c:327
+msgid "Show Desktop"
+msgstr "Onetsani Desikitopu"
+
+#: plugins/systray/sn-dialog.c:427
+msgid "Clear"
+msgstr "Chotsani ndi Kuyeretsa"
+
+#: plugins/systray/sn-dialog.c:432
+msgid "Are you sure you want to clear the list of known items?"
+msgstr ""
+
+#: plugins/systray/systray.c:145
+msgid "Unable to start the notification area"
+msgstr ""
+
+#: plugins/systray/systray.c:409
+msgid ""
+"Most likely another widget took over the function of a notification area. "
+"This area will be unused."
+msgstr ""
+
+#: plugins/systray/systray.c:411
+msgid "The notification area lost selection"
+msgstr ""
+
+#: plugins/systray/systray-manager.c:382
+#, c-format
+msgid "Failed to acquire manager selection for screen %d"
+msgstr ""
+
+#: plugins/tasklist/tasklist-widget.c:3230
+#, c-format
+msgid "Unable to start new instance of '%s'"
+msgstr ""
+
+#: plugins/tasklist/tasklist-widget.c:3257
+msgid "Launch New Instance"
+msgstr ""
+
+#: plugins/tasklist/tasklist-widget.c:4014
+msgid "Mi_nimize All"
+msgstr "Che_petsani Zonse"
+
+#: plugins/tasklist/tasklist-widget.c:4021
+msgid "Un_minimize All"
+msgstr "Osa_chepetsa Zonse"
+
+#: plugins/tasklist/tasklist-widget.c:4028
+msgid "Ma_ximize All"
+msgstr "Ku_lisani zonse"
+
+#: plugins/tasklist/tasklist-widget.c:4035
+msgid "_Unmaximize All"
+msgstr "_Osakulisa Zonse"
+
+#: plugins/tasklist/tasklist-widget.c:4046
+msgid "_Close All"
+msgstr "_Tsekani Zonse"
+
+#: plugins/tasklist/tasklist-widget.c:5057
+msgid "all monitors"
+msgstr "mamonita onse"
+
+#: plugins/tasklist/tasklist-widget.c:5066
+msgid "panel's monitor"
+msgstr "monita ya panelo"
+
+#: plugins/windowmenu/windowmenu.c:351
+msgid "Windows"
+msgstr "Mawindo"
+
+#: plugins/windowmenu/windowmenu.c:787
+msgid "Desktop"
+msgstr "Pa Desikitopu"
+
+#: plugins/windowmenu/windowmenu.c:1403
+msgid "No Windows"
+msgstr "Popanda Mawindo"
+
+#: plugins/windowmenu/windowmenu.c:1418
+msgid "Urgent Windows"
+msgstr "Mawindo Achangu"
+
+#: plugins/windowmenu/windowmenu.c:1469
+msgid "Add Workspace"
+msgstr "Onjezerani pogwirira ntchito"
+
+#: plugins/windowmenu/windowmenu.c:1491
+#, c-format
+msgid "Remove Workspace \"%s\""
+msgstr "Chotsani Pogwirira ntchito \"%s\""
+
+#: plugins/windowmenu/windowmenu.c:1493
+#, c-format
+msgid "Remove Workspace %d"
+msgstr "Chotsani Pogwirira ntchito %d"
