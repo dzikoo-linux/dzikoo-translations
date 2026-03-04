@@ -1,0 +1,1405 @@
+# Nyanja translations for xfce4-settings package.
+# Copyright (C) 2026 THE xfce4-settings'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-settings package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-settings 4.18\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-04 09:57+0200\n"
+"PO-Revision-Date: 2026-03-04 09:59+0200\n"
+"Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
+"Language-Team: Dzikoo Linux\n"
+"Language: ny\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. TRANSLATORS: an externally connected display, where %s is either the
+#. * model, vendor or ID, e.g. 'LP2480zx Monitor'
+#: common/display-name.c:2698 dialogs/color-settings/color-device.c:62
+msgid "Monitor"
+msgstr "Monitala"
+
+#: common/display-name.c:2701
+msgid "Television"
+msgstr ""
+
+#: common/display-name.c:2705
+msgid "Digital display"
+msgstr ""
+
+#: common/xfce-randr.c:282 dialogs/display-settings/display-settings-x11.c:708
+msgid "Unable to query the version of the RandR extension being used"
+msgstr ""
+
+#: common/xfce-randr.c:573
+#: dialogs/display-settings/display-settings-wayland.c:346
+msgid "Laptop"
+msgstr "Laputopu"
+
+#: dialogs/accessibility-settings/main.c:36
+#: dialogs/appearance-settings/main.c:90 dialogs/color-settings/main.c:40
+#: dialogs/display-settings/main.c:103 dialogs/keyboard-settings/main.c:36
+#: dialogs/mime-settings/main.c:40 dialogs/mouse-settings/main.c:84
+#: xfce4-settings-editor/main.c:44
+msgid "Settings manager socket"
+msgstr ""
+
+#: dialogs/accessibility-settings/main.c:36
+#: dialogs/appearance-settings/main.c:90 dialogs/color-settings/main.c:40
+#: dialogs/display-settings/main.c:103 dialogs/keyboard-settings/main.c:36
+#: dialogs/mime-settings/main.c:40 dialogs/mouse-settings/main.c:84
+#: xfce4-settings-editor/main.c:44
+msgid "SOCKET ID"
+msgstr ""
+
+#: dialogs/accessibility-settings/main.c:37
+#: dialogs/appearance-settings/main.c:91 dialogs/color-settings/main.c:41
+#: dialogs/display-settings/main.c:104 dialogs/keyboard-settings/main.c:37
+#: dialogs/mime-settings/main.c:41 dialogs/mouse-settings/main.c:85
+#: xfce4-settings-editor/main.c:45 xfce4-settings-manager/main.c:39
+#: xfsettingsd/main.c:93
+msgid "Version information"
+msgstr ""
+
+#: dialogs/accessibility-settings/main.c:191
+#: dialogs/appearance-settings/main.c:1849 dialogs/color-settings/main.c:1463
+#: dialogs/display-settings/main.c:3366 dialogs/keyboard-settings/main.c:74
+#: dialogs/mime-settings/main.c:78
+#: dialogs/mime-settings/xfce-mime-helper-main.c:153
+#: dialogs/mouse-settings/main.c:2194 xfce4-settings-editor/main.c:118
+#: xfce4-settings-manager/main.c:60 xfsettingsd/main.c:242
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr ""
+
+#: dialogs/accessibility-settings/main.c:210
+#: dialogs/appearance-settings/main.c:1868 dialogs/color-settings/main.c:1482
+#: dialogs/display-settings/main.c:3385 dialogs/keyboard-settings/main.c:90
+#: dialogs/mime-settings/main.c:97 dialogs/mouse-settings/main.c:2213
+#: xfce4-settings-editor/main.c:137 xfce4-settings-manager/main.c:76
+#: xfsettingsd/main.c:258
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: dialogs/accessibility-settings/main.c:211
+#: dialogs/appearance-settings/main.c:1869 dialogs/color-settings/main.c:1483
+#: dialogs/display-settings/main.c:3386 dialogs/keyboard-settings/main.c:91
+#: dialogs/mime-settings/main.c:98 dialogs/mouse-settings/main.c:2214
+#: xfce4-settings-editor/main.c:138 xfce4-settings-manager/main.c:77
+#: xfsettingsd/main.c:259
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:338
+msgid "Failed to display Xfwm4 Settings"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:578
+msgid ""
+"No sound themes found. Install themes in /usr/share/sounds or ~/.local/share/"
+"sounds"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:756
+#, c-format
+msgid ""
+"Warning: this icon theme has no cache file. You can create this by running "
+"<i>gtk-update-icon-cache -f -t %s/</i> in a terminal emulator."
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:763
+msgid "Warning: this icon theme is incomplete. Some icons will be missing."
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:768
+msgid ""
+"Warning: this icon theme is incomplete. It only provides a base set of icons "
+"from which other themes can inherit."
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1384
+msgid "File is too large, installation aborted"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1389
+msgid "Failed to create temporary directory"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1394
+msgid "Failed to extract archive"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1399
+msgid "Unknown format, only archives and directories are supported"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1404
+msgid "Not a valid theme package"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1409
+#, c-format
+msgid "An unknown error, exit code is %d"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1416
+msgid "Failed to install theme"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1470
+#, c-format
+msgid "Install %s theme"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1472 dialogs/color-settings/main.c:126
+#: dialogs/keyboard-settings/command-dialog.c:109
+#: dialogs/keyboard-settings/command-dialog.c:271
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:424
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:575
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:106
+msgid "_Cancel"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1473
+#: dialogs/keyboard-settings/command-dialog.c:272
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:425
+msgid "_Open"
+msgstr "_Tsegulani"
+
+#: dialogs/appearance-settings/main.c:1733 dialogs/display-settings/main.c:82
+#: dialogs/display-settings/main.c:90
+msgid "None"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1737
+msgid "RGB"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1741
+msgid "BGR"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1745
+msgid "Vertical RGB"
+msgstr ""
+
+#: dialogs/appearance-settings/main.c:1749
+msgid "Vertical BGR"
+msgstr ""
+
+#. TRANSLATORS: a flatbed scanner device, e.g. 'Epson Scanner'
+#: dialogs/color-settings/color-device.c:65
+msgid "Scanner"
+msgstr ""
+
+#. TRANSLATORS: a camera device, e.g. 'Nikon D60 Camera'
+#: dialogs/color-settings/color-device.c:68
+msgid "Camera"
+msgstr ""
+
+#. TRANSLATORS: a printer device, e.g. 'Epson Photosmart Printer'
+#: dialogs/color-settings/color-device.c:71
+msgid "Printer"
+msgstr ""
+
+#. TRANSLATORS: a webcam device, e.g. 'Philips HiDef Camera'
+#: dialogs/color-settings/color-device.c:74
+msgid "Webcam"
+msgstr ""
+
+#. TRANSLATORS: This refers to the TFT display on a laptop
+#: dialogs/color-settings/color-device.c:92
+msgid "Laptop Screen"
+msgstr ""
+
+#. TRANSLATORS: This refers to the embedded webcam on a laptop
+#: dialogs/color-settings/color-device.c:101
+msgid "Built-in Webcam"
+msgstr ""
+
+#: dialogs/color-settings/color-device.c:194
+#, c-format
+msgid "Enable color management for %s"
+msgstr ""
+
+#. TRANSLATORS: standard spaces are well known colorspaces like
+#. * sRGB, AdobeRGB and ProPhotoRGB
+#: dialogs/color-settings/color-profile.c:93
+msgid "Standard Space"
+msgstr ""
+
+#. TRANSLATORS: test profiles do things like changing the screen
+#. * a different color, or swap the red and green channels
+#: dialogs/color-settings/color-profile.c:99
+msgid "Test Profile"
+msgstr ""
+
+#. TRANSLATORS: an ICC profile is a file containing colorspace data
+#: dialogs/color-settings/main.c:125
+msgid "Select ICC Profile File"
+msgstr ""
+
+#: dialogs/color-settings/main.c:127
+msgid "_Import"
+msgstr ""
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: dialogs/color-settings/main.c:138
+msgid "Supported ICC profiles"
+msgstr ""
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: dialogs/color-settings/main.c:145
+msgid "All files"
+msgstr ""
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile has been auto-generated for this hardware
+#: dialogs/color-settings/main.c:188
+msgid "Default: "
+msgstr ""
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile his a standard space like AdobeRGB
+#: dialogs/color-settings/main.c:195
+msgid "Colorspace: "
+msgstr ""
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile is a test profile
+#: dialogs/color-settings/main.c:202
+msgid "Test profile: "
+msgstr ""
+
+#: dialogs/color-settings/main.c:237
+msgid "Compatible Profiles"
+msgstr ""
+
+#: dialogs/color-settings/main.c:516
+#, c-format
+msgid "Add Color Profile to %s"
+msgstr ""
+
+#: dialogs/color-settings/main.c:516
+msgid "Device"
+msgstr ""
+
+#: dialogs/color-settings/main.c:860 dialogs/color-settings/main.c:861
+#: dialogs/color-settings/main.c:862
+msgid "Unknown"
+msgstr ""
+
+#: dialogs/display-settings/main.c:54
+#, c-format
+msgid "Only %s (1)"
+msgstr ""
+
+#: dialogs/display-settings/main.c:55
+#, c-format
+msgid "Only %s (2)"
+msgstr ""
+
+#: dialogs/display-settings/main.c:83
+msgid "Left"
+msgstr ""
+
+#: dialogs/display-settings/main.c:84
+msgid "Inverted"
+msgstr ""
+
+#: dialogs/display-settings/main.c:85
+msgid "Right"
+msgstr ""
+
+#: dialogs/display-settings/main.c:91
+msgid "Horizontal"
+msgstr ""
+
+#: dialogs/display-settings/main.c:92
+msgid "Vertical"
+msgstr ""
+
+#: dialogs/display-settings/main.c:93
+msgid "Horizontal and Vertical"
+msgstr ""
+
+#: dialogs/display-settings/main.c:105
+msgid "Minimal interface to set up an external output"
+msgstr ""
+
+#: dialogs/display-settings/main.c:275
+#, c-format
+msgid ""
+"The previous configuration will be restored in <b>%i seconds</b> if you do "
+"not reply to this question."
+msgstr ""
+
+#: dialogs/display-settings/main.c:635
+#, c-format
+msgid "%.2f Hz"
+msgstr ""
+
+#: dialogs/display-settings/main.c:964
+msgid ""
+"The last active output must not be disabled, the system would be unusable."
+msgstr ""
+
+#: dialogs/display-settings/main.c:965
+msgid "Selected output not disabled"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1611
+#, c-format
+msgid "Do you want to delete the display profile '%s'?"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1614
+msgid "Delete Profile"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1615
+msgid "Once a display profile is deleted it cannot be restored."
+msgstr ""
+
+#: dialogs/display-settings/main.c:1615
+#: dialogs/mime-settings/xfce-mime-chooser.c:131
+#: dialogs/mime-settings/xfce-mime-chooser.c:376
+#: dialogs/mime-settings/xfce-mime-window.c:1295
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
+msgid "Cancel"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1616
+msgid "Delete"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1675
+msgid "Xfce Panel"
+msgstr ""
+
+#: dialogs/display-settings/main.c:1701
+#, c-format
+msgid "%d Xfce Panel"
+msgid_plural "%d Xfce Panels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/display-settings/main.c:2486
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+
+#: dialogs/display-settings/main.c:2585 dialogs/display-settings/main.c:2618
+#, c-format
+msgid "(%i, %i)"
+msgstr ""
+
+#: dialogs/display-settings/main.c:2835
+msgid "Mirror Screens"
+msgstr ""
+
+#: dialogs/display-settings/main.c:2885
+msgid "(Disabled)"
+msgstr ""
+
+#: dialogs/display-settings/main.c:3412
+msgid "ATI Settings"
+msgstr ""
+
+#: dialogs/display-settings/main.c:3417
+msgid "Unable to start the Xfce Display Settings"
+msgstr ""
+
+#: dialogs/display-settings/main.c:3418
+#: dialogs/mime-settings/xfce-mime-window.c:190
+#: xfce4-settings-editor/main.c:185
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:230
+msgid "_Close"
+msgstr ""
+
+#: dialogs/display-settings/main.c:3425
+msgid "Unable to launch the proprietary driver settings"
+msgstr ""
+
+#: dialogs/display-settings/display-settings.c:459
+msgid "Display:"
+msgstr ""
+
+#: dialogs/display-settings/display-settings.c:467
+msgid "Resolution:"
+msgstr ""
+
+#: dialogs/display-settings/display-settings-wayland.c:1004
+msgid ""
+"Your compositor does not seem to support the wlr-output-management protocol"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:105
+msgid "Shortcut Command"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:113
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:576
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:107
+msgid "_OK"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:135
+msgid "Enter the command you want to trigger with a shortcut."
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:153
+msgid "Shortcut:"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:178
+msgid "Comm_and:"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:203
+msgid "Use _startup notification"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:249
+msgid "The command may not be empty."
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:269
+msgid "Select command"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:277
+#: dialogs/mime-settings/xfce-mime-chooser.c:383
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:431
+msgid "All Files"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:282
+#: dialogs/mime-settings/xfce-mime-chooser.c:388
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:436
+msgid "Executable Files"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:297
+#: dialogs/mime-settings/xfce-mime-chooser.c:403
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:451
+msgid "Perl Scripts"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:303
+#: dialogs/mime-settings/xfce-mime-chooser.c:409
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:457
+msgid "Python Scripts"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:309
+#: dialogs/mime-settings/xfce-mime-chooser.c:415
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:463
+msgid "Ruby Scripts"
+msgstr ""
+
+#: dialogs/keyboard-settings/command-dialog.c:315
+#: dialogs/mime-settings/xfce-mime-chooser.c:421
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:469
+msgid "Shell Scripts"
+msgstr ""
+
+#: dialogs/keyboard-settings/main.c:80
+msgid "Unable to initialize GTK+."
+msgstr ""
+
+#: dialogs/keyboard-settings/main.c:106
+#, c-format
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr ""
+
+#: dialogs/keyboard-settings/main.c:117
+msgid "Could not create the settings dialog."
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:427
+msgid "Command"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:435
+msgid "Shortcut"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:508
+msgid "Layout"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:509
+msgid "Variant"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1274
+msgid ""
+"This will reset all shortcuts to their default values. Do you really want to "
+"do this?"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1278
+msgid "Reset to Defaults"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
+msgid "No"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
+msgid "Yes"
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1358
+msgid "The system defaults will be restored next time you log in."
+msgstr ""
+
+#: dialogs/keyboard-settings/xfce-keyboard-settings.c:1360
+msgid "Warning"
+msgstr ""
+
+#: dialogs/mime-settings/main.c:115
+msgid "Could not create the mime dialog."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:125
+msgid "Select Application"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:133
+#: dialogs/mime-settings/xfce-mime-chooser.c:377
+msgid "Open"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:201
+msgid "Use a c_ustom command:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:202
+msgid ""
+"Use a custom command for an application that is not available from the above "
+"application list."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:220
+msgid "_Browse..."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:374
+msgid "Select an Application"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:523
+msgid "None available"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:571
+msgid "Recommended Applications"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:590
+msgid "Other Applications"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:610
+#, c-format
+msgid "Open <i>%s</i> and other files of type \"%s\" with:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:615
+#, c-format
+msgid ""
+"Open <i>%s</i>, other files of type \"%s\", and %d other selected MIME type "
+"with:"
+msgid_plural ""
+"Open <i>%s</i>, other files of type \"%s\", and %d other selected MIME types "
+"with:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/mime-settings/xfce-mime-chooser.c:655
+#, c-format
+msgid "Failed to add new application \"%s\""
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:137
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:144
+msgid "Press left mouse button to change the selected application."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:143
+msgid "Application Chooser Button"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:330
+msgid "No application selected"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:345
+msgid "Failed to set default Web Browser"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:346
+msgid "Failed to set default Mail Reader"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:347
+msgid "Failed to set default File Manager"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:348
+msgid "Failed to set default Terminal Emulator"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:349
+msgid "Failed to set default Text Editor"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:350
+msgid "Failed to set default Image Viewer"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:351
+msgid "Failed to set default Audio Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:352
+msgid "Failed to set default Video Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:422
+msgid "Select application"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:533
+msgid "Choose a custom Web Browser"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:534
+msgid "Choose a custom Mail Reader"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:535
+msgid "Choose a custom File Manager"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:536
+msgid "Choose a custom Terminal Emulator"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:537
+msgid "Choose a custom Text Editor"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:538
+msgid "Choose a custom Image Viewer"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:539
+msgid "Choose a custom Audio Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:540
+msgid "Choose a custom Video Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:544
+msgid ""
+"Specify the application you want to use\n"
+"as default Web Browser for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:545
+msgid ""
+"Specify the application you want to use\n"
+"as default Mail Reader for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:546
+msgid ""
+"Specify the application you want to use\n"
+"as default File Manager for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:547
+msgid ""
+"Specify the application you want to use\n"
+"as default Terminal Emulator for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:548
+msgid ""
+"Specify the application you want to use\n"
+"as default Text Editor for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:549
+msgid ""
+"Specify the application you want to use\n"
+"as default Image Viewer for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:550
+msgid ""
+"Specify the application you want to use\n"
+"as default Audio Player for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:551
+msgid ""
+"Specify the application you want to use\n"
+"as default Video Player for Xfce:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:615
+msgid "Browse the file system to choose a custom command."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:765
+msgid "_Other..."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-chooser.c:766
+msgid "Use a custom application which is not included in the above list."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
+msgid "Choose Preferred Application"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:247
+msgid ""
+"Please choose your preferred Web\n"
+"Browser now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:249
+msgid ""
+"Please choose your preferred Mail Reader\n"
+"now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:251
+msgid ""
+"Please choose your preferred File Manager\n"
+"now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:253
+msgid ""
+"Please choose your preferred Terminal\n"
+"Emulator now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:255
+msgid ""
+"Please choose your preferred Text\n"
+"Editor now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:257
+msgid ""
+"Please choose your preferred Image\n"
+"Viewer now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:259
+msgid ""
+"Please choose your preferred Audio\n"
+"Player now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:261
+msgid ""
+"Please choose your preferred Video\n"
+"Player now and click OK to proceed."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:25
+msgid "Failed to execute default Web Browser"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:26
+msgid "Failed to execute default Mail Reader"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:27
+msgid "Failed to execute default File Manager"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:28
+msgid "Failed to execute default Terminal Emulator"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:29
+msgid "Failed to execute default Text Editor"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:30
+msgid "Failed to execute default Image Viewer"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:31
+msgid "Failed to execute default Audio Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:32
+msgid "Failed to execute default Video Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:74
+msgid "Do _not show this message again"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:105
+msgid "Print version information and exit"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:106
+msgid ""
+"Launch the default helper of TYPE with the optional PARAMETER, where TYPE is "
+"one of the following values."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:106
+#: dialogs/mime-settings/xfce-mime-helper-main.c:107
+msgid "TYPE [PARAMETER]"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:107
+msgid ""
+"Query the default helper of TYPE, where TYPE is one of the following values."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:138
+msgid ""
+"The following TYPEs are supported for the --launch and --query commands:\n"
+"\n"
+"  WebBrowser       - The preferred Web Browser.\n"
+"  MailReader       - The preferred Mail Reader.\n"
+"  FileManager      - The preferred File Manager.\n"
+"  TerminalEmulator - The preferred Terminal Emulator.\n"
+"  TextEditor       - The preferred Text Editor.\n"
+"  ImageViewer      - The preferred Image Viewer.\n"
+"  AudioPlayer      - The preferred Audio Player.\n"
+"  VideoPlayer      - The preferred Video Player.\n"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:180
+#: dialogs/mime-settings/xfce-mime-helper-main.c:254
+#, c-format
+msgid "Invalid helper type \"%s\""
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:238
+#, c-format
+msgid ""
+"%s (Xfce %s)\n"
+"\n"
+"Copyright (c) 2003-2006\n"
+"        os-cillation e.K. All rights reserved.\n"
+"\n"
+"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"\n"
+"Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
+"\n"
+"Please report bugs to <%s>.\n"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper-main.c:265
+#, c-format
+msgid "No helper defined for \"%s\"."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper.c:427
+msgid "No command specified"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-helper.c:807
+#: dialogs/mime-settings/xfce-mime-helper.c:846
+#: dialogs/mime-settings/xfce-mime-helper.c:937
+#: dialogs/mime-settings/xfce-mime-helper.c:976
+#, c-format
+msgid "Failed to open %s for writing"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:188
+msgid "Default Applications"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:193
+#: xfce4-settings-editor/main.c:184
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:219
+msgid "_Help"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:211
+msgid "_Internet"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:224
+msgid "Web Browser"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:232
+msgid ""
+"The default Web Browser will be used to open hyperlinks and display help "
+"contents."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:250
+msgid "Mail Reader"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:258
+msgid ""
+"The default Mail Reader will be used to compose emails when you click on "
+"email addresses."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:272
+msgid "_Utilities"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:285
+msgid "File Manager"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:293
+msgid ""
+"The default File Manager will be used to browse the contents of folders."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:311
+msgid "Terminal Emulator"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:319
+msgid ""
+"The default Terminal Emulator will be used to run commands that require a "
+"CLI environment."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:337
+msgid "Text Editor"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:345
+msgid "The default Text Editor will be used to open and edit text files."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:360
+msgid "_Media"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:373
+msgid "Image Viewer"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:381
+msgid "The default Image Viewer will be used to display image files."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:399
+msgid "Audio Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:407
+msgid "The default Audio Player will be used to play audio files."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:425
+msgid "Video Player"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:433
+msgid "The default Video Player will be used to play video files."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:448
+msgid "_Others"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:458
+msgid "_Filter:"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:466
+msgid "Clear filter"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:496
+msgid "Open with..."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:545
+msgid "MIME Type"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:573
+msgid "Status"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:593
+msgid "Default Application"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:769
+#: dialogs/mime-settings/xfce-mime-window.c:938
+msgid "User Set"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:771
+#: dialogs/mime-settings/xfce-mime-window.c:938
+#: dialogs/mouse-settings/main.c:411 dialogs/mouse-settings/main.c:413
+#: dialogs/mouse-settings/main.c:476
+msgid "Default"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:861
+#, c-format
+msgid "%d MIME type found"
+msgid_plural "%d MIME types found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:983
+#, c-format
+msgid "Failed to set application \"%s\" for mime type \"%s\"."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1092
+#, c-format
+msgid "%d MIME type selected"
+msgid_plural "%d MIME types selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1288
+msgid ""
+"This will remove your custom mime-association and restore the system-wide "
+"default."
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1290
+#, c-format
+msgid ""
+"Are you sure you want to reset content type \"%s\" to its default value?"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1294
+msgid "Question"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1296
+#: dialogs/mime-settings/xfce-mime-window.c:1368
+msgid "Reset to Default"
+msgstr ""
+
+#: dialogs/mime-settings/xfce-mime-window.c:1363
+msgid "Choose Application..."
+msgstr ""
+
+#: dialogs/mouse-settings/main.c:83
+msgid "Active device in the dialog"
+msgstr ""
+
+#: dialogs/mouse-settings/main.c:83
+msgid "DEVICE NAME"
+msgstr ""
+
+#: dialogs/mouse-settings/main.c:165
+#, c-format
+msgid "%g px"
+msgstr ""
+
+#: dialogs/mouse-settings/main.c:175
+#, c-format
+msgid "%g ms"
+msgstr ""
+
+#: dialogs/mouse-settings/main.c:186
+#, c-format
+msgid "%.1f s"
+msgstr ""
+
+#: xfce4-settings-editor/main.c:182
+msgid "Settings Editor"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:273
+msgid "Channel"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:323
+msgid "Property"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:331
+msgid "Type"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:338
+msgid "Locked"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:345
+msgid "Value"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:360
+msgid "_Add"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:365
+msgid "New property"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:373
+msgid "_Edit"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:378
+msgid "Edit selected property"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:386
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1072
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1574
+msgid "_Reset"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:391
+msgid "Reset selected property"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:497
+#: xfce4-settings-editor/xfce-settings-editor-box.c:590
+#: xfce4-settings-editor/xfce-settings-editor-box.c:708
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:79
+msgid "Empty"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:500
+msgid "Array"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:505
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:80
+msgid "String"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:513
+msgid "Integer"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:516
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:81
+msgid "Boolean"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:519
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:83
+msgid "Double"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:847
+msgid "Resetting a channel will permanently remove those custom settings."
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:855
+msgid "_Reset Channel"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:856
+#, c-format
+msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:931
+msgid "reset"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:988
+#, c-format
+msgid "Monitor %s"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:996
+msgid "Clear"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:996
+msgid "Close"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1029
+#, c-format
+msgid "start monitoring channel \"%s\""
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1078
+msgid "_Monitor"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1088
+msgid "Refresh"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1571
+msgid "Resetting a property will permanently remove those custom settings."
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-editor-box.c:1575
+#, c-format
+msgid "Are you sure you want to reset property \"%s\"?"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:82
+msgid "Int"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:84
+msgid "Unsigned Int"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:85
+msgid "Int64"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:86
+msgid "Unsigned Int64"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:131
+msgid "New Property"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
+msgid "Save"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:149
+msgid "_Property:"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:163
+msgid "_Type:"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:192
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:202
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:213
+msgid "_Value:"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:368
+msgid "Property names must start with a '/' character"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:379
+msgid "The root element ('/') is not a valid property name"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:396
+msgid ""
+"Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', "
+"'-', ':', '.', ',', '[', ']', '{', '}', '<' and '>', as well as '/' as a "
+"separator"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:410
+msgid "Property names cannot have two or more consecutive '/' characters"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:424
+msgid "Property names cannot end with a '/' character"
+msgstr ""
+
+#: xfce4-settings-editor/xfce-settings-prop-dialog.c:637
+msgid "Edit Property"
+msgstr ""
+
+#: xfce4-settings-manager/main.c:40
+msgid "Settings dialog to show"
+msgstr ""
+
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:223
+msgid "All _Settings"
+msgstr ""
+
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:422
+msgid "Settings"
+msgstr ""
+
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:920
+#: xfce4-settings-manager/xfce-settings-manager-dialog.c:932
+#, c-format
+msgid "Unable to start \"%s\""
+msgstr ""
+
+#: xfsettingsd/accessibility.c:409
+msgid "Sticky keys are enabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:411
+msgid "Sticky keys are disabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:413
+msgid "Sticky keys"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:418
+msgid "Slow keys are enabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:420
+msgid "Slow keys are disabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:422
+msgid "Slow keys"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:427
+msgid "Bounce keys are enabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:429
+msgid "Bounce keys are disabled"
+msgstr ""
+
+#: xfsettingsd/accessibility.c:431
+msgid "Bounce keys"
+msgstr ""
+
+#: xfsettingsd/keyboard-shortcuts.c:236
+#, c-format
+msgid "Failed to launch shortcut \"%s\""
+msgstr ""
+
+#: xfsettingsd/main.c:94
+msgid "Fork to the background"
+msgstr ""
+
+#: xfsettingsd/main.c:95
+msgid "Do not wait for a window manager on startup"
+msgstr ""
+
+#: xfsettingsd/main.c:96
+msgid "Replace running xsettings daemon (if any)"
+msgstr ""
+
+#: xfsettingsd/workspaces.c:318 xfsettingsd/workspaces.c:375
+#, c-format
+msgid "Workspace %d"
+msgstr ""
