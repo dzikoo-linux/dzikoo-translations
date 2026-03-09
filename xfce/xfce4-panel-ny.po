@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-panel 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-03 22:01+0200\n"
-"PO-Revision-Date: 2026-03-04 00:34+0200\n"
+"PO-Revision-Date: 2026-03-04 11:09+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: libxfce4panel/xfce-panel-plugin.c:1236
 msgid "_Properties"
-msgstr ""
+msgstr "_Mitundu/Makhalidwe"
 
 #: libxfce4panel/xfce-panel-plugin.c:1247 panel/panel-window.c:4020
 msgid "_About"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: libxfce4panel/xfce-panel-plugin.c:1311 panel/panel-window.c:3968
 msgid "Panel Pr_eferences..."
-msgstr ""
+msgstr "Zo_konda ku Panelo..."
 
 #: libxfce4panel/xfce-panel-plugin.c:1328 panel/panel-window.c:3995
 msgid "Log _Out"
@@ -491,28 +491,28 @@ msgstr "_Sinthani Ogwiritsa Ntchito"
 
 #: plugins/actions/actions.c:185
 msgid "Lock Screen"
-msgstr "Chophimba"
+msgstr "Choonetsa Ikazima"
 
 #: plugins/actions/actions.c:186
 msgid "Loc_k Screen"
-msgstr "Cho_phimba"
+msgstr "Choone_tsa Ikazima"
 
 #: plugins/actions/actions.c:192
 msgid "Hibernate"
-msgstr ""
+msgstr "Zimitsani kwa kanthawi"
 
 #: plugins/actions/actions.c:193
 msgid "_Hibernate"
-msgstr ""
+msgstr "_Zimitsani kwa kanthawi"
 
 #: plugins/actions/actions.c:194
 msgid "Do you want to suspend to disk?"
-msgstr ""
+msgstr "Kodi mufuna kuimitsa disiki?"
 
 #: plugins/actions/actions.c:195
 #, c-format
 msgid "Hibernating computer in %d seconds."
-msgstr ""
+msgstr "Kumpyuta izima kwa kanthawi mu ma sekondi %d."
 
 #: plugins/actions/actions.c:200
 msgid "Hybrid Sleep"
@@ -524,7 +524,7 @@ msgstr ""
 
 #: plugins/actions/actions.c:202
 msgid "Do you want to hibernate and suspend the system?"
-msgstr ""
+msgstr "Kodi mufuna kuimitsa ndi kuzimitsa Sisitimu kwa kanthawi?"
 
 #: plugins/actions/actions.c:203
 #, c-format
@@ -533,20 +533,20 @@ msgstr ""
 
 #: plugins/actions/actions.c:208
 msgid "Suspend"
-msgstr ""
+msgstr "Imitsani"
 
 #: plugins/actions/actions.c:209
 msgid "Sus_pend"
-msgstr ""
+msgstr "Imi_tsani"
 
 #: plugins/actions/actions.c:210
 msgid "Do you want to suspend to RAM?"
-msgstr ""
+msgstr "Kodi mufuna kuimitsa RAM?"
 
 #: plugins/actions/actions.c:211
 #, c-format
 msgid "Suspending computer in %d seconds."
-msgstr ""
+msgstr "Kompyuta iimitsidwa mu ma sekondi %d."
 
 #: plugins/actions/actions.c:216
 msgid "Restart"
@@ -602,7 +602,7 @@ msgstr "Ma Apulikeshoni"
 #: plugins/applicationsmenu/applicationsmenu.c:601
 #: plugins/directorymenu/directorymenu.c:461
 msgid "Select An Icon"
-msgstr ""
+msgstr "Sankhani chizindikiro"
 
 #: plugins/applicationsmenu/applicationsmenu.c:601
 #: plugins/directorymenu/directorymenu.c:461
@@ -617,11 +617,11 @@ msgstr ""
 
 #: plugins/clock/clock.c:180
 msgid "Week %V"
-msgstr "Wiki %V"
+msgstr "Sabata %V"
 
 #: plugins/clock/clock.c:326
 msgid "Time _settings"
-msgstr ""
+msgstr "Posinthira_zaNthawi"
 
 #: plugins/clock/clock.c:513
 msgid "Failed to execute clock command"
@@ -629,7 +629,7 @@ msgstr ""
 
 #: plugins/clock/clock.c:1011
 msgid "Custom Format"
-msgstr ""
+msgstr "Maonekedwe Opanga Nokha"
 
 #: plugins/clock/clock.c:1062
 msgid "Configuration tool not found, please set it in the settings dialog"
@@ -792,7 +792,7 @@ msgstr "Tsegulani Foda"
 
 #: plugins/directorymenu/directorymenu.c:1077
 msgid "Open in Terminal"
-msgstr ""
+msgstr "Tsegulani mu Temino"
 
 #: plugins/directorymenu/directorymenu.c:1091
 msgid "Create Folder..."
@@ -804,7 +804,7 @@ msgstr "Pangani Dokumenti ya Text..."
 
 #: plugins/launcher/launcher.c:428
 msgid "Open launcher menu"
-msgstr ""
+msgstr "Tsegulani poyambitsa bawo"
 
 #: plugins/launcher/launcher.c:1614
 msgid "Unnamed Item"
@@ -816,7 +816,7 @@ msgstr "Palibe Zinthu"
 
 #: plugins/launcher/launcher-dialog.c:611
 msgid "Failed to open desktop item editor"
-msgstr ""
+msgstr "Zakanika kutsegula zosinthira zinthu pa desikitopu"
 
 #: plugins/launcher/launcher-dialog.c:922
 msgid "Unnamed item"
@@ -834,20 +834,20 @@ msgstr "Mukachosa kapena kufufuta chinthu, chichoka mpaka kale"
 #: plugins/launcher/launcher-dialog.c:1033
 #: plugins/launcher/launcher-dialog.c:1034
 msgid "Add a new empty item"
-msgstr ""
+msgstr "Onjezerani chinthu chatsopano"
 
 #: plugins/launcher/launcher-dialog.c:1047
 #: plugins/launcher/launcher-dialog.c:1048
 msgid "Add a new hyperlink"
-msgstr ""
+msgstr "Onjezerani linki ya za intaneti"
 
 #: plugins/pager/pager.c:706
 msgid "Workspace _Settings..."
-msgstr ""
+msgstr "Posinthira _Malo Ogwirira Ntchito..."
 
 #: plugins/pager/pager.c:806
 msgid "Unable to open the workspace settings"
-msgstr ""
+msgstr "Zakanika kutsegula posinthira malo ogwirira ntchito"
 
 #: plugins/pager/pager-buttons.c:646 plugins/windowmenu/windowmenu.c:1008
 #, c-format
@@ -856,11 +856,11 @@ msgstr "Pogwirira Ntchito %d"
 
 #: plugins/showdesktop/showdesktop.c:322
 msgid "Restore the minimized windows"
-msgstr ""
+msgstr "Bwezeretsani mawindo anachepetsedwa"
 
 #: plugins/showdesktop/showdesktop.c:324
 msgid "Minimize all open windows and show the desktop"
-msgstr ""
+msgstr "Chepetsani mawindo onse otsegula ndikuonetsa pa desikitopu"
 
 #: plugins/showdesktop/showdesktop.c:327
 msgid "Show Desktop"
@@ -872,11 +872,11 @@ msgstr "Chotsani ndi Kuyeretsa"
 
 #: plugins/systray/sn-dialog.c:432
 msgid "Are you sure you want to clear the list of known items?"
-msgstr ""
+msgstr "Mukutsimikiza kuti mufuna kuchotsa ndandanda wa zinthu zosankhidwazi?"
 
 #: plugins/systray/systray.c:145
 msgid "Unable to start the notification area"
-msgstr ""
+msgstr "Zakanika kutsegula poonetsera ma uthenga"
 
 #: plugins/systray/systray.c:409
 msgid ""
