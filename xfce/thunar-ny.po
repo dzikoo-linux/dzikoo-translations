@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-05 14:10+0200\n"
+"PO-Revision-Date: 2026-03-09 09:41+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:327
 msgid "Open in new _Tab"
-msgstr ""
+msgstr "Tsegulani mu _Tabu lina"
 
 #: thunar/thunar-action-manager.c:328
 msgid "Open in new _Window"
@@ -51,7 +51,7 @@ msgstr "Tsegulani mu _Windo latsopano"
 
 #: thunar/thunar-action-manager.c:329
 msgid "Open Item _Location"
-msgstr ""
+msgstr "Tsegulani malo amene kuli _chinthuchi"
 
 #: thunar/thunar-action-manager.c:329
 msgid "Navigate to the folder in which the selected file is located"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:330
 msgid "Ope_n With Other Application..."
-msgstr ""
+msgstr "Tsegula_ni Ndi Chipangizo China..."
 
 #: thunar/thunar-action-manager.c:330 thunar/thunar-action-manager.c:3469
 msgid "Choose another application with which to open the selected file"
@@ -95,11 +95,11 @@ msgstr "Tumizani Ku _Desikitopu"
 
 #: thunar/thunar-action-manager.c:338
 msgid "_Properties..."
-msgstr ""
+msgstr "_Mitundu/Makhalidwe..."
 
 #: thunar/thunar-action-manager.c:338
 msgid "View the properties of the selected file"
-msgstr ""
+msgstr "Onani makhalidwe/mitundu ya fayilo mwasankhali"
 
 #: thunar/thunar-action-manager.c:339 thunar/thunar-action-manager.c:1717
 msgid "Ma_ke Link"
@@ -109,24 +109,24 @@ msgstr[1] "Panga_ni ma Linki"
 
 #: thunar/thunar-action-manager.c:340
 msgid "Dup_licate"
-msgstr ""
+msgstr "Bwereza_ni"
 
 #: thunar/thunar-action-manager.c:341
 msgid "_Rename..."
-msgstr ""
+msgstr "_Sinthani dzina..."
 
 #: thunar/thunar-action-manager.c:342 thunar/thunar-application.c:2909
 #: plugins/thunar-tpa/thunar-tpa.c:187
 msgid "_Empty Trash"
-msgstr ""
+msgstr "_Yeretsani ndi kuchotsa zonse mu thumba losunga zofufutidwa"
 
 #: thunar/thunar-action-manager.c:342
 msgid "Delete all files and folders in the Trash"
-msgstr ""
+msgstr "Fufutani ma fayilo ndi foda onse mu thumba losunga zofufutidwa"
 
 #: thunar/thunar-action-manager.c:343
 msgid "_Remove from Recent"
-msgstr ""
+msgstr "_Chotsani pa ndandanda wa zoonedwa posachedwapa"
 
 #: thunar/thunar-action-manager.c:343
 msgid "Remove the selected files from Recent"
@@ -146,7 +146,7 @@ msgstr "Pangani _Dokumenti"
 
 #: thunar/thunar-action-manager.c:345
 msgid "Create a new document from a template"
-msgstr ""
+msgstr "Pangani dokumenti latsopano kuchoka ku tempuleti"
 
 #: thunar/thunar-action-manager.c:347
 msgid "_Restore"
@@ -158,7 +158,7 @@ msgstr "Kubwezeretsa ndi Ku_onetsa"
 
 #: thunar/thunar-action-manager.c:349
 msgid "Mo_ve to Trash"
-msgstr ""
+msgstr "Suntha_ni kupitisa ku thumba losunga zofufutidwa"
 
 #: thunar/thunar-action-manager.c:352 thunar/thunar-application.c:2644
 #: plugins/thunar-uca/thunar-uca-chooser.c:379
@@ -167,7 +167,7 @@ msgstr "_Fufutani"
 
 #: thunar/thunar-action-manager.c:355
 msgid "_Paste"
-msgstr ""
+msgstr "_Bophani"
 
 #: thunar/thunar-action-manager.c:355
 msgid "Move or copy files previously selected by a Cut or Copy command"
@@ -201,27 +201,27 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:364
 msgid "_Mount"
-msgstr ""
+msgstr "_Ikani pamwamba"
 
 #: thunar/thunar-action-manager.c:364
 msgid "Mount the selected device"
-msgstr ""
+msgstr "Ikani pamwamba chipangizo chosankhidwachi"
 
 #: thunar/thunar-action-manager.c:365
 msgid "_Unmount"
-msgstr ""
+msgstr "_Chosani pamwamba"
 
 #: thunar/thunar-action-manager.c:365
 msgid "Unmount the selected device"
-msgstr ""
+msgstr "Chosani pamwamba chipangizo chosankhidwachi"
 
 #: thunar/thunar-action-manager.c:366 thunar/thunar-device.c:549
 msgid "_Eject"
-msgstr ""
+msgstr "_Chosani/Tulutsani"
 
 #: thunar/thunar-action-manager.c:366
 msgid "Eject the selected device"
-msgstr ""
+msgstr "Chosani/Tulutsani chipangizo chosankhidwachi"
 
 #: thunar/thunar-action-manager.c:860 thunar/thunar-dnd.c:266
 #, c-format
@@ -247,11 +247,11 @@ msgstr[1] ""
 
 #: thunar/thunar-action-manager.c:1062
 msgid "Are you sure you want to open all folders?"
-msgstr ""
+msgstr "Kodi mukutsimikiza kuti mufuna kutsegula ma foda onse?"
 
 #: thunar/thunar-action-manager.c:1063
 msgid "Open folders"
-msgstr ""
+msgstr "Ma foda otsegula"
 
 #: thunar/thunar-action-manager.c:1065
 #, c-format
@@ -307,7 +307,7 @@ msgstr "Fayilo imenei mulibemo"
 #: thunar/thunar-action-manager.c:1545
 #, c-format
 msgid "Failed to open location for \"%s\""
-msgstr ""
+msgstr "Zakanika kutsegula malo a \"%s\""
 
 #: thunar/thunar-action-manager.c:1656
 msgid "Open the selected file"
@@ -325,29 +325,29 @@ msgstr[1] ""
 #, c-format
 msgid "Open in %d new _Tab"
 msgid_plural "Open in %d New _Tabs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tsegulani mu %d _Tabu latsopano"
+msgstr[1] "Tsegulani mu %d ma _Tabu atsopano"
 
 #: thunar/thunar-action-manager.c:1669
 #, c-format
 msgid "Open the selected directory in %d new tab"
 msgid_plural "Open the selected directories in %d new tabs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tsegulani foda yosankhidwayi mu %d tabu latsopano"
+msgstr[1] "Tsegulani ma foda osankhidwawa mu %d ma tabu atsopano"
 
 #: thunar/thunar-action-manager.c:1679
 #, c-format
 msgid "Open in %d new _Window"
 msgid_plural "Open in %d New _Windows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tsegulani mu %d _windo lina"
+msgstr[1] "Tsegulani mu %d ma _windo ena"
 
 #: thunar/thunar-action-manager.c:1680
 #, c-format
 msgid "Open the selected directory in %d new window"
 msgid_plural "Open the selected directories in %d new windows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tsegulani foda yosankhidwayi mu %d windo latsopano"
+msgstr[1] "Tsegulani ma foda osankhidwawa mu %d ma windo atsopano"
 
 #: thunar/thunar-action-manager.c:1718
 msgid "Create a symbolic link for the selected file"
@@ -358,12 +358,12 @@ msgstr[1] ""
 #: thunar/thunar-action-manager.c:1744
 msgid "Rename the selected file"
 msgid_plural "Rename the selected files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sinthani dzina la fayilo losankhidwali"
+msgstr[1] "Sinthani mayina ama fayilo osankhidwawa"
 
 #: thunar/thunar-action-manager.c:1749
 msgid "Bulk _Rename..."
-msgstr ""
+msgstr "Sinthani _mayina a zinthu zambiri..."
 
 #: thunar/thunar-action-manager.c:1759
 msgid "Restore the selected file to its original location"
