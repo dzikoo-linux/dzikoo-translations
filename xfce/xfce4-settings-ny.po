@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-settings 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:57+0200\n"
-"PO-Revision-Date: 2026-03-04 09:59+0200\n"
+"PO-Revision-Date: 2026-03-09 07:28+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -26,11 +26,11 @@ msgstr "Monitala"
 
 #: common/display-name.c:2701
 msgid "Television"
-msgstr ""
+msgstr "Kanema"
 
 #: common/display-name.c:2705
 msgid "Digital display"
-msgstr ""
+msgstr "Kanema wa dijito"
 
 #: common/xfce-randr.c:282 dialogs/display-settings/display-settings-x11.c:708
 msgid "Unable to query the version of the RandR extension being used"
@@ -55,7 +55,7 @@ msgstr ""
 #: dialogs/mime-settings/main.c:40 dialogs/mouse-settings/main.c:84
 #: xfce4-settings-editor/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "NAMBALA LA SOKETI"
 
 #: dialogs/accessibility-settings/main.c:37
 #: dialogs/appearance-settings/main.c:91 dialogs/color-settings/main.c:41
@@ -146,7 +146,7 @@ msgstr ""
 #: dialogs/appearance-settings/main.c:1409
 #, c-format
 msgid "An unknown error, exit code is %d"
-msgstr ""
+msgstr "Cholakwika chosadziwika, chothela ndi kodi %d"
 
 #: dialogs/appearance-settings/main.c:1416
 msgid "Failed to install theme"
@@ -164,7 +164,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:575
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:106
 msgid "_Cancel"
-msgstr ""
+msgstr "_Tsekani"
 
 #: dialogs/appearance-settings/main.c:1473
 #: dialogs/keyboard-settings/command-dialog.c:272
@@ -175,15 +175,15 @@ msgstr "_Tsegulani"
 #: dialogs/appearance-settings/main.c:1733 dialogs/display-settings/main.c:82
 #: dialogs/display-settings/main.c:90
 msgid "None"
-msgstr ""
+msgstr "Palibe"
 
 #: dialogs/appearance-settings/main.c:1737
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: dialogs/appearance-settings/main.c:1741
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: dialogs/appearance-settings/main.c:1745
 msgid "Vertical RGB"
@@ -201,22 +201,22 @@ msgstr ""
 #. TRANSLATORS: a camera device, e.g. 'Nikon D60 Camera'
 #: dialogs/color-settings/color-device.c:68
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #. TRANSLATORS: a printer device, e.g. 'Epson Photosmart Printer'
 #: dialogs/color-settings/color-device.c:71
 msgid "Printer"
-msgstr ""
+msgstr "Pulinta"
 
 #. TRANSLATORS: a webcam device, e.g. 'Philips HiDef Camera'
 #: dialogs/color-settings/color-device.c:74
 msgid "Webcam"
-msgstr ""
+msgstr "Kamera"
 
 #. TRANSLATORS: This refers to the TFT display on a laptop
 #: dialogs/color-settings/color-device.c:92
 msgid "Laptop Screen"
-msgstr ""
+msgstr "Kanema wa Laputopu"
 
 #. TRANSLATORS: This refers to the embedded webcam on a laptop
 #: dialogs/color-settings/color-device.c:101
@@ -257,7 +257,7 @@ msgstr ""
 #. TRANSLATORS: filter name on the file->open dialog
 #: dialogs/color-settings/main.c:145
 msgid "All files"
-msgstr ""
+msgstr "Mafayilo onse"
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile has been auto-generated for this hardware
@@ -288,46 +288,46 @@ msgstr ""
 
 #: dialogs/color-settings/main.c:516
 msgid "Device"
-msgstr ""
+msgstr "Chipangizo"
 
 #: dialogs/color-settings/main.c:860 dialogs/color-settings/main.c:861
 #: dialogs/color-settings/main.c:862
 msgid "Unknown"
-msgstr ""
+msgstr "Chosaziwika"
 
 #: dialogs/display-settings/main.c:54
 #, c-format
 msgid "Only %s (1)"
-msgstr ""
+msgstr "%s yokha (1)"
 
 #: dialogs/display-settings/main.c:55
 #, c-format
 msgid "Only %s (2)"
-msgstr ""
+msgstr "%s yokha (2)"
 
 #: dialogs/display-settings/main.c:83
 msgid "Left"
-msgstr ""
+msgstr "Kumazere"
 
 #: dialogs/display-settings/main.c:84
 msgid "Inverted"
-msgstr ""
+msgstr "Chopotoka"
 
 #: dialogs/display-settings/main.c:85
 msgid "Right"
-msgstr ""
+msgstr "Kumanja"
 
 #: dialogs/display-settings/main.c:91
 msgid "Horizontal"
-msgstr ""
+msgstr "Cha m'bali"
 
 #: dialogs/display-settings/main.c:92
 msgid "Vertical"
-msgstr ""
+msgstr "Cha m'mwamba"
 
 #: dialogs/display-settings/main.c:93
 msgid "Horizontal and Vertical"
-msgstr ""
+msgstr "Cha m'bali ndi Cha m'mwamba"
 
 #: dialogs/display-settings/main.c:105
 msgid "Minimal interface to set up an external output"
@@ -373,11 +373,11 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-window.c:1295
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
 msgid "Cancel"
-msgstr ""
+msgstr "Tsekani"
 
 #: dialogs/display-settings/main.c:1616
 msgid "Delete"
-msgstr ""
+msgstr "Fufutani"
 
 #: dialogs/display-settings/main.c:1675
 msgid "Xfce Panel"
@@ -449,7 +449,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:576
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:107
 msgid "_OK"
-msgstr ""
+msgstr "_INDE"
 
 #: dialogs/keyboard-settings/command-dialog.c:135
 msgid "Enter the command you want to trigger with a shortcut."
@@ -457,7 +457,7 @@ msgstr ""
 
 #: dialogs/keyboard-settings/command-dialog.c:153
 msgid "Shortcut:"
-msgstr ""
+msgstr "Njira yachidule:"
 
 #: dialogs/keyboard-settings/command-dialog.c:178
 msgid "Comm_and:"
@@ -479,7 +479,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-chooser.c:383
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:431
 msgid "All Files"
-msgstr ""
+msgstr "Mafayilo onse"
 
 #: dialogs/keyboard-settings/command-dialog.c:282
 #: dialogs/mime-settings/xfce-mime-chooser.c:388
@@ -552,11 +552,11 @@ msgstr ""
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
 msgid "No"
-msgstr ""
+msgstr "Ayi"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
 msgid "Yes"
-msgstr ""
+msgstr "Inde"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1358
 msgid "The system defaults will be restored next time you log in."
@@ -1137,7 +1137,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:273
 msgid "Channel"
-msgstr ""
+msgstr "Chanelo"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:323
 msgid "Property"
@@ -1145,11 +1145,11 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:331
 msgid "Type"
-msgstr ""
+msgstr "Mtundu"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:338
 msgid "Locked"
-msgstr ""
+msgstr "Lokani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:345
 msgid "Value"
@@ -1157,7 +1157,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:360
 msgid "_Add"
-msgstr ""
+msgstr "_Onjezerani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:365
 msgid "New property"
@@ -1165,7 +1165,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:373
 msgid "_Edit"
-msgstr ""
+msgstr "_Kozani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:378
 msgid "Edit selected property"
@@ -1190,26 +1190,26 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:500
 msgid "Array"
-msgstr ""
+msgstr "Mlingo wa Array"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:505
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:80
 msgid "String"
-msgstr ""
+msgstr "Mlingo wa String"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:513
 msgid "Integer"
-msgstr ""
+msgstr "Mlingo wa Integer"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:516
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:81
 msgid "Boolean"
-msgstr ""
+msgstr "Mlingo wa Boolean"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:519
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:83
 msgid "Double"
-msgstr ""
+msgstr "Mlingo wa Double"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:847
 msgid "Resetting a channel will permanently remove those custom settings."
@@ -1226,20 +1226,20 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:931
 msgid "reset"
-msgstr ""
+msgstr "zibwezeretseni pachiyambi"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:988
 #, c-format
 msgid "Monitor %s"
-msgstr ""
+msgstr "Monita %s"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:996
 msgid "Clear"
-msgstr ""
+msgstr "Chotsani ndi Kuyeretsa"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:996
 msgid "Close"
-msgstr ""
+msgstr "Tsekani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1029
 #, c-format
@@ -1248,7 +1248,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1078
 msgid "_Monitor"
-msgstr ""
+msgstr "_Monita"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1088
 msgid "Refresh"
@@ -1265,19 +1265,19 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:82
 msgid "Int"
-msgstr ""
+msgstr "Mlingo wa Int"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:84
 msgid "Unsigned Int"
-msgstr ""
+msgstr "Mlingo wa Unsigned Int"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:85
 msgid "Int64"
-msgstr ""
+msgstr "Mlingo wa Int64"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:86
 msgid "Unsigned Int64"
-msgstr ""
+msgstr "Mlingo wa Unsigned Int64"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:131
 msgid "New Property"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
 msgid "Save"
-msgstr ""
+msgstr "Sunga"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:149
 msgid "_Property:"
@@ -1344,7 +1344,7 @@ msgstr ""
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:932
 #, c-format
 msgid "Unable to start \"%s\""
-msgstr ""
+msgstr "\"%s\" Yalephera kuyamba"
 
 #: xfsettingsd/accessibility.c:409
 msgid "Sticky keys are enabled"
@@ -1402,4 +1402,4 @@ msgstr ""
 #: xfsettingsd/workspaces.c:318 xfsettingsd/workspaces.c:375
 #, c-format
 msgid "Workspace %d"
-msgstr ""
+msgstr "Pogwirira Ntchito %d"
