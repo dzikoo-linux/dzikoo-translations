@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-panel 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-03 22:01+0200\n"
-"PO-Revision-Date: 2026-03-04 11:09+0200\n"
+"PO-Revision-Date: 2026-03-12 17:53+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -31,11 +31,12 @@ msgstr "Chotsani"
 msgid ""
 "Removing the item from the panel also means its configuration will be lost."
 msgstr ""
+"Kuchotsa chinthu ku panelo kutanthauzanso kuti masinthidwe ake atayidwa."
 
 #: libxfce4panel/xfce-panel-plugin.c:1114 panel/panel-preferences-dialog.c:1506
 #, c-format
 msgid "Are you sure that you want to remove \"%s\"?"
-msgstr ""
+msgstr "Kodi mutsimikiza kuti mukufuna kuchotsa \"%s\"?"
 
 #: libxfce4panel/xfce-panel-plugin.c:1236
 msgid "_Properties"
@@ -61,7 +62,7 @@ msgstr "Pane_lo"
 
 #: libxfce4panel/xfce-panel-plugin.c:1300 panel/panel-window.c:3957
 msgid "Add _New Items..."
-msgstr ""
+msgstr "Onjezerani _Zinthu Zatsopano..."
 
 #: libxfce4panel/xfce-panel-plugin.c:1311 panel/panel-window.c:3968
 msgid "Panel Pr_eferences..."
@@ -82,7 +83,7 @@ msgstr "Zambiri"
 
 #: panel/main.c:66
 msgid "Show the 'Panel Preferences' dialog"
-msgstr ""
+msgstr "Onetsani posinthira 'Zokonda ku Panelo'"
 
 #: panel/main.c:66 panel/main.c:67
 msgid "PANEL-NUMBER"
@@ -90,27 +91,27 @@ msgstr "PANEL-NAMBALA"
 
 #: panel/main.c:67
 msgid "Show the 'Add New Items' dialog"
-msgstr ""
+msgstr "Onetsani posinthira 'Kuonjezera Zinthu Zina'"
 
 #: panel/main.c:68
 msgid "Save the panel configuration"
-msgstr ""
+msgstr "Sungani masinthidwe a panelo"
 
 #: panel/main.c:69
 msgid "Add a new plugin to the panel"
-msgstr ""
+msgstr "Ikani choonjezera chatsopano ku panelo"
 
 #: panel/main.c:69
 msgid "PLUGIN-NAME"
-msgstr ""
+msgstr "DZINA-LA-CHOWONJEZERA"
 
 #: panel/main.c:70
 msgid "Restart the running panel instance"
-msgstr ""
+msgstr "Yambiraninso ntchito imayendetsedwa kale ya panelo"
 
 #: panel/main.c:71
 msgid "Quit the running panel instance"
-msgstr ""
+msgstr "Thetsani ntchito imayendetsedwa kale ya panelo"
 
 #: panel/main.c:72
 msgid "Do not wait for a window manager on startup"
@@ -118,29 +119,29 @@ msgstr ""
 
 #: panel/main.c:73
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Onetsani chidziwitso cha mtundu ndikutuluka"
 
 #: panel/main.c:258
 msgid "[ARGUMENTS...]"
-msgstr ""
+msgstr "[MALAMULO...]"
 
 #: panel/main.c:268
 #, c-format
 msgid "Type \"%s --help\" for usage."
-msgstr ""
+msgstr "Lembani \"%s --help\" kuti muwone njira yakagwiritsidwe ntchito."
 
 #: panel/main.c:285
 msgid "The Xfce development team. All rights reserved."
-msgstr ""
+msgstr "Gulu la opanga Xfce. Ufulu onse wasungika."
 
 #: panel/main.c:286
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "Chonde nenani zolakwika ku <%s>."
 
 #: panel/main.c:394
 msgid "There is already a running instance"
-msgstr ""
+msgstr "Pali kale ntchito imene ikuyendetsedwa"
 
 #: panel/main.c:405
 msgid "Restarting..."
@@ -148,36 +149,36 @@ msgstr "Kuyambiranso..."
 
 #: panel/main.c:422
 msgid "Failed to show the preferences dialog"
-msgstr ""
+msgstr "Zakanika kuonetsa posinthira zokonda"
 
 #: panel/main.c:424
 msgid "Failed to show the add new items dialog"
-msgstr ""
+msgstr "Zakanika kuonetsa posinthira poonjezera zinthu zina"
 
 #: panel/main.c:426
 msgid "Failed to save the panel configuration"
-msgstr ""
+msgstr "Zakanika kusunga zosinthira mayikidwe ku panelo"
 
 #: panel/main.c:428
 msgid "Failed to add a plugin to the panel"
-msgstr ""
+msgstr "Zakanika kuonjezera zoonjezera ku panelo"
 
 #: panel/main.c:430
 msgid "Failed to restart the panel"
-msgstr ""
+msgstr "Zakanika kuyambitsanso panelo"
 
 #: panel/main.c:432
 msgid "Failed to quit the panel"
-msgstr ""
+msgstr "Zakanika kutseka panelo"
 
 #: panel/main.c:434
 msgid "Failed to send D-Bus message"
-msgstr ""
+msgstr "Zakanika kutumiza uthenga wa D-Bus"
 
 #: panel/main.c:442 panel/main.c:462
 #, c-format
 msgid "No running instance of %s was found"
-msgstr ""
+msgstr "Paline ntchito ya %s imene yapezeka"
 
 #: panel/main.c:443
 msgid ""
@@ -187,11 +188,11 @@ msgstr ""
 
 #: panel/main.c:448
 msgid "Execute"
-msgstr ""
+msgstr "Yendetsani"
 
 #: panel/panel-application.c:213
 msgid "Failed to launch the migration application"
-msgstr ""
+msgstr "Zakanika kuyambitsa chipangizo chosamusa"
 
 #: panel/panel-application.c:347
 #, c-format
@@ -212,11 +213,11 @@ msgstr ""
 
 #: panel/panel-application.c:356
 msgid "Plugin loading failure"
-msgstr ""
+msgstr "Choonjezera chakanika kutseguka"
 
 #: panel/panel-application.c:357
 msgid "_Quit"
-msgstr "_Tsekani"
+msgstr "_Tulukani"
 
 #: panel/panel-application.c:1038
 msgid ""
@@ -336,6 +337,8 @@ msgstr "Dzina la mkati momuno: %s"
 #, c-format
 msgid "Plugin \"%s\" unexpectedly left the panel, do you want to restart it?"
 msgstr ""
+"Choonjezera \"%s\" changochoka ku panelo mosayembekereka, kodi mufuna "
+"kuchiyambiranso?"
 
 #: panel/panel-plugin-external.c:414
 #, c-format
@@ -347,15 +350,15 @@ msgstr ""
 
 #: panel/panel-plugin-external.c:419
 msgid "Plugin Restart"
-msgstr ""
+msgstr "Kuyambiranso Choonjezera"
 
 #: panel/panel-plugin-external.c:420
 msgid "_Execute"
-msgstr ""
+msgstr "_Yendetsani"
 
 #: panel/panel-preferences-dialog.c:346
 msgid "Show about information of the currently selected item"
-msgstr ""
+msgstr "Onetsani zambiri za chinthu chimene mwasankhachi"
 
 #: panel/panel-preferences-dialog.c:580
 msgid "Automatic"
@@ -377,7 +380,7 @@ msgstr "Mukutsimikiza kuti mukufuna kuchotsa panelo %d?"
 #: panel/panel-preferences-dialog.c:1376
 #, c-format
 msgid "%s <span color=\"grey\" size=\"small\">(external)</span>"
-msgstr ""
+msgstr "%s <span color=\"grey\" size=\"small\">(zakunja)</span>"
 
 #: panel/panel-preferences-dialog.c:1381
 #, c-format
@@ -398,15 +401,15 @@ msgstr ""
 #: panel/panel-preferences-dialog.c:1512 plugins/launcher/launcher-dialog.c:930
 #, c-format
 msgid "Are you sure that you want to remove these %d items?"
-msgstr ""
+msgstr "Kodi mutsimikiza kuti mukufuna kuchotsa zinthu %d izi?"
 
 #: panel/panel-preferences-dialog.c:1514
 msgid "If you remove them from the panel, they are permanently lost."
-msgstr ""
+msgstr "Mukachotsa zinthu izi ku panelo, ndiye kuti zitayidwa mpaka kale."
 
 #: panel/panel-tic-tac-toe.c:108
 msgid "_New Game"
-msgstr ""
+msgstr "_Masewera atsopano"
 
 #: panel/panel-tic-tac-toe.c:119
 msgid "_Level:"
@@ -438,19 +441,19 @@ msgstr "_Lokani Panelo"
 
 #: migrate/main.c:94
 msgid "Failed to load the default configuration"
-msgstr ""
+msgstr "Zakanika kutsegula masinthidwe a panelo oyambirira"
 
 #: migrate/main.c:106
 msgid "Panel config needs migration..."
-msgstr ""
+msgstr "Kasinthidwe ka panelo kakufunika kusamusidwa..."
 
 #: migrate/main.c:110
 msgid "Failed to migrate the existing configuration"
-msgstr ""
+msgstr "Zakanika kusamusa njira za kasinthidwe ka panelo zomwe zilipo kale"
 
 #: migrate/main.c:116
 msgid "Panel configuration has been updated."
-msgstr ""
+msgstr "Kasinthidwe ka panelo katheka."
 
 #: plugins/actions/actions.c:32
 msgid "Session Menu"
@@ -613,7 +616,7 @@ msgstr "_INDE"
 #: plugins/launcher/launcher.c:2499
 #, c-format
 msgid "Failed to execute command \"%s\"."
-msgstr ""
+msgstr "Zakanika kuyendetsa lamulo ili \"%s\"."
 
 #: plugins/clock/clock.c:180
 msgid "Week %V"
@@ -675,62 +678,62 @@ msgstr "%0 koloko"
 #: plugins/clock/clock-fuzzy.c:89
 #, no-c-format
 msgid "five past %0"
-msgstr ""
+msgstr "5 pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:90
 #, no-c-format
 msgid "ten past %0"
-msgstr ""
+msgstr "10 pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:91
 #, no-c-format
 msgid "quarter past %0"
-msgstr ""
+msgstr "15 pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:92
 #, no-c-format
 msgid "twenty past %0"
-msgstr ""
+msgstr "20 pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:93
 #, no-c-format
 msgid "twenty five past %0"
-msgstr ""
+msgstr "25 pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:94
 #, no-c-format
 msgid "half past %0"
-msgstr ""
+msgstr "hafu pasiti %0"
 
 #: plugins/clock/clock-fuzzy.c:95
 #, no-c-format
 msgid "twenty five to %1"
-msgstr ""
+msgstr "25 tu %1"
 
 #: plugins/clock/clock-fuzzy.c:96
 #, no-c-format
 msgid "twenty to %1"
-msgstr ""
+msgstr "20 tu %1"
 
 #: plugins/clock/clock-fuzzy.c:97
 #, no-c-format
 msgid "quarter to %1"
-msgstr ""
+msgstr "15 tu %1"
 
 #: plugins/clock/clock-fuzzy.c:98
 #, no-c-format
 msgid "ten to %1"
-msgstr ""
+msgstr "10 tu %1"
 
 #: plugins/clock/clock-fuzzy.c:99
 #, no-c-format
 msgid "five to %1"
-msgstr ""
+msgstr "5 tu %1"
 
 #: plugins/clock/clock-fuzzy.c:100
 #, no-c-format
 msgid "%1 o'clock"
-msgstr ""
+msgstr "%1 koloko"
 
 #: plugins/directorymenu/directorymenu.c:293
 msgid "Directory Menu"
@@ -739,7 +742,7 @@ msgstr ""
 #: plugins/directorymenu/directorymenu.c:690
 #, c-format
 msgid "Failed to launch application \"%s\""
-msgstr ""
+msgstr "Zakanika kuyambitsa chipangizo \"%s\""
 
 #: plugins/directorymenu/directorymenu.c:721
 #, c-format
@@ -749,17 +752,17 @@ msgstr ""
 #: plugins/directorymenu/directorymenu.c:730
 #, c-format
 msgid "No default application found for \"%s\""
-msgstr ""
+msgstr "Palibe chipangizo cha mkati momu chapezeka chotsegula \"%s\""
 
 #: plugins/directorymenu/directorymenu.c:746
 #, c-format
 msgid "Failed to launch default application for \"%s\""
-msgstr ""
+msgstr "Zakanika kuyambitsa chipangizo cha mkati momu chotsegula \"%s\""
 
 #: plugins/directorymenu/directorymenu.c:840
 #, c-format
 msgid "Failed to execute the preferred application for category \"%s\""
-msgstr ""
+msgstr "Zakanika kuyambitsa chipangizo chabwino kutsegurila za gulu \"%s\""
 
 #: plugins/directorymenu/directorymenu.c:921
 msgid "Create New Folder"
@@ -896,11 +899,11 @@ msgstr ""
 #: plugins/tasklist/tasklist-widget.c:3230
 #, c-format
 msgid "Unable to start new instance of '%s'"
-msgstr ""
+msgstr "Zakanika kuyambitsa ntchito ina ya '%s'"
 
 #: plugins/tasklist/tasklist-widget.c:3257
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Yambitsani Ntchito Ina Yatsopano"
 
 #: plugins/tasklist/tasklist-widget.c:4014
 msgid "Mi_nimize All"
