@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-09 09:41+0200\n"
+"PO-Revision-Date: 2026-03-12 18:42+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -31,7 +31,7 @@ msgstr "_Tsegulani"
 
 #: thunar/thunar-action-manager.c:325 thunar/thunar-dialogs.c:1310
 msgid "_Execute"
-msgstr ""
+msgstr "_Yendetsani"
 
 #: thunar/thunar-action-manager.c:326
 msgid "Edit _Launcher"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:327
 msgid "Open in new _Tab"
-msgstr "Tsegulani mu _Tabu lina"
+msgstr "Tsegulani mu _Tsamba latsopano"
 
 #: thunar/thunar-action-manager.c:328
 msgid "Open in new _Window"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:357
 msgid "_Paste Into Folder"
-msgstr ""
+msgstr "_Bophani mkati mwa foda"
 
 #: thunar/thunar-action-manager.c:357
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:358
 msgid "_Paste Link"
-msgstr ""
+msgstr "_Bophani linki"
 
 #: thunar/thunar-action-manager.c:358
 msgid "Create link to files previously selected by a Cut or Copy command"
@@ -197,7 +197,7 @@ msgstr "_Koperani"
 
 #: thunar/thunar-action-manager.c:361
 msgid "Cu_t"
-msgstr ""
+msgstr "Du_lani"
 
 #: thunar/thunar-action-manager.c:364
 msgid "_Mount"
@@ -226,24 +226,24 @@ msgstr "Chosani/Tulutsani chipangizo chosankhidwachi"
 #: thunar/thunar-action-manager.c:860 thunar/thunar-dnd.c:266
 #, c-format
 msgid "Failed to execute file \"%s\" (%s)"
-msgstr ""
+msgstr "Zakanika kuyendetsa fayilo \"%s\" (%s)"
 
 #: thunar/thunar-action-manager.c:862 thunar/thunar-dnd.c:268
 #, c-format
 msgid "Failed to execute file \"%s\""
-msgstr ""
+msgstr "Zakanika kuyendetsa fayilo \"%s\""
 
 #: thunar/thunar-action-manager.c:1004
 #, c-format
 msgid "Failed to open file \"%s\""
-msgstr ""
+msgstr "Zakanika kutsegula fayilo \"%s\""
 
 #: thunar/thunar-action-manager.c:1010
 #, c-format
 msgid "Failed to open %d file"
 msgid_plural "Failed to open %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Zakanika kutsegula %d fayilo"
+msgstr[1] "Zakanika kutsegula %d mafayilo"
 
 #: thunar/thunar-action-manager.c:1062
 msgid "Are you sure you want to open all folders?"
@@ -264,8 +264,8 @@ msgstr[1] ""
 #, c-format
 msgid "Open %d New Window"
 msgid_plural "Open %d New Windows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tsegulani %d mu Windo latsopano"
+msgstr[1] "Tsegulani %d mu ma Windo atsopano"
 
 #: thunar/thunar-action-manager.c:1070 thunar/thunar-application.c:2643
 #: thunar/thunar-application.c:2908 thunar/thunar-chooser-dialog.c:311
@@ -291,7 +291,7 @@ msgstr "_Tsekani"
 #: thunar/thunar-action-manager.c:1160 thunar/thunar-action-manager.c:2067
 #, c-format
 msgid "Failed to mount \"%s\""
-msgstr ""
+msgstr "Zakanika kukhazika pamwamba \"%s\""
 
 #: thunar/thunar-action-manager.c:1211 thunar/thunar-application.c:1801
 #: thunar/thunar-application.c:1962 thunar/thunar-location-entry.c:371
@@ -390,12 +390,12 @@ msgstr[1] ""
 #: thunar/thunar-action-manager.c:1803
 msgid "Permanently delete the selected file"
 msgid_plural "Permanently delete the selected files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fufutani mpaka kale fayilo mwasankhali"
+msgstr[1] "Fufutani mpaka kale ma fayilo mwasankhawa"
 
 #: thunar/thunar-action-manager.c:1862
 msgid "Cut the selection"
-msgstr ""
+msgstr "Dulani mwasankhachi"
 
 #: thunar/thunar-action-manager.c:1872
 msgid "Prepare the selected file to be moved with a Paste command"
@@ -405,7 +405,7 @@ msgstr[1] ""
 
 #: thunar/thunar-action-manager.c:1886
 msgid "Copy the selection"
-msgstr ""
+msgstr "Koperani mwasankhachi"
 
 #: thunar/thunar-action-manager.c:1896
 msgid "Prepare the selected file to be copied with a Paste command"
@@ -415,7 +415,7 @@ msgstr[1] ""
 
 #: thunar/thunar-action-manager.c:1919
 msgid "Paste the clipboard"
-msgstr ""
+msgstr "Bophani zaku bolodi"
 
 #: thunar/thunar-action-manager.c:2178
 msgid "Side Pane (Add Bookmark)"
@@ -450,24 +450,24 @@ msgstr[1] ""
 
 #: thunar/thunar-action-manager.c:2746 thunar/thunar-application.c:2150
 msgid "New Folder"
-msgstr ""
+msgstr "Foda Latsopano"
 
 #: thunar/thunar-action-manager.c:2750 thunar/thunar-application.c:2151
 msgid "Create New Folder"
-msgstr ""
+msgstr "Pangani Foda Latsopano"
 
 #: thunar/thunar-action-manager.c:2803 thunar/thunar-application.c:2212
 #, c-format
 msgid "Create Document from template \"%s\""
-msgstr ""
+msgstr "Pangani Dokumenti kuchoka ku tempuleti \"%s\""
 
 #: thunar/thunar-action-manager.c:2820
 msgid "New Empty File"
-msgstr ""
+msgstr "Fayilo latsopano lopanda kanthu"
 
 #: thunar/thunar-action-manager.c:2824
 msgid "New Empty File..."
-msgstr ""
+msgstr "Fayilo latsopano lopanda kanthu..."
 
 #: thunar/thunar-action-manager.c:3046
 #, c-format
@@ -478,12 +478,12 @@ msgstr ""
 
 #: thunar/thunar-action-manager.c:3059
 msgid "_Empty File"
-msgstr ""
+msgstr "_Fayilo lopanda kanthu"
 
 #: thunar/thunar-action-manager.c:3224
 #, c-format
 msgid "Failed to eject \"%s\""
-msgstr ""
+msgstr "Zakanika kutulutsa \"%s\""
 
 #: thunar/thunar-action-manager.c:3286
 #, c-format
@@ -516,11 +516,11 @@ msgstr "Tsegula_ni Ndi"
 
 #: thunar/thunar-application.c:85
 msgid "Open the bulk rename dialog"
-msgstr ""
+msgstr "Tsegulani posinthira mayina ambiri"
 
 #: thunar/thunar-application.c:86
 msgid "Force open in a new window"
-msgstr ""
+msgstr "Kakamizani kutsegula mu windo lina latsopano"
 
 #: thunar/thunar-application.c:87
 msgid "Run in daemon mode"
@@ -532,7 +532,7 @@ msgstr ""
 
 #: thunar/thunar-application.c:90
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Onetsani chidziwitso cha mtundu ndikutuluka"
 
 #: thunar/thunar-application.c:341
 #, c-format
@@ -564,27 +564,27 @@ msgstr ""
 
 #: thunar/thunar-application.c:953
 msgid "Failed to launch operation"
-msgstr ""
+msgstr "Zakanika kuyambitsa ntchito"
 
 #: thunar/thunar-application.c:1797
 #, c-format
 msgid "Failed to open \"%s\" (%s)"
-msgstr ""
+msgstr "Zakanika kutsegula \"%s\" (%s)"
 
 #: thunar/thunar-application.c:1966
 #, c-format
 msgid "Failed to open \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kutsegula \"%s\": %s"
 
 #: thunar/thunar-application.c:2025 thunar/thunar-properties-dialog.c:1106
 #, c-format
 msgid "Failed to rename \"%s\" (%s)"
-msgstr ""
+msgstr "Zakanika kusintha dzina \"%s\" (%s)"
 
 #: thunar/thunar-application.c:2029 thunar/thunar-properties-dialog.c:1110
 #, c-format
 msgid "Failed to rename \"%s\""
-msgstr ""
+msgstr "Zakanika kusintha dzina \"%s\""
 
 #: thunar/thunar-application.c:2075
 msgid "Rename Launcher Options"
@@ -600,24 +600,24 @@ msgstr ""
 
 #: thunar/thunar-application.c:2080
 msgid "Rename _File"
-msgstr ""
+msgstr "Sinthani dzina la _Fayilo"
 
 #: thunar/thunar-application.c:2155
 msgid "New File"
-msgstr ""
+msgstr "Fayilo latsopano"
 
 #: thunar/thunar-application.c:2156
 msgid "Create New File"
-msgstr ""
+msgstr "Pangani Fayilo Latsopano"
 
 #: thunar/thunar-application.c:2277
 msgid "Copying files..."
-msgstr ""
+msgstr "Kukopera ma fayilo..."
 
 #: thunar/thunar-application.c:2337
 #, c-format
 msgid "Copying files to \"%s\"..."
-msgstr ""
+msgstr "Kukopera ma fayilo ku \"%s\"..."
 
 #: thunar/thunar-application.c:2396
 #, c-format
@@ -631,7 +631,7 @@ msgstr ""
 
 #: thunar/thunar-application.c:2533
 msgid "Moving files ..."
-msgstr ""
+msgstr "Kusuntha mafayilo..."
 
 #: thunar/thunar-application.c:2597
 #, c-format
@@ -686,7 +686,7 @@ msgstr[1] ""
 #: thunar/thunar-application.c:2641 thunar/thunar-dialogs.c:615
 #: thunar/thunar-dialogs.c:1125
 msgid "Attention"
-msgstr ""
+msgstr "Uthenga ofunikira"
 
 #: thunar/thunar-application.c:2651
 msgid "If you delete a file, it is permanently lost."
@@ -694,7 +694,7 @@ msgstr ""
 
 #: thunar/thunar-application.c:2712
 msgid "Deleting files..."
-msgstr ""
+msgstr "Kufufuta ma fayilo..."
 
 #: thunar/thunar-application.c:2770
 msgid "Moving files into the trash..."
@@ -702,11 +702,11 @@ msgstr ""
 
 #: thunar/thunar-application.c:2820
 msgid "Creating files..."
-msgstr ""
+msgstr "Kupanga ma fayilo..."
 
 #: thunar/thunar-application.c:2861
 msgid "Creating directories..."
-msgstr ""
+msgstr "Kupanga mafoda..."
 
 #: thunar/thunar-application.c:2899
 msgid "Remove all files and folders from the Trash?"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: thunar/thunar-application.c:2906 thunar/thunar-window.c:1286
 msgid "Empty Trash"
-msgstr ""
+msgstr "Yeretsani ndi kuchotsa zonse mu thumba losunga zofufutidwa"
 
 #: thunar/thunar-application.c:2913
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: thunar/thunar-application.c:2930
 msgid "Emptying the Trash..."
-msgstr ""
+msgstr "Kufufuta zonse mu thumba losunga zofufutidwa..."
 
 #: thunar/thunar-application.c:2977
 #, c-format
@@ -776,7 +776,7 @@ msgstr ""
 
 #: thunar/thunar-chooser-dialog.c:205
 msgid "Open With"
-msgstr ""
+msgstr "Tsegulani Ndi"
 
 #: thunar/thunar-chooser-dialog.c:274
 msgid "Use a _custom command:"
@@ -1041,7 +1041,7 @@ msgstr ""
 #: plugins/thunar-apr/thunar-apr-image-page.c:288
 #: plugins/thunar-uca/thunar-uca-editor.c:445
 msgid "Unknown"
-msgstr ""
+msgstr "Chosadziwika"
 
 #: thunar/thunar-compact-view.c:116
 msgid "Compact directory listing"
@@ -1054,7 +1054,7 @@ msgstr ""
 #: thunar/thunar-dbus-service.c:555
 #, c-format
 msgid "Invalid filename \"%s\""
-msgstr ""
+msgstr "Dzina la fayilo losavomerezeka \"%s\""
 
 #: thunar/thunar-dbus-service.c:999
 msgid "The working directory must be an absolute path"
@@ -1210,7 +1210,7 @@ msgstr "_Yesaninso"
 
 #: thunar/thunar-dialogs.c:682
 msgid "Copy _Anyway"
-msgstr ""
+msgstr "Koperanibe mulimonse"
 
 #: thunar/thunar-dialogs.c:813 thunar/thunar-dialogs.c:824
 msgid "Confirm to replace files"
@@ -1436,11 +1436,11 @@ msgstr ""
 
 #: thunar/thunar-enum-types.c:155 thunar/thunar-statusbar.c:90
 msgid "Size"
-msgstr ""
+msgstr "Kukula"
 
 #: thunar/thunar-enum-types.c:156
 msgid "Size in Bytes"
-msgstr ""
+msgstr "Kukula mu mlingo wama Bytes"
 
 #: thunar/thunar-enum-types.c:157
 msgid "Type"
@@ -1472,7 +1472,7 @@ msgstr ""
 #: thunar/thunar-preferences-dialog.c:1353
 #: thunar/thunar-preferences-dialog.c:1444
 msgid "Always"
-msgstr ""
+msgstr "Nthawi zonse"
 
 #: thunar/thunar-enum-types.c:783
 msgid "Copy"
@@ -1608,7 +1608,7 @@ msgstr "%s (linki)"
 #: thunar/thunar-file.c:2612
 #, c-format
 msgid "%s (mount point)"
-msgstr ""
+msgstr "%s (poyikira pamwamba)"
 
 #: thunar/thunar-gio-extensions.c:85
 msgid "iPod touch"
@@ -1818,8 +1818,8 @@ msgstr ""
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fayilo"
+msgstr[1] "%d ma fayilo"
 
 #: thunar/thunar-job-operation-history.c:323
 msgid ""
@@ -1915,7 +1915,7 @@ msgstr ""
 
 #: thunar/thunar-location-entry.c:364
 msgid "File does not exist"
-msgstr ""
+msgstr "Fayilo mulibemo"
 
 #: thunar/thunar-notify.c:181
 msgid "Undo performed"
@@ -1968,7 +1968,7 @@ msgstr ""
 
 #: thunar/thunar-path-entry.c:238
 msgid "Icon size"
-msgstr ""
+msgstr "Kukula kwa chizindikiro"
 
 #: thunar/thunar-path-entry.c:239
 msgid "The icon size for the path entry"
@@ -1986,7 +1986,7 @@ msgstr ""
 
 #: thunar/thunar-permissions-chooser.c:230
 msgid "Owner:"
-msgstr ""
+msgstr "Mwini wake:"
 
 #: thunar/thunar-permissions-chooser.c:249
 msgid "_Access:"
@@ -2002,7 +2002,7 @@ msgstr ""
 
 #: thunar/thunar-permissions-chooser.c:327
 msgid "Others"
-msgstr ""
+msgstr "Ena"
 
 #: thunar/thunar-permissions-chooser.c:335
 msgid "Acce_ss:"
@@ -2010,7 +2010,7 @@ msgstr ""
 
 #: thunar/thunar-permissions-chooser.c:363
 msgid "Program:"
-msgstr ""
+msgstr "Ma pulogalamu:"
 
 #: thunar/thunar-permissions-chooser.c:369
 msgid "Allow this file to _run as a program"
@@ -2038,7 +2038,7 @@ msgstr ""
 
 #: thunar/thunar-permissions-chooser.c:445
 msgid "Please wait..."
-msgstr ""
+msgstr "Chonde dikilani..."
 
 #: thunar/thunar-permissions-chooser.c:452
 msgid "Stop applying permissions recursively."
@@ -2077,7 +2077,7 @@ msgstr ""
 #: plugins/thunar-uca/thunar-uca-editor.c:427
 #: plugins/thunar-uca/thunar-uca-editor.c:639
 msgid "None"
-msgstr ""
+msgstr "Palibe"
 
 #: thunar/thunar-permissions-chooser.c:1050
 msgid "Write only"
@@ -2124,7 +2124,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:294
 msgid "Display"
-msgstr ""
+msgstr "Kanema"
 
 #: thunar/thunar-preferences-dialog.c:304
 msgid "Window Settings"
@@ -2217,31 +2217,31 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:471
 msgid "512KiB"
-msgstr ""
+msgstr "512KiB"
 
 #: thunar/thunar-preferences-dialog.c:472
 msgid "1MiB"
-msgstr ""
+msgstr "1MiB"
 
 #: thunar/thunar-preferences-dialog.c:473
 msgid "10MiB"
-msgstr ""
+msgstr "10MiB"
 
 #: thunar/thunar-preferences-dialog.c:474
 msgid "100MiB"
-msgstr ""
+msgstr "100MiB"
 
 #: thunar/thunar-preferences-dialog.c:475
 msgid "1GiB"
-msgstr ""
+msgstr "1GiB"
 
 #: thunar/thunar-preferences-dialog.c:476
 msgid "10GiB"
-msgstr ""
+msgstr "10GiB"
 
 #: thunar/thunar-preferences-dialog.c:477
 msgid "Unlimited"
-msgstr ""
+msgstr "Zosatha"
 
 #: thunar/thunar-preferences-dialog.c:495
 msgid "Draw frames around thumbnails"
@@ -2263,21 +2263,21 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:542
 msgid "Date"
-msgstr ""
+msgstr "Tsiku"
 
 #: thunar/thunar-preferences-dialog.c:555
 #: plugins/thunar-sbr/thunar-sbr-date-renamer.c:219
 msgid "_Format:"
-msgstr ""
+msgstr "_Mawonekedwe:"
 
 #. TRANSLATORS: custom date format
 #: thunar/thunar-preferences-dialog.c:568
 msgid "Custom"
-msgstr ""
+msgstr "Zopanga Nokha"
 
 #: thunar/thunar-preferences-dialog.c:569
 msgid "Today / Custom"
-msgstr ""
+msgstr "Lero / Zopanga Nokha"
 
 #. TRANSLATORS: Please do not translate the first column (specifiers), 'strftime' and of course '\n'
 #: thunar/thunar-preferences-dialog.c:586
@@ -2305,67 +2305,67 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:634
 msgid "_Icon Size:"
-msgstr ""
+msgstr "_Kukula kwa chizindikiro:"
 
 #: thunar/thunar-preferences-dialog.c:640
 #: thunar/thunar-preferences-dialog.c:812
 msgid "16px"
-msgstr ""
+msgstr "16px"
 
 #: thunar/thunar-preferences-dialog.c:641
 #: thunar/thunar-preferences-dialog.c:813
 msgid "24px"
-msgstr ""
+msgstr "24px"
 
 #: thunar/thunar-preferences-dialog.c:642
 #: thunar/thunar-preferences-dialog.c:814
 msgid "32px"
-msgstr ""
+msgstr "32px"
 
 #: thunar/thunar-preferences-dialog.c:643
 #: thunar/thunar-preferences-dialog.c:815
 msgid "48px"
-msgstr ""
+msgstr "48px"
 
 #: thunar/thunar-preferences-dialog.c:644
 #: thunar/thunar-preferences-dialog.c:816
 msgid "64px"
-msgstr ""
+msgstr "64px"
 
 #: thunar/thunar-preferences-dialog.c:645
 #: thunar/thunar-preferences-dialog.c:817
 msgid "96px"
-msgstr ""
+msgstr "96px"
 
 #: thunar/thunar-preferences-dialog.c:646
 #: thunar/thunar-preferences-dialog.c:818
 msgid "128px"
-msgstr ""
+msgstr "128px"
 
 #: thunar/thunar-preferences-dialog.c:647
 #: thunar/thunar-preferences-dialog.c:819
 msgid "160px"
-msgstr ""
+msgstr "160px"
 
 #: thunar/thunar-preferences-dialog.c:648
 #: thunar/thunar-preferences-dialog.c:820
 msgid "192px"
-msgstr ""
+msgstr "192px"
 
 #: thunar/thunar-preferences-dialog.c:649
 #: thunar/thunar-preferences-dialog.c:821
 msgid "256px"
-msgstr ""
+msgstr "256px"
 
 #: thunar/thunar-preferences-dialog.c:650
 #: thunar/thunar-preferences-dialog.c:822
 msgid "512px"
-msgstr ""
+msgstr "512px"
 
 #: thunar/thunar-preferences-dialog.c:651
 #: thunar/thunar-preferences-dialog.c:823
 msgid "1024px"
-msgstr ""
+msgstr "1024px"
 
 #: thunar/thunar-preferences-dialog.c:669
 msgid "Show icon _emblems"
@@ -2400,7 +2400,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:807
 msgid "Icon _Size:"
-msgstr ""
+msgstr "Kukula kwa _Chizindikiro:"
 
 #: thunar/thunar-preferences-dialog.c:841
 msgid "Show icon e_mblems"
@@ -2414,7 +2414,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:857
 msgid "Icon Style"
-msgstr ""
+msgstr "Mtundu wa Chizindikiro"
 
 #: thunar/thunar-preferences-dialog.c:873
 msgid "Use symbolic folder icons"
@@ -2441,7 +2441,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:935
 msgid "Behavior"
-msgstr ""
+msgstr "Khalidwe"
 
 #: thunar/thunar-preferences-dialog.c:945
 msgid "Mouse Interactions"
@@ -2472,7 +2472,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:1033
 msgid "Long"
-msgstr ""
+msgstr "Chachitali"
 
 #: thunar/thunar-preferences-dialog.c:1042
 msgid "_Double click to activate items"
@@ -2566,11 +2566,11 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:1202
 msgid "Advanced"
-msgstr ""
+msgstr "Zotsogola"
 
 #: thunar/thunar-preferences-dialog.c:1212
 msgid "File Transfer"
-msgstr ""
+msgstr "Kutumiza ma Fayilo"
 
 #: thunar/thunar-preferences-dialog.c:1229
 msgid "Transfer files in parallel:"
@@ -3948,19 +3948,19 @@ msgstr "Pitani ku foda imene ipitidwe tsopano"
 
 #: thunar/thunar-window.c:731
 msgid "_Previous Tab"
-msgstr "_Tabu ya M'mbuyo"
+msgstr "_Tsamba la M'mbuyo"
 
 #: thunar/thunar-window.c:731
 msgid "Switch to Previous Tab"
-msgstr "Sinthani kupita Tabu ya M'mbuyo"
+msgstr "Sinthani kupita Tsamba la M'mbuyo"
 
 #: thunar/thunar-window.c:733
 msgid "_Next Tab"
-msgstr "_Tabu ya Patsogolo"
+msgstr "_Tsamba la Patsogolo"
 
 #: thunar/thunar-window.c:733
 msgid "Switch to Next Tab"
-msgstr "Sinthani kupita Tabu ya Patsogolo"
+msgstr "Sinthani kupita Tsamba la Patsogolo"
 
 #: thunar/thunar-window.c:736
 msgid "_Search for Files..."
@@ -3968,19 +3968,19 @@ msgstr "_Fufuzani ma Fayilo..."
 
 #: thunar/thunar-window.c:736
 msgid "Search for a specific file in the current folder and Recent"
-msgstr ""
+msgstr "Fufuzani fayilo yeniyeni mu foda yomweyi ndi ambuyo acha pompano"
 
 #: thunar/thunar-window.c:738
 msgid "Stop search for files"
-msgstr ""
+msgstr "Imani ndikufufuza mafayilo"
 
 #: thunar/thunar-window.c:740
 msgid "Menu"
-msgstr ""
+msgstr "Posankhila"
 
 #: thunar/thunar-window.c:740
 msgid "Show the menu"
-msgstr ""
+msgstr "Onetsani posankhila"
 
 #: thunar/thunar-window.c:1092
 msgid "Warning: you are using the root account. You may harm your system."
@@ -4001,21 +4001,21 @@ msgstr "Bwezeretsani zosankhidwazi"
 
 #: thunar/thunar-window.c:3089
 msgid "Close tab"
-msgstr ""
+msgstr "Tsekani tsamba"
 
 #: thunar/thunar-window.c:3614
 #, c-format
 msgid "Open the location \"%s\""
-msgstr ""
+msgstr "Tsegulani malo awa \"%s\""
 
 #: thunar/thunar-window.c:4697
 msgid "Failed to open parent folder"
-msgstr ""
+msgstr "Zakanika kutsegula foda lachiyambi"
 
 #: thunar/thunar-window.c:4840
 #, c-format
 msgid "The directory \"%s\" does not exist. Do you want to create it?"
-msgstr ""
+msgstr "Foda ili \"%s\" mulibemo. Kodi mufuna kulipanga?"
 
 #: thunar/thunar-window.c:4842
 msgid "Create directory"
@@ -4023,11 +4023,11 @@ msgstr "Pangani foda"
 
 #: thunar/thunar-window.c:4911
 msgid "Failed to browse the computer"
-msgstr ""
+msgstr "Zakanika kusakatula kompyuta"
 
 #: thunar/thunar-window.c:4954
 msgid "About Templates"
-msgstr ""
+msgstr "Zambiri za ma tempuleti"
 
 #: thunar/thunar-window.c:4976
 msgid "All files in this folder will appear in the \"Create Document\" menu."
@@ -4087,7 +4087,7 @@ msgstr "Chosintha mawonetsedwe"
 
 #: thunar/thunar-window.c:7081 thunar/thunar-window.c:7086
 msgid "Location Bar"
-msgstr ""
+msgstr "Poonetsa Malo"
 
 #: thunarx/thunarx-property-page.c:111
 msgid "Label"
@@ -4138,15 +4138,15 @@ msgstr ""
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:281
 msgid "Command:"
-msgstr ""
+msgstr "Lamulo:"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:288
 msgid "The program to execute, possibly with arguments."
-msgstr ""
+msgstr "Pulogalamu iyendetsedwa, mwina ndi malamulo oonjezera."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:307
 msgid "Working Directory:"
-msgstr ""
+msgstr "Foda yogwirira Ntchito:"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:314
 msgid "The working directory for the program."
@@ -4188,11 +4188,12 @@ msgstr ""
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:425
 msgid "Run in _terminal"
-msgstr ""
+msgstr "Yendetsani mu _temino"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:426
 msgid "Select this option to run the command in a terminal window."
 msgstr ""
+"Sankhani chochita ichi kuti muyendetse lamulo/komani mu windo la temino."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:444
 msgid "Security:"
@@ -4200,7 +4201,7 @@ msgstr "Chitetezo:"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:451
 msgid "Allow this file to _run as a .desktop file"
-msgstr ""
+msgstr "Lolani fayilo imeneyi kuti _liyendetsedwe ngati la .desktop"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:452
 msgid ""
@@ -4210,7 +4211,7 @@ msgstr ""
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:469
 msgid "Set this file as trusted"
-msgstr ""
+msgstr "Pangani fayilo imeneyi kukhala lokhulupirika"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:470
 msgid ""
@@ -4239,39 +4240,39 @@ msgstr "Mtundu wa Kamera:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:49
 msgid "Exposure Time:"
-msgstr ""
+msgstr "Nthawi yowaurila:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:50
 msgid "Exposure Program:"
-msgstr ""
+msgstr "Pulogalamu yowaurila:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:51
 msgid "Aperture Value:"
-msgstr ""
+msgstr "Muyeso wa apecha:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:52
 msgid "Metering Mode:"
-msgstr ""
+msgstr "Mtundu oyesera:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:53
 msgid "Flash Fired:"
-msgstr ""
+msgstr "Kuwala komwazidwa:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:54
 msgid "Focal Length:"
-msgstr ""
+msgstr "Utali wa chapakati chapojamburila:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:55
 msgid "Shutter Speed:"
-msgstr ""
+msgstr "Changu chokhetchemula:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:56
 msgid "ISO Speed Ratings:"
-msgstr ""
+msgstr "Mlingo woona za changu wa ISO:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:57
 msgid "Software:"
-msgstr ""
+msgstr "Mapulogalamu:"
 
 #: plugins/thunar-apr/thunar-apr-image-page.c:117
 msgid "Image"
@@ -4285,8 +4286,8 @@ msgstr "Mtundu wa Chithuzi:"
 #, c-format
 msgid "%dx%d pixel"
 msgid_plural "%dx%d pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%dx%d ma pixel"
+msgstr[1] "%dx%d ma pixels"
 
 #: plugins/thunar-sbr/thunar-sbr-case-renamer.c:115
 msgid "Con_vert to:"
@@ -4298,7 +4299,7 @@ msgstr "Malemba akulu akulu / Malemba ang'ono ang'ono"
 
 #: plugins/thunar-sbr/thunar-sbr-date-renamer.c:197
 msgid "Insert _time:"
-msgstr ""
+msgstr "Lowetsani _nthawi:"
 
 #: plugins/thunar-sbr/thunar-sbr-date-renamer.c:228
 msgid ""
@@ -4307,15 +4308,19 @@ msgid ""
 "with the day. See the documentation of the date utility for additional "
 "information."
 msgstr ""
+"Ndondomekoyi ikufotokoza za tsiku ndi nthawi zoti zilowetsedwe mudzina la "
+"fayilo. Mwa chitsanzo, %Y izasinthidwa ndi chaka, %m ndi mwezi ndipo %d ndi "
+"tsiku. Onani buku la kagwiritsidwe ntchito ka matsiku ngati mufuna uthenga "
+"wambiri pa zimenezi."
 
 #: plugins/thunar-sbr/thunar-sbr-date-renamer.c:244
 #: plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
 msgid "_At position:"
-msgstr ""
+msgstr "_Pa malo:"
 
 #: plugins/thunar-sbr/thunar-sbr-date-renamer.c:592
 msgid "Insert Date / Time"
-msgstr ""
+msgstr "Lowetsani Tsiku / Nthawi"
 
 #: plugins/thunar-sbr/thunar-sbr-enum-types.c:90
 msgid "lowercase"
@@ -4327,11 +4332,11 @@ msgstr "MALEMBA AKULU AKULU"
 
 #: plugins/thunar-sbr/thunar-sbr-enum-types.c:92
 msgid "Title Case"
-msgstr ""
+msgstr "Mosanja ngati mutu wa nkhani"
 
 #: plugins/thunar-sbr/thunar-sbr-enum-types.c:93
 msgid "First character uppercase"
-msgstr ""
+msgstr "Liwu loyamba lalikulu"
 
 #: plugins/thunar-sbr/thunar-sbr-enum-types.c:99
 msgid "Insert"
@@ -4461,7 +4466,7 @@ msgstr "Sinthani _ndi:"
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:251
 msgid ""
 "Enter the text that should be used as replacement for the pattern above."
-msgstr ""
+msgstr "Lembani mawu amene alowe malo mwa ena motsata chitsanzo chili mwamba."
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:265
 msgid "C_ase Sensitive Search"
@@ -4485,7 +4490,7 @@ msgstr "Fufuzani ndi kusintha ndi china"
 #: plugins/thunar-sendto-email/main.c:213
 #, c-format
 msgid "Send \"%s\" as compressed archive?"
-msgstr ""
+msgstr "Mutumiza \"%s\" ngati mopakiza mu chikwatu chochepetsedwa?"
 
 #: plugins/thunar-sendto-email/main.c:215
 #: plugins/thunar-sendto-email/main.c:235
@@ -4507,17 +4512,20 @@ msgid ""
 "directly, as is, or compress the file before attaching it to an email. It is "
 "highly recommended to compress large files before sending them."
 msgstr ""
+"Pamene mukutumiza fayilo ku imelo, mutha kusankha kutumiza fayilo payokha, "
+"kapena kuchepetsa fayilo musanaiyike ku imelo. Ndizolimbikitsidwa kwambiri "
+"kuchepetsa mafayilo akulu akulu musanawatumize."
 
 #: plugins/thunar-sendto-email/main.c:231
 #, c-format
 msgid "Send %d file as compressed archive?"
 msgid_plural "Send %d files as compressed archive?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mufuna kutumiza fayilo %d mopakiza mu chikwatu?"
+msgstr[1] "Mufuna kutumiza mafayilo %d mopakiza mu chikwatu?"
 
 #: plugins/thunar-sendto-email/main.c:238
 msgid "Send as _archive"
-msgstr ""
+msgstr "Tumizani _mopakiza mu chikwatu"
 
 #: plugins/thunar-sendto-email/main.c:240
 msgid ""
@@ -4526,6 +4534,11 @@ msgid ""
 "compressed into a single archive file and attach the archive. It is highly "
 "recommended to send multiple large files as archive."
 msgstr ""
+"Pamene mukutumiza mafayilo ambiri ku imelo, mutha kusankha kutumiza mafayilo "
+"pawokha, kapena kuphatikiza mafayilo angapo ku imelo, kapena kutumiza ma "
+"fayilo onse ophatikana mopakiza mu fayilo imodzi. Ndizolimbikitsidwa "
+"kwambiri kutumiza mafayilo akulu akulu mopakiza mu chikwatu cha fayilo "
+"imodzi."
 
 #: plugins/thunar-sendto-email/main.c:298
 #: plugins/thunar-sendto-email/main.c:324
@@ -4594,16 +4607,16 @@ msgstr "Fufutani nchitoyi"
 
 #: plugins/thunar-uca/thunar-uca-chooser.c:378
 msgid "If you delete a custom action, it is permanently lost."
-msgstr ""
+msgstr "Ngati mufufute ntchito yopanga nokha, itayidwa mpaka kale."
 
 #: plugins/thunar-uca/thunar-uca-editor.c:369
 #, c-format
 msgid "This keyboard shortcut is currently used by: '%s'"
-msgstr ""
+msgstr "Njira yachidule ya kiyibodiyi ikugwiritsidwa panopa ndi: '%s'"
 
 #: plugins/thunar-uca/thunar-uca-editor.c:372
 msgid "Keyboard shortcut already in use"
-msgstr ""
+msgstr "Njira yachidule ya kiyibodi ikugwiritsidwa kale ntchito"
 
 #: plugins/thunar-uca/thunar-uca-editor.c:523
 msgid "No icon"
@@ -4612,28 +4625,30 @@ msgstr "Palibe chizindikiro"
 #: plugins/thunar-uca/thunar-uca-model.c:863
 msgid "End element handler called while in root context"
 msgstr ""
+"Oyendetsa mapeto a chinthu choyambitsidwa pomwe chili mu chiyambi chake"
 
 #: plugins/thunar-uca/thunar-uca-model.c:984
 #, c-format
 msgid "Unknown closing element <%s>"
-msgstr ""
+msgstr "Chinthu chotsekera chosaziwika <%s>"
 
 #: plugins/thunar-uca/thunar-uca-model.c:1514
 msgid "Failed to determine save location for uca.xml"
-msgstr ""
+msgstr "Zakanika kupeza malo osunga uca.xml"
 
 #: plugins/thunar-uca/thunar-uca-model.c:1643
 msgid "Command not configured"
-msgstr ""
+msgstr "Lamulo silina sinthidwe"
 
 #: plugins/thunar-uca/thunar-uca-provider.c:184
 msgid "Confi_gure custom actions..."
-msgstr ""
+msgstr "Kusi_ntha zochita zokonza nokha..."
 
 #: plugins/thunar-uca/thunar-uca-provider.c:184
 msgid ""
 "Setup custom actions that will appear in the file managers context menus"
 msgstr ""
+"Pangani ntchito zanokha zimene zizionekela mosunga mafayilo ndi ma menyu ake"
 
 #: plugins/thunar-uca/thunar-uca-provider.c:567
 #, c-format
