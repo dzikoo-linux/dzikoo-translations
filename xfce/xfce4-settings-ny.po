@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-settings 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:57+0200\n"
-"PO-Revision-Date: 2026-03-09 07:28+0200\n"
+"PO-Revision-Date: 2026-03-12 16:58+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -64,7 +64,7 @@ msgstr "NAMBALA LA SOKETI"
 #: xfce4-settings-editor/main.c:45 xfce4-settings-manager/main.c:39
 #: xfsettingsd/main.c:93
 msgid "Version information"
-msgstr ""
+msgstr "Chidziwitso cha mtundu"
 
 #: dialogs/accessibility-settings/main.c:191
 #: dialogs/appearance-settings/main.c:1849 dialogs/color-settings/main.c:1463
@@ -75,7 +75,7 @@ msgstr ""
 #: xfce4-settings-manager/main.c:60 xfsettingsd/main.c:242
 #, c-format
 msgid "Type '%s --help' for usage."
-msgstr ""
+msgstr "Lembani '%s --help' kuti muwone njira ya kagwiritsidwe ntchito."
 
 #: dialogs/accessibility-settings/main.c:210
 #: dialogs/appearance-settings/main.c:1868 dialogs/color-settings/main.c:1482
@@ -84,7 +84,7 @@ msgstr ""
 #: xfce4-settings-editor/main.c:137 xfce4-settings-manager/main.c:76
 #: xfsettingsd/main.c:258
 msgid "The Xfce development team. All rights reserved."
-msgstr ""
+msgstr "Gulu la opanga Xfce. Ufulu onse wasungika."
 
 #: dialogs/accessibility-settings/main.c:211
 #: dialogs/appearance-settings/main.c:1869 dialogs/color-settings/main.c:1483
@@ -94,7 +94,7 @@ msgstr ""
 #: xfsettingsd/main.c:259
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "Chonde nenani zolakwika ku <%s>."
 
 #: dialogs/appearance-settings/main.c:338
 msgid "Failed to display Xfwm4 Settings"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: dialogs/appearance-settings/main.c:1384
 msgid "File is too large, installation aborted"
-msgstr ""
+msgstr "Fayilo yakulitsa, kukhazikitsa kwakanika"
 
 #: dialogs/appearance-settings/main.c:1389
 msgid "Failed to create temporary directory"
@@ -146,7 +146,7 @@ msgstr ""
 #: dialogs/appearance-settings/main.c:1409
 #, c-format
 msgid "An unknown error, exit code is %d"
-msgstr "Cholakwika chosadziwika, chothela ndi kodi %d"
+msgstr "Cholakwika chosadziwika, chothela ndi nambala %d"
 
 #: dialogs/appearance-settings/main.c:1416
 msgid "Failed to install theme"
@@ -164,7 +164,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:575
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:106
 msgid "_Cancel"
-msgstr "_Tsekani"
+msgstr "_Lekani"
 
 #: dialogs/appearance-settings/main.c:1473
 #: dialogs/keyboard-settings/command-dialog.c:272
@@ -187,11 +187,11 @@ msgstr "BGR"
 
 #: dialogs/appearance-settings/main.c:1745
 msgid "Vertical RGB"
-msgstr ""
+msgstr "RGB wa m'mwamba"
 
 #: dialogs/appearance-settings/main.c:1749
 msgid "Vertical BGR"
-msgstr ""
+msgstr "BGR wa m'mwamba"
 
 #. TRANSLATORS: a flatbed scanner device, e.g. 'Epson Scanner'
 #: dialogs/color-settings/color-device.c:65
@@ -221,7 +221,7 @@ msgstr "Kanema wa Laputopu"
 #. TRANSLATORS: This refers to the embedded webcam on a laptop
 #: dialogs/color-settings/color-device.c:101
 msgid "Built-in Webcam"
-msgstr ""
+msgstr "Kamera yomangidwa mkati"
 
 #: dialogs/color-settings/color-device.c:194
 #, c-format
@@ -238,7 +238,7 @@ msgstr ""
 #. * a different color, or swap the red and green channels
 #: dialogs/color-settings/color-profile.c:99
 msgid "Test Profile"
-msgstr ""
+msgstr "Mawonekedwe Oyesa"
 
 #. TRANSLATORS: an ICC profile is a file containing colorspace data
 #: dialogs/color-settings/main.c:125
@@ -269,22 +269,22 @@ msgstr ""
 #. * profile his a standard space like AdobeRGB
 #: dialogs/color-settings/main.c:195
 msgid "Colorspace: "
-msgstr ""
+msgstr "Malo a mitundu: "
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile is a test profile
 #: dialogs/color-settings/main.c:202
 msgid "Test profile: "
-msgstr ""
+msgstr "Mawonekedwe oyesa: "
 
 #: dialogs/color-settings/main.c:237
 msgid "Compatible Profiles"
-msgstr ""
+msgstr "Mawonekedwe Ogwirizana"
 
 #: dialogs/color-settings/main.c:516
 #, c-format
 msgid "Add Color Profile to %s"
-msgstr ""
+msgstr "Onjezerani mawonekedwe a mtundu ku %s"
 
 #: dialogs/color-settings/main.c:516
 msgid "Device"
@@ -343,7 +343,7 @@ msgstr ""
 #: dialogs/display-settings/main.c:635
 #, c-format
 msgid "%.2f Hz"
-msgstr ""
+msgstr "%.2f Hz"
 
 #: dialogs/display-settings/main.c:964
 msgid ""
@@ -361,7 +361,7 @@ msgstr ""
 
 #: dialogs/display-settings/main.c:1614
 msgid "Delete Profile"
-msgstr ""
+msgstr "Fufutani mbiri"
 
 #: dialogs/display-settings/main.c:1615
 msgid "Once a display profile is deleted it cannot be restored."
@@ -373,7 +373,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-window.c:1295
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
 msgid "Cancel"
-msgstr "Tsekani"
+msgstr "Lekani"
 
 #: dialogs/display-settings/main.c:1616
 msgid "Delete"
@@ -381,14 +381,14 @@ msgstr "Fufutani"
 
 #: dialogs/display-settings/main.c:1675
 msgid "Xfce Panel"
-msgstr ""
+msgstr "Panelo la Xfce"
 
 #: dialogs/display-settings/main.c:1701
 #, c-format
 msgid "%d Xfce Panel"
 msgid_plural "%d Xfce Panels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Panelo la Xfce"
+msgstr[1] "%d ma Panelo Xfce"
 
 #: dialogs/display-settings/main.c:2486
 msgid ""
@@ -399,7 +399,7 @@ msgstr ""
 #: dialogs/display-settings/main.c:2585 dialogs/display-settings/main.c:2618
 #, c-format
 msgid "(%i, %i)"
-msgstr ""
+msgstr "(%i, %i)"
 
 #: dialogs/display-settings/main.c:2835
 msgid "Mirror Screens"
@@ -443,7 +443,7 @@ msgstr ""
 
 #: dialogs/keyboard-settings/command-dialog.c:105
 msgid "Shortcut Command"
-msgstr ""
+msgstr "Lamulo la Chidule"
 
 #: dialogs/keyboard-settings/command-dialog.c:113
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:576
@@ -453,7 +453,7 @@ msgstr "_INDE"
 
 #: dialogs/keyboard-settings/command-dialog.c:135
 msgid "Enter the command you want to trigger with a shortcut."
-msgstr ""
+msgstr "Lembani lamulo mukufuna kuyambitsa ndi chidule."
 
 #: dialogs/keyboard-settings/command-dialog.c:153
 msgid "Shortcut:"
@@ -461,7 +461,7 @@ msgstr "Njira yachidule:"
 
 #: dialogs/keyboard-settings/command-dialog.c:178
 msgid "Comm_and:"
-msgstr ""
+msgstr "Lamu_lo:"
 
 #: dialogs/keyboard-settings/command-dialog.c:203
 msgid "Use _startup notification"
@@ -469,11 +469,11 @@ msgstr ""
 
 #: dialogs/keyboard-settings/command-dialog.c:249
 msgid "The command may not be empty."
-msgstr ""
+msgstr "Lamulo silingakhale lopanda kanthu."
 
 #: dialogs/keyboard-settings/command-dialog.c:269
 msgid "Select command"
-msgstr ""
+msgstr "Sankhani lamulo"
 
 #: dialogs/keyboard-settings/command-dialog.c:277
 #: dialogs/mime-settings/xfce-mime-chooser.c:383
@@ -485,35 +485,35 @@ msgstr "Mafayilo onse"
 #: dialogs/mime-settings/xfce-mime-chooser.c:388
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:436
 msgid "Executable Files"
-msgstr ""
+msgstr "Mafayilo Otha Kuseweredwa"
 
 #: dialogs/keyboard-settings/command-dialog.c:297
 #: dialogs/mime-settings/xfce-mime-chooser.c:403
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:451
 msgid "Perl Scripts"
-msgstr ""
+msgstr "Mafayilo a mtundu wa Perl"
 
 #: dialogs/keyboard-settings/command-dialog.c:303
 #: dialogs/mime-settings/xfce-mime-chooser.c:409
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:457
 msgid "Python Scripts"
-msgstr ""
+msgstr "Mafayilo a mtundu wa Python"
 
 #: dialogs/keyboard-settings/command-dialog.c:309
 #: dialogs/mime-settings/xfce-mime-chooser.c:415
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:463
 msgid "Ruby Scripts"
-msgstr ""
+msgstr "Mafayilo a mtundu wa Ruby"
 
 #: dialogs/keyboard-settings/command-dialog.c:315
 #: dialogs/mime-settings/xfce-mime-chooser.c:421
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:469
 msgid "Shell Scripts"
-msgstr ""
+msgstr "Mafayilo a mtundu wa Shell"
 
 #: dialogs/keyboard-settings/main.c:80
 msgid "Unable to initialize GTK+."
-msgstr ""
+msgstr "Zakanika kuyambitsa GTK+."
 
 #: dialogs/keyboard-settings/main.c:106
 #, c-format
@@ -526,19 +526,19 @@ msgstr ""
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:427
 msgid "Command"
-msgstr ""
+msgstr "Lamulo"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:435
 msgid "Shortcut"
-msgstr ""
+msgstr "Njira yachidule"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:508
 msgid "Layout"
-msgstr ""
+msgstr "Masanjidwe"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:509
 msgid "Variant"
-msgstr ""
+msgstr "Zosiyana"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1274
 msgid ""
@@ -548,7 +548,7 @@ msgstr ""
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1278
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Bwezeretsani ku Zikhazikiko"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1279
 msgid "No"
@@ -564,7 +564,7 @@ msgstr ""
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1360
 msgid "Warning"
-msgstr ""
+msgstr "Chenjezo"
 
 #: dialogs/mime-settings/main.c:115
 msgid "Could not create the mime dialog."
@@ -572,16 +572,16 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:125
 msgid "Select Application"
-msgstr ""
+msgstr "Sankhani Chipangizo"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:133
 #: dialogs/mime-settings/xfce-mime-chooser.c:377
 msgid "Open"
-msgstr ""
+msgstr "Chotsegula"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:201
 msgid "Use a c_ustom command:"
-msgstr ""
+msgstr "Gwiritsani ntchito lamulo lo_panga nokha:"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:202
 msgid ""
@@ -591,23 +591,23 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:220
 msgid "_Browse..."
-msgstr ""
+msgstr "_Sakatulani..."
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:374
 msgid "Select an Application"
-msgstr ""
+msgstr "Sankhani Chipangizo"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:523
 msgid "None available"
-msgstr ""
+msgstr "Palibe chlipo"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:571
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Zipangizo zoti mutha kuzikonda"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:590
 msgid "Other Applications"
-msgstr ""
+msgstr "Zipangizo Zina"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:610
 #, c-format
@@ -765,7 +765,7 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:765
 msgid "_Other..."
-msgstr ""
+msgstr "_Zina..."
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:766
 msgid "Use a custom application which is not included in the above list."
@@ -857,7 +857,7 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:74
 msgid "Do _not show this message again"
-msgstr ""
+msgstr "Osa_onetsaso uthenga umenenso kachikena"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:105
 msgid "Print version information and exit"
@@ -872,7 +872,7 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-helper-main.c:106
 #: dialogs/mime-settings/xfce-mime-helper-main.c:107
 msgid "TYPE [PARAMETER]"
-msgstr ""
+msgstr "MTUNDU [LAMULO]"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:107
 msgid ""
@@ -913,15 +913,25 @@ msgid ""
 "\n"
 "Please report bugs to <%s>.\n"
 msgstr ""
+"%s (Xfce %s)\n"
+"\n"
+"Kukopera (c) 2003-2006\n"
+"        os-cillation e.K. Maumwini onse ndi otetezedwa.\n"
+"\n"
+"Yolembedwa ndi Benedikt Meurer <benny@xfce.org>.\n"
+"\n"
+"Yopangidwa ndi Gtk+-%d.%d.%d, kugwiritsa ntchito Gtk+-%d.%d.%d.\n"
+"\n"
+"Chonde nenani zolakwika ku <%s>.\n"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:265
 #, c-format
 msgid "No helper defined for \"%s\"."
-msgstr ""
+msgstr "Palibe thandizo laperekedwa la \"%s\"."
 
 #: dialogs/mime-settings/xfce-mime-helper.c:427
 msgid "No command specified"
-msgstr ""
+msgstr "Palibe lamulo laperekedwa"
 
 #: dialogs/mime-settings/xfce-mime-helper.c:807
 #: dialogs/mime-settings/xfce-mime-helper.c:846
@@ -929,25 +939,25 @@ msgstr ""
 #: dialogs/mime-settings/xfce-mime-helper.c:976
 #, c-format
 msgid "Failed to open %s for writing"
-msgstr ""
+msgstr "Zakanika kutsegura %s kuti ilembedwe"
 
 #: dialogs/mime-settings/xfce-mime-window.c:188
 msgid "Default Applications"
-msgstr ""
+msgstr "Zipangizo Zokhala Pachiyambi"
 
 #: dialogs/mime-settings/xfce-mime-window.c:193
 #: xfce4-settings-editor/main.c:184
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:219
 msgid "_Help"
-msgstr ""
+msgstr "_Thandizo"
 
 #: dialogs/mime-settings/xfce-mime-window.c:211
 msgid "_Internet"
-msgstr ""
+msgstr "_Intaneti"
 
 #: dialogs/mime-settings/xfce-mime-window.c:224
 msgid "Web Browser"
-msgstr ""
+msgstr "Makina Otsegurila Intaneti"
 
 #: dialogs/mime-settings/xfce-mime-window.c:232
 msgid ""
@@ -957,7 +967,7 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-window.c:250
 msgid "Mail Reader"
-msgstr ""
+msgstr "Chowerengera ma Melo"
 
 #: dialogs/mime-settings/xfce-mime-window.c:258
 msgid ""
@@ -967,11 +977,11 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-window.c:272
 msgid "_Utilities"
-msgstr ""
+msgstr "_Zogwiritsa nchtito"
 
 #: dialogs/mime-settings/xfce-mime-window.c:285
 msgid "File Manager"
-msgstr ""
+msgstr "Chosunga ma fayilo"
 
 #: dialogs/mime-settings/xfce-mime-window.c:293
 msgid ""
@@ -990,86 +1000,94 @@ msgstr ""
 
 #: dialogs/mime-settings/xfce-mime-window.c:337
 msgid "Text Editor"
-msgstr ""
+msgstr "Polembera"
 
 #: dialogs/mime-settings/xfce-mime-window.c:345
 msgid "The default Text Editor will be used to open and edit text files."
 msgstr ""
+"Tigwiritsa ntchito chipangizo choyamba cha mkati kale momuno kutsegurila ma "
+"fayilo a mtundu wa zolemba."
 
 #: dialogs/mime-settings/xfce-mime-window.c:360
 msgid "_Media"
-msgstr ""
+msgstr "_Zinthu"
 
 #: dialogs/mime-settings/xfce-mime-window.c:373
 msgid "Image Viewer"
-msgstr ""
+msgstr "Choonera Zithunzi"
 
 #: dialogs/mime-settings/xfce-mime-window.c:381
 msgid "The default Image Viewer will be used to display image files."
 msgstr ""
+"Tigwiritsa ntchito chipangizo choyamba cha mkati kale momuno kutsegulira "
+"zithunzi."
 
 #: dialogs/mime-settings/xfce-mime-window.c:399
 msgid "Audio Player"
-msgstr ""
+msgstr "Chosewerera Zomvera"
 
 #: dialogs/mime-settings/xfce-mime-window.c:407
 msgid "The default Audio Player will be used to play audio files."
 msgstr ""
+"Tigwiritsa ntchito chipangizo choyamba cha mkati kale momuno kusewera ma "
+"fayilo a mtundu wa zongomvera."
 
 #: dialogs/mime-settings/xfce-mime-window.c:425
 msgid "Video Player"
-msgstr ""
+msgstr "Chosewerera ma vidiyo"
 
 #: dialogs/mime-settings/xfce-mime-window.c:433
 msgid "The default Video Player will be used to play video files."
 msgstr ""
+"Tigwiritsa ntchito chipangizo choyamba cha mkati kale momuno kusewera ma "
+"fayilo a mtundu wa vidiyo."
 
 #: dialogs/mime-settings/xfce-mime-window.c:448
 msgid "_Others"
-msgstr ""
+msgstr "_Zina"
 
 #: dialogs/mime-settings/xfce-mime-window.c:458
 msgid "_Filter:"
-msgstr ""
+msgstr "_Sefani:"
 
 #: dialogs/mime-settings/xfce-mime-window.c:466
 msgid "Clear filter"
-msgstr ""
+msgstr "Chosani chosefera"
 
 #: dialogs/mime-settings/xfce-mime-window.c:496
 msgid "Open with..."
-msgstr ""
+msgstr "Tsegulani ndi..."
 
 #: dialogs/mime-settings/xfce-mime-window.c:545
 msgid "MIME Type"
-msgstr ""
+msgstr "Mtundu wa MIME"
 
 #: dialogs/mime-settings/xfce-mime-window.c:573
 msgid "Status"
-msgstr ""
+msgstr "Chizindikiro"
 
 #: dialogs/mime-settings/xfce-mime-window.c:593
 msgid "Default Application"
-msgstr ""
+msgstr "Chipangizo Chokhala Pachiyambi"
 
 #: dialogs/mime-settings/xfce-mime-window.c:769
 #: dialogs/mime-settings/xfce-mime-window.c:938
 msgid "User Set"
-msgstr ""
+msgstr "Zoyika Munthu"
 
 #: dialogs/mime-settings/xfce-mime-window.c:771
 #: dialogs/mime-settings/xfce-mime-window.c:938
 #: dialogs/mouse-settings/main.c:411 dialogs/mouse-settings/main.c:413
 #: dialogs/mouse-settings/main.c:476
 msgid "Default"
-msgstr ""
+msgstr "Zoyambirira"
 
 #: dialogs/mime-settings/xfce-mime-window.c:861
 #, c-format
 msgid "%d MIME type found"
 msgid_plural "%d MIME types found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mtundu wa MIME wapezeka"
+msgstr[1] "%d mitundu ya MIME yapezeka"
 
 #: dialogs/mime-settings/xfce-mime-window.c:983
 #, c-format
@@ -1094,19 +1112,21 @@ msgstr ""
 msgid ""
 "Are you sure you want to reset content type \"%s\" to its default value?"
 msgstr ""
+"Kodi mukutsimikiza kuti mukufuna kusintha mtundu wa zinthu izi za mkati "
+"\"%s\" ndikubwezeretsa momwe zinalili kumayambirilo?"
 
 #: dialogs/mime-settings/xfce-mime-window.c:1294
 msgid "Question"
-msgstr ""
+msgstr "Funso"
 
 #: dialogs/mime-settings/xfce-mime-window.c:1296
 #: dialogs/mime-settings/xfce-mime-window.c:1368
 msgid "Reset to Default"
-msgstr ""
+msgstr "Bwezeretsani Kuchiyambi"
 
 #: dialogs/mime-settings/xfce-mime-window.c:1363
 msgid "Choose Application..."
-msgstr ""
+msgstr "Sankhani Chipangizo..."
 
 #: dialogs/mouse-settings/main.c:83
 msgid "Active device in the dialog"
@@ -1114,22 +1134,22 @@ msgstr ""
 
 #: dialogs/mouse-settings/main.c:83
 msgid "DEVICE NAME"
-msgstr ""
+msgstr "DZINA LA CHIPANGIZO"
 
 #: dialogs/mouse-settings/main.c:165
 #, c-format
 msgid "%g px"
-msgstr ""
+msgstr "%g px"
 
 #: dialogs/mouse-settings/main.c:175
 #, c-format
 msgid "%g ms"
-msgstr ""
+msgstr "%g ms"
 
 #: dialogs/mouse-settings/main.c:186
 #, c-format
 msgid "%.1f s"
-msgstr ""
+msgstr "%.1f s"
 
 #: xfce4-settings-editor/main.c:182
 msgid "Settings Editor"
@@ -1141,7 +1161,7 @@ msgstr "Chanelo"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:323
 msgid "Property"
-msgstr ""
+msgstr "Khalidwe"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:331
 msgid "Type"
@@ -1252,7 +1272,7 @@ msgstr "_Monita"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1088
 msgid "Refresh"
-msgstr ""
+msgstr "Kutsitsimutsa"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1571
 msgid "Resetting a property will permanently remove those custom settings."
@@ -1281,7 +1301,7 @@ msgstr "Mlingo wa Unsigned Int64"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:131
 msgid "New Property"
-msgstr ""
+msgstr "Khalidwe Latsopano"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:134
 msgid "Save"
@@ -1289,11 +1309,11 @@ msgstr "Sunga"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:149
 msgid "_Property:"
-msgstr ""
+msgstr "_Khalidwe:"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:163
 msgid "_Type:"
-msgstr ""
+msgstr "_Mtundu:"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:192
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:202
@@ -1303,7 +1323,7 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:368
 msgid "Property names must start with a '/' character"
-msgstr ""
+msgstr "Mayina a makhalidwe aziyamba ndi chilembo ichi '/'"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:379
 msgid "The root element ('/') is not a valid property name"
@@ -1322,11 +1342,11 @@ msgstr ""
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:424
 msgid "Property names cannot end with a '/' character"
-msgstr ""
+msgstr "Mayina a makhalidwe sangathere ndi chilembo ichi '/'"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:637
 msgid "Edit Property"
-msgstr ""
+msgstr "Sinthani Khalidwe"
 
 #: xfce4-settings-manager/main.c:40
 msgid "Settings dialog to show"
@@ -1385,7 +1405,7 @@ msgstr ""
 #: xfsettingsd/keyboard-shortcuts.c:236
 #, c-format
 msgid "Failed to launch shortcut \"%s\""
-msgstr ""
+msgstr "Zakanika kuyambitsa njira ya chidule \"%s\""
 
 #: xfsettingsd/main.c:94
 msgid "Fork to the background"
