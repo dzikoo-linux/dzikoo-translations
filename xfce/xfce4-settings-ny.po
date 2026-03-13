@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-settings 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:57+0200\n"
-"PO-Revision-Date: 2026-03-12 16:58+0200\n"
+"PO-Revision-Date: 2026-03-13 10:17+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -35,6 +35,7 @@ msgstr "Kanema wa dijito"
 #: common/xfce-randr.c:282 dialogs/display-settings/display-settings-x11.c:708
 msgid "Unable to query the version of the RandR extension being used"
 msgstr ""
+"Zalephera kufufuza mtundu wa choonjezera cha RandR chimene chikugwira ntchito"
 
 #: common/xfce-randr.c:573
 #: dialogs/display-settings/display-settings-wayland.c:346
@@ -47,7 +48,7 @@ msgstr "Laputopu"
 #: dialogs/mime-settings/main.c:40 dialogs/mouse-settings/main.c:84
 #: xfce4-settings-editor/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "Soketi lowona mbali ya zosintha"
 
 #: dialogs/accessibility-settings/main.c:36
 #: dialogs/appearance-settings/main.c:90 dialogs/color-settings/main.c:40
@@ -98,13 +99,15 @@ msgstr "Chonde nenani zolakwika ku <%s>."
 
 #: dialogs/appearance-settings/main.c:338
 msgid "Failed to display Xfwm4 Settings"
-msgstr ""
+msgstr "Zakanka kuonetsa zosintha za Xfwm4"
 
 #: dialogs/appearance-settings/main.c:578
 msgid ""
 "No sound themes found. Install themes in /usr/share/sounds or ~/.local/share/"
 "sounds"
 msgstr ""
+"Paline mitu ya zomvera yapezeka. Ikani mitu ya zomverayi mu /usr/share/"
+"sounds kapena ~/.local/share/sounds"
 
 #: dialogs/appearance-settings/main.c:756
 #, c-format
@@ -112,36 +115,43 @@ msgid ""
 "Warning: this icon theme has no cache file. You can create this by running "
 "<i>gtk-update-icon-cache -f -t %s/</i> in a terminal emulator."
 msgstr ""
+"Chenjezo: mutu wa zizindikiro umenewu ulibe fayilo la mtundu wa ketchi. "
+"Muhta kuyipanga poyambitsa <i>gtk-update-icon-cache -f -t %s/</i> mu "
+"emyuleta wa temino."
 
 #: dialogs/appearance-settings/main.c:763
 msgid "Warning: this icon theme is incomplete. Some icons will be missing."
 msgstr ""
+"Chenjezo: mutu wa zizindikiro umenewu ndi osamalidza. Ziziindikiro zina "
+"sizizioneka."
 
 #: dialogs/appearance-settings/main.c:768
 msgid ""
 "Warning: this icon theme is incomplete. It only provides a base set of icons "
 "from which other themes can inherit."
 msgstr ""
+"Chenjezo: mutu wa zizindikiro umenewu ndi osamalidza. Ikungopeleka "
+"zizindikiro zoyambila komwe mitu ina ya zizindikiro itha kutengerako."
 
 #: dialogs/appearance-settings/main.c:1384
 msgid "File is too large, installation aborted"
-msgstr "Fayilo yakulitsa, kukhazikitsa kwakanika"
+msgstr "Fayilo yakulitsa, kuilowetsa kwalephereka"
 
 #: dialogs/appearance-settings/main.c:1389
 msgid "Failed to create temporary directory"
-msgstr ""
+msgstr "Zakanika kupanga foda logwirizila"
 
 #: dialogs/appearance-settings/main.c:1394
 msgid "Failed to extract archive"
-msgstr ""
+msgstr "Zakanika kumasula ndikutulusa mu chikwatu"
 
 #: dialogs/appearance-settings/main.c:1399
 msgid "Unknown format, only archives and directories are supported"
-msgstr ""
+msgstr "Maonekedwe osadziwika bwino, zikwatu zokha ndi ma foda ndi ololedwa"
 
 #: dialogs/appearance-settings/main.c:1404
 msgid "Not a valid theme package"
-msgstr ""
+msgstr "Mutu wa mtundu osavomeredzeka"
 
 #: dialogs/appearance-settings/main.c:1409
 #, c-format
@@ -150,12 +160,12 @@ msgstr "Cholakwika chosadziwika, chothela ndi nambala %d"
 
 #: dialogs/appearance-settings/main.c:1416
 msgid "Failed to install theme"
-msgstr ""
+msgstr "Zakanika kulowetsa mutu wa mtundu"
 
 #: dialogs/appearance-settings/main.c:1470
 #, c-format
 msgid "Install %s theme"
-msgstr ""
+msgstr "Lowetsani mutu wa mtundu uwu %s"
 
 #: dialogs/appearance-settings/main.c:1472 dialogs/color-settings/main.c:126
 #: dialogs/keyboard-settings/command-dialog.c:109
@@ -196,7 +206,7 @@ msgstr "BGR wa m'mwamba"
 #. TRANSLATORS: a flatbed scanner device, e.g. 'Epson Scanner'
 #: dialogs/color-settings/color-device.c:65
 msgid "Scanner"
-msgstr ""
+msgstr "Makina otapira zinthu"
 
 #. TRANSLATORS: a camera device, e.g. 'Nikon D60 Camera'
 #: dialogs/color-settings/color-device.c:68
@@ -226,13 +236,13 @@ msgstr "Kamera yomangidwa mkati"
 #: dialogs/color-settings/color-device.c:194
 #, c-format
 msgid "Enable color management for %s"
-msgstr ""
+msgstr "Lolani kasinthidwe ka mitundu ya %s"
 
 #. TRANSLATORS: standard spaces are well known colorspaces like
 #. * sRGB, AdobeRGB and ProPhotoRGB
 #: dialogs/color-settings/color-profile.c:93
 msgid "Standard Space"
-msgstr ""
+msgstr "Malo Wamba"
 
 #. TRANSLATORS: test profiles do things like changing the screen
 #. * a different color, or swap the red and green channels
@@ -243,16 +253,16 @@ msgstr "Mawonekedwe Oyesa"
 #. TRANSLATORS: an ICC profile is a file containing colorspace data
 #: dialogs/color-settings/main.c:125
 msgid "Select ICC Profile File"
-msgstr ""
+msgstr "Sankhani Fayilo la Mawonekedwe a ICC"
 
 #: dialogs/color-settings/main.c:127
 msgid "_Import"
-msgstr ""
+msgstr "_Lowetsani"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: dialogs/color-settings/main.c:138
 msgid "Supported ICC profiles"
-msgstr ""
+msgstr "Mawonekedwe a ICC ovomeredzeka"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: dialogs/color-settings/main.c:145
@@ -263,7 +273,7 @@ msgstr "Mafayilo onse"
 #. * profile has been auto-generated for this hardware
 #: dialogs/color-settings/main.c:188
 msgid "Default: "
-msgstr ""
+msgstr "Zoyambirira: "
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile his a standard space like AdobeRGB
@@ -331,7 +341,7 @@ msgstr "Cha m'bali ndi Cha m'mwamba"
 
 #: dialogs/display-settings/main.c:105
 msgid "Minimal interface to set up an external output"
-msgstr ""
+msgstr "Dongosolo lochepa kukhazikisa choonetsera kunja"
 
 #: dialogs/display-settings/main.c:275
 #, c-format
@@ -339,6 +349,8 @@ msgid ""
 "The previous configuration will be restored in <b>%i seconds</b> if you do "
 "not reply to this question."
 msgstr ""
+"Zosinthira zakale zibwezeretsedwa mu masekondi <b>%i </b> ngati simuyankha "
+"funsoli."
 
 #: dialogs/display-settings/main.c:635
 #, c-format
@@ -349,15 +361,17 @@ msgstr "%.2f Hz"
 msgid ""
 "The last active output must not be disabled, the system would be unusable."
 msgstr ""
+"Zotulutsidwa cha nthawi yatha posachedwapa chisazimitsidwe, kompyuta itha "
+"kuonongeka ndi kusiya kugwira ntchito."
 
 #: dialogs/display-settings/main.c:965
 msgid "Selected output not disabled"
-msgstr ""
+msgstr "Zotuluka zosankhidwa zisazimitsidwe"
 
 #: dialogs/display-settings/main.c:1611
 #, c-format
 msgid "Do you want to delete the display profile '%s'?"
-msgstr ""
+msgstr "Kodi mufuna kufufuta mtundu wa maonekedwe uwu '%s'?"
 
 #: dialogs/display-settings/main.c:1614
 msgid "Delete Profile"
@@ -365,7 +379,7 @@ msgstr "Fufutani mbiri"
 
 #: dialogs/display-settings/main.c:1615
 msgid "Once a display profile is deleted it cannot be restored."
-msgstr ""
+msgstr "Mukafufuta mtundu wa maonekedwe sizingatheke kubwezerensaso."
 
 #: dialogs/display-settings/main.c:1615
 #: dialogs/mime-settings/xfce-mime-chooser.c:131
@@ -395,6 +409,8 @@ msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
 msgstr ""
+"Sankhani monita kuti musinthe maonekedwe/makhalidwe ake; kokani ndi kusuntha "
+"kuti musithe malo omwe chakhalira."
 
 #: dialogs/display-settings/main.c:2585 dialogs/display-settings/main.c:2618
 #, c-format
@@ -403,43 +419,44 @@ msgstr "(%i, %i)"
 
 #: dialogs/display-settings/main.c:2835
 msgid "Mirror Screens"
-msgstr ""
+msgstr "Zikwangwani Zoonera"
 
 #: dialogs/display-settings/main.c:2885
 msgid "(Disabled)"
-msgstr ""
+msgstr "(Chodzimitsidwa)"
 
 #: dialogs/display-settings/main.c:3412
 msgid "ATI Settings"
-msgstr ""
+msgstr "Zosintha za ATI"
 
 #: dialogs/display-settings/main.c:3417
 msgid "Unable to start the Xfce Display Settings"
-msgstr ""
+msgstr "Zakanika kuyambitsa Zosinthira za Choonetsera cha Xfce"
 
 #: dialogs/display-settings/main.c:3418
 #: dialogs/mime-settings/xfce-mime-window.c:190
 #: xfce4-settings-editor/main.c:185
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:230
 msgid "_Close"
-msgstr ""
+msgstr "_Tsekani"
 
 #: dialogs/display-settings/main.c:3425
 msgid "Unable to launch the proprietary driver settings"
-msgstr ""
+msgstr "Zakanika kuyambitsa zosintha za eni ake zoyendetsa kompyuta"
 
 #: dialogs/display-settings/display-settings.c:459
 msgid "Display:"
-msgstr ""
+msgstr "Kanema:"
 
 #: dialogs/display-settings/display-settings.c:467
 msgid "Resolution:"
-msgstr ""
+msgstr "Kukula kwa Maonekedwe:"
 
 #: dialogs/display-settings/display-settings-wayland.c:1004
 msgid ""
 "Your compositor does not seem to support the wlr-output-management protocol"
 msgstr ""
+"Chopanga zithunzi chanu sichikulora ma dongosolo a wlr-output-management"
 
 #: dialogs/keyboard-settings/command-dialog.c:105
 msgid "Shortcut Command"
@@ -465,7 +482,7 @@ msgstr "Lamu_lo:"
 
 #: dialogs/keyboard-settings/command-dialog.c:203
 msgid "Use _startup notification"
-msgstr ""
+msgstr "Gwiritsani _ntchito zidziwitso zoyambira"
 
 #: dialogs/keyboard-settings/command-dialog.c:249
 msgid "The command may not be empty."
@@ -518,11 +535,11 @@ msgstr "Zakanika kuyambitsa GTK+."
 #: dialogs/keyboard-settings/main.c:106
 #, c-format
 msgid "Failed to connect to xfconf daemon. Reason: %s"
-msgstr ""
+msgstr "Zakanika kulimikizana ndi chipangizo cha xfconf. Chifukwa: %s"
 
 #: dialogs/keyboard-settings/main.c:117
 msgid "Could not create the settings dialog."
-msgstr ""
+msgstr "Zakanika kupanga poonetsera zosintha."
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:427
 msgid "Command"
@@ -545,6 +562,8 @@ msgid ""
 "This will reset all shortcuts to their default values. Do you really want to "
 "do this?"
 msgstr ""
+"Izi zibwezeretsa njira zachidule zonse kuchiyambi chawo. Kodi mutsimikidza "
+"kuti mufunadi kuoanga izi?"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1278
 msgid "Reset to Defaults"
@@ -560,7 +579,7 @@ msgstr "Inde"
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1358
 msgid "The system defaults will be restored next time you log in."
-msgstr ""
+msgstr "Za pachiyambi pa kompyuta zibwezeretsedwa mukamatsegulanso kompyutayi."
 
 #: dialogs/keyboard-settings/xfce-keyboard-settings.c:1360
 msgid "Warning"
@@ -568,7 +587,7 @@ msgstr "Chenjezo"
 
 #: dialogs/mime-settings/main.c:115
 msgid "Could not create the mime dialog."
-msgstr ""
+msgstr "Zakanika kupanga poonetsera zosintha za mime."
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:125
 msgid "Select Application"
@@ -588,6 +607,8 @@ msgid ""
 "Use a custom command for an application that is not available from the above "
 "application list."
 msgstr ""
+"Gwiritsani ntchito lamulo lopanga nokha pa zipangizo zimene palibepo pa "
+"mndandanda wa zipangizo pamwambapa."
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:220
 msgid "_Browse..."
@@ -612,7 +633,7 @@ msgstr "Zipangizo Zina"
 #: dialogs/mime-settings/xfce-mime-chooser.c:610
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
-msgstr ""
+msgstr "Tsegulani <i>%s</i> ndi mafayilo ena a mtundu \"%s\" ndi:"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:615
 #, c-format
@@ -623,145 +644,174 @@ msgid_plural ""
 "Open <i>%s</i>, other files of type \"%s\", and %d other selected MIME types "
 "with:"
 msgstr[0] ""
+"Tsegulani <i>%s</i>, ndi mafayilo ena a mtundu wa \"%s\", ndi %d ena a "
+"mtundu wa MIME amene asankhidwa ndi:"
 msgstr[1] ""
+"Tsegulani <i>%s</i>, ndi mafayilo ena a mtundu wa \"%s\", ndi %d ena a "
+"mtundu wa MIME amene asankhidwa ndi:"
 
 #: dialogs/mime-settings/xfce-mime-chooser.c:655
 #, c-format
 msgid "Failed to add new application \"%s\""
-msgstr ""
+msgstr "Zakanika kuphatikiza chipangizo chatsopano ichi \"%s\""
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:137
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:144
 msgid "Press left mouse button to change the selected application."
 msgstr ""
+"Dinani batani la mausi lakumazere kuti musinthe chipangizo chosankhidwa."
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:143
 msgid "Application Chooser Button"
-msgstr ""
+msgstr "Batani Losankhira Zipangizo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:330
 msgid "No application selected"
-msgstr ""
+msgstr "Palibe chipangizo chosaknhidwa"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:345
 msgid "Failed to set default Web Browser"
-msgstr ""
+msgstr "Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira intaneti"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:346
 msgid "Failed to set default Mail Reader"
-msgstr ""
+msgstr "Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira ma imelo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:347
 msgid "Failed to set default File Manager"
-msgstr ""
+msgstr "Zakanika kukhazikitsa chipangizo cha momuno kale chosinthira ma fayilo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:348
 msgid "Failed to set default Terminal Emulator"
-msgstr ""
+msgstr "Zakanika kukhazikitsa temino emyuleta wa momuno kale"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:349
 msgid "Failed to set default Text Editor"
 msgstr ""
+"Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa zolemba"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:350
 msgid "Failed to set default Image Viewer"
-msgstr ""
+msgstr "Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira zithunzi"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:351
 msgid "Failed to set default Audio Player"
 msgstr ""
+"Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa zomvera"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:352
 msgid "Failed to set default Video Player"
 msgstr ""
+"Zakanika kukhazikitsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa ma vidiyo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:422
 msgid "Select application"
-msgstr ""
+msgstr "Sankhani chipangizo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:533
 msgid "Choose a custom Web Browser"
-msgstr ""
+msgstr "Sankhani chipangizo cha nokha Chotsegurila Intaneti"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:534
 msgid "Choose a custom Mail Reader"
-msgstr ""
+msgstr "Sankhani chipangizo cha nokha Chotsegurila ma Imelo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:535
 msgid "Choose a custom File Manager"
-msgstr ""
+msgstr "Sankhani chipangizo cha nokha Chosinthira ma Fayilo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:536
 msgid "Choose a custom Terminal Emulator"
-msgstr ""
+msgstr "Sankhani Temino Emyuleta wa nokha"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:537
 msgid "Choose a custom Text Editor"
-msgstr ""
+msgstr "Sankhani chipangizo cha nokha Chotsegurila ma Fayilo a mtundu wa mawu"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:538
 msgid "Choose a custom Image Viewer"
-msgstr ""
+msgstr "Sankhani chipangizo cha nokha Chotsegurila Zithunzi"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:539
 msgid "Choose a custom Audio Player"
 msgstr ""
+"Sankhani chipangizo cha nokha Chotsegurila ma Fayilo a mtundu wa zomvera"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:540
 msgid "Choose a custom Video Player"
 msgstr ""
+"Sankhani chipangizo cha nokha Chotsegurila ma Fayilo a mtundu wa ma vidiyo"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:544
 msgid ""
 "Specify the application you want to use\n"
 "as default Web Browser for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse Chotsegulira Intaneti cha Xfce:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:545
 msgid ""
 "Specify the application you want to use\n"
 "as default Mail Reader for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse Chotsegulira ma Imelo cha Xfce:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:546
 msgid ""
 "Specify the application you want to use\n"
 "as default File Manager for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse Chosinthira ma Fayilo cha Xfce:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:547
 msgid ""
 "Specify the application you want to use\n"
 "as default Terminal Emulator for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse ngati Temino Emyuleta wa Xfce:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:548
 msgid ""
 "Specify the application you want to use\n"
 "as default Text Editor for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse cha Xfce Chotsegulira ma Fayilo a mtundu wa mawu:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:549
 msgid ""
 "Specify the application you want to use\n"
 "as default Image Viewer for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse cha Xfce Chotsegulira zithunzi:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:550
 msgid ""
 "Specify the application you want to use\n"
 "as default Audio Player for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse cha Xfce Chotsegulira ma Fayilo a mtundu wa zomvera:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:551
 msgid ""
 "Specify the application you want to use\n"
 "as default Video Player for Xfce:"
 msgstr ""
+"Sankhani chipangizo chimene mukufuna kugwiritsa ntchito\n"
+"cha nthawi zonse cha Xfce Chotsegulira ma Fayilo a mtundu wa ma vidiyo:"
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:615
 msgid "Browse the file system to choose a custom command."
-msgstr ""
+msgstr "Sakatulani kompyuta kuti musankhe lamulo la nokha."
 
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:765
 msgid "_Other..."
@@ -770,90 +820,113 @@ msgstr "_Zina..."
 #: dialogs/mime-settings/xfce-mime-helper-chooser.c:766
 msgid "Use a custom application which is not included in the above list."
 msgstr ""
+"Gwiritsani ntchito chipangizo chimene sichinaikidwe pa mndandanda pamwambapa."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:110
 msgid "Choose Preferred Application"
-msgstr ""
+msgstr "Sankhani Chipangizo Chokondedwa"
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:247
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira\n"
+"Intaneti tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:249
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira ma\n"
+"Imelo tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:251
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chosinthira\n"
+"ma Fayilo tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:253
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr ""
+"Chonde sankhani Temino Emyuleta\n"
+"amene mwakonda tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:255
 msgid ""
 "Please choose your preferred Text\n"
 "Editor now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira ma\n"
+"Fayilo a mtundu wa mawu tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:257
 msgid ""
 "Please choose your preferred Image\n"
 "Viewer now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira\n"
+"Zithunzi tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:259
 msgid ""
 "Please choose your preferred Audio\n"
 "Player now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira ma\n"
+"Fayilo a mtundu wa zomvera tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-launcher-dialog.c:261
 msgid ""
 "Please choose your preferred Video\n"
 "Player now and click OK to proceed."
 msgstr ""
+"Chonde sankhani chipangizo chokondedwa Chotsegulira ma\n"
+"Fayilo a mtundu wa ma vidiyo tsopano ndi kutsindikiza INDE kuti mupitilire."
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:25
 msgid "Failed to execute default Web Browser"
-msgstr ""
+msgstr "Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira intaneti"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:26
 msgid "Failed to execute default Mail Reader"
-msgstr ""
+msgstr "Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira ma imelo"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:27
 msgid "Failed to execute default File Manager"
-msgstr ""
+msgstr "Zakanika kuyendetsa chipangizo cha momuno kale chosinthira ma fayilo"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:28
 msgid "Failed to execute default Terminal Emulator"
-msgstr ""
+msgstr "Zakanika kuyendetsa temino emyuleta wa momuno kale"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:29
 msgid "Failed to execute default Text Editor"
 msgstr ""
+"Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa zolemba"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:30
 msgid "Failed to execute default Image Viewer"
-msgstr ""
+msgstr "Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira zithunzi"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:31
 msgid "Failed to execute default Audio Player"
 msgstr ""
+"Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa zomvera"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:32
 msgid "Failed to execute default Video Player"
 msgstr ""
+"Zakanika kuyendetsa chipangizo cha momuno kale chotsegulira ma fayilo a "
+"mtundu wa ma vidiyo"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:74
 msgid "Do _not show this message again"
@@ -861,13 +934,15 @@ msgstr "Osa_onetsaso uthenga umenenso kachikena"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:105
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Onetsani chidziwitso cha mtundu ndikutuluka"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:106
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is "
 "one of the following values."
 msgstr ""
+"Yambitsani thandizo lamomuno loyambirira la MTUNDU ndi LAMULO losakakamiza, "
+"pamene MTUNDU ndi chimodzi mwa izi."
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:106
 #: dialogs/mime-settings/xfce-mime-helper-main.c:107
@@ -878,6 +953,8 @@ msgstr "MTUNDU [LAMULO]"
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr ""
+"Fufuzani thandizo lamomuno loyambirira la MTUNDU, pamene MTUNDU ndi chimodzi "
+"mwa izi."
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:138
 msgid ""
@@ -892,12 +969,26 @@ msgid ""
 "  AudioPlayer      - The preferred Audio Player.\n"
 "  VideoPlayer      - The preferred Video Player.\n"
 msgstr ""
+"MITUNDU yotsatirayi ndiyoloredwa pa malamulo awa --launch ndi --query:\n"
+"\n"
+"  ChotseguliraIntaneti       - Chipangizo chokondedwa Chotsegulira "
+"Intaneti.\n"
+"  ChotseguliraMaImelo       - Chipangizo chokondedwa Chotsegulira ma Imelo.\n"
+"  ChosinthiraMaFayilo      - Chipangizo chokondedwa Chosinthira ma Fayilo.\n"
+"  TeminoEmyuleta - Temino Emyuleta okondedwa.\n"
+"  ChotseguliraMaFayiloAMtunduWaMawu       - Chipangizo chokondedwa "
+"Chotsegulira ma Fayilo a Mtundu wa Mawu.\n"
+"  ChotseguliraZithunzi      - Chipangizo chokondedwa Chotsegulira Zithunzi.\n"
+"  ChotseguliraMaFayiloAMtunduWaZomvera      - Chipangizo chokondedwa "
+"Chotsegulira ma Fayilo a Mtundu wa Zomvera.\n"
+"  ChotseguliraMaFayiloAMtunduWaMaVidiyo      - Chipangizo chokondedwa "
+"Chotsegulira ma Fayilo a Mtundu wa ma Vidiyo.\n"
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:180
 #: dialogs/mime-settings/xfce-mime-helper-main.c:254
 #, c-format
 msgid "Invalid helper type \"%s\""
-msgstr ""
+msgstr "Thandizo losayenerera la mtumdu \"%s\""
 
 #: dialogs/mime-settings/xfce-mime-helper-main.c:238
 #, c-format
@@ -964,6 +1055,8 @@ msgid ""
 "The default Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr ""
+"Chipangizo chokhazikitsidwa chotsegulira intaneti chigwiritsidwa ntchito "
+"kutsegulira ma linki ndikuonetsa uthenga wa chithandizo."
 
 #: dialogs/mime-settings/xfce-mime-window.c:250
 msgid "Mail Reader"
@@ -974,6 +1067,8 @@ msgid ""
 "The default Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr ""
+"Chipangizo chokhazikitsidwa chotsegulira ma Imelo chigwiritsidwa ntchito "
+"kulembera ma Imelo mukadina ma Imelowa."
 
 #: dialogs/mime-settings/xfce-mime-window.c:272
 msgid "_Utilities"
@@ -987,16 +1082,20 @@ msgstr "Chosunga ma fayilo"
 msgid ""
 "The default File Manager will be used to browse the contents of folders."
 msgstr ""
+"Chipangizo chokhazikitsidwa chotsegulira ma Fayilo chigwiritsidwa ntchito "
+"kutsakatula zamkati mwa ma foda."
 
 #: dialogs/mime-settings/xfce-mime-window.c:311
 msgid "Terminal Emulator"
-msgstr ""
+msgstr "Temino Emyuleta"
 
 #: dialogs/mime-settings/xfce-mime-window.c:319
 msgid ""
 "The default Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr ""
+"Temino Emyuleta okhazikitsidwa agwiritsidwa kuyendetsa ma lamulo/komandi "
+"amene akufunika malo a CLI."
 
 #: dialogs/mime-settings/xfce-mime-window.c:337
 msgid "Text Editor"
@@ -1092,20 +1191,22 @@ msgstr[1] "%d mitundu ya MIME yapezeka"
 #: dialogs/mime-settings/xfce-mime-window.c:983
 #, c-format
 msgid "Failed to set application \"%s\" for mime type \"%s\"."
-msgstr ""
+msgstr "Zakanika kuyika chipangizo ichi \"%s\" pa mtundu wa mime uwu \"%s\"."
 
 #: dialogs/mime-settings/xfce-mime-window.c:1092
 #, c-format
 msgid "%d MIME type selected"
 msgid_plural "%d MIME types selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mtundu wa MIME wasankhidwa"
+msgstr[1] "%d mitundu ya MIME yasankhidwa"
 
 #: dialogs/mime-settings/xfce-mime-window.c:1288
 msgid ""
 "This will remove your custom mime-association and restore the system-wide "
 "default."
 msgstr ""
+"Izi zichotsa zokhuza mime zoika nokha ndikubwezeretsa ndi za mu kompyuta "
+"yonse zapachiyambi."
 
 #: dialogs/mime-settings/xfce-mime-window.c:1290
 #, c-format
@@ -1130,7 +1231,7 @@ msgstr "Sankhani Chipangizo..."
 
 #: dialogs/mouse-settings/main.c:83
 msgid "Active device in the dialog"
-msgstr ""
+msgstr "Chipangizo chogwira ntchito chikuonetsedwa"
 
 #: dialogs/mouse-settings/main.c:83
 msgid "DEVICE NAME"
@@ -1153,7 +1254,7 @@ msgstr "%.1f s"
 
 #: xfce4-settings-editor/main.c:182
 msgid "Settings Editor"
-msgstr ""
+msgstr "Chokonzera Zosinthira"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:273
 msgid "Channel"
@@ -1173,7 +1274,7 @@ msgstr "Lokani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:345
 msgid "Value"
-msgstr ""
+msgstr "Chosungidwa"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:360
 msgid "_Add"
@@ -1181,7 +1282,7 @@ msgstr "_Onjezerani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:365
 msgid "New property"
-msgstr ""
+msgstr "Khalidwe latsopano"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:373
 msgid "_Edit"
@@ -1189,24 +1290,24 @@ msgstr "_Kozani"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:378
 msgid "Edit selected property"
-msgstr ""
+msgstr "Konzani khalidwe losankhidwa"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:386
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1072
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1574
 msgid "_Reset"
-msgstr ""
+msgstr "_Bwezeretsani Kuchiyambi"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:391
 msgid "Reset selected property"
-msgstr ""
+msgstr "Bwezeretsani kuchiyambi khalidwe losankhidwa"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:497
 #: xfce4-settings-editor/xfce-settings-editor-box.c:590
 #: xfce4-settings-editor/xfce-settings-editor-box.c:708
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:79
 msgid "Empty"
-msgstr ""
+msgstr "Popanda kanthu"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:500
 msgid "Array"
@@ -1234,15 +1335,18 @@ msgstr "Mlingo wa Double"
 #: xfce4-settings-editor/xfce-settings-editor-box.c:847
 msgid "Resetting a channel will permanently remove those custom settings."
 msgstr ""
+"Kubwezeretsa Chanelo Kuchiyambi kuchotsa zosinthika zokonza nokha mpaka kale."
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:855
 msgid "_Reset Channel"
-msgstr ""
+msgstr "_Bwezeretsani Kuchiyambi Chanelo"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:856
 #, c-format
 msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
 msgstr ""
+"Kodi mukutsimikiza kuti mukufuna kubwezeretsa kuchiyambi chanelo \"%s\" ndi "
+"makhalidwe ake onse?"
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:931
 msgid "reset"
@@ -1264,7 +1368,7 @@ msgstr "Tsekani"
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1029
 #, c-format
 msgid "start monitoring channel \"%s\""
-msgstr ""
+msgstr "yambani kuyang'anira chanelo \"%s\""
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1078
 msgid "_Monitor"
@@ -1277,11 +1381,15 @@ msgstr "Kutsitsimutsa"
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1571
 msgid "Resetting a property will permanently remove those custom settings."
 msgstr ""
+"Kubwezeretsa makhalidwe Kuchiyambi kuchotsa zosinthika zokonza nokha mpaka "
+"kale."
 
 #: xfce4-settings-editor/xfce-settings-editor-box.c:1575
 #, c-format
 msgid "Are you sure you want to reset property \"%s\"?"
 msgstr ""
+"Kodi mukutsimikiza kuti mukufuna kubwezeretsa kuchiyambi makhalidwe awa "
+"\"%s\"?"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:82
 msgid "Int"
@@ -1319,7 +1427,7 @@ msgstr "_Mtundu:"
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:202
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:213
 msgid "_Value:"
-msgstr ""
+msgstr "_Chosungidwa:"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:368
 msgid "Property names must start with a '/' character"
@@ -1328,6 +1436,7 @@ msgstr "Mayina a makhalidwe aziyamba ndi chilembo ichi '/'"
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:379
 msgid "The root element ('/') is not a valid property name"
 msgstr ""
+"Chinthu chapachiyambi ichi ('/') si dzina lololedwa kukhala dzina la khalidwe"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:396
 msgid ""
@@ -1335,10 +1444,15 @@ msgid ""
 "'-', ':', '.', ',', '[', ']', '{', '}', '<' and '>', as well as '/' as a "
 "separator"
 msgstr ""
+"Mayina a makhalidwe atha kukhala ndi zilembo zokha za ASCII izi A-Z, a-z, "
+"0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' ndi '>', komanso '/' "
+"ngati chogawa"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:410
 msgid "Property names cannot have two or more consecutive '/' characters"
 msgstr ""
+"Mayina a makhalidwe sangakhale ndi zilembo izi '/' ziwiri kapena zambiri "
+"zotsogozana"
 
 #: xfce4-settings-editor/xfce-settings-prop-dialog.c:424
 msgid "Property names cannot end with a '/' character"
@@ -1350,15 +1464,15 @@ msgstr "Sinthani Khalidwe"
 
 #: xfce4-settings-manager/main.c:40
 msgid "Settings dialog to show"
-msgstr ""
+msgstr "Onetsani posinthira zosintha"
 
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:223
 msgid "All _Settings"
-msgstr ""
+msgstr "Zosintha _Zonse"
 
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:422
 msgid "Settings"
-msgstr ""
+msgstr "Zosintha"
 
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:920
 #: xfce4-settings-manager/xfce-settings-manager-dialog.c:932
@@ -1368,39 +1482,39 @@ msgstr "\"%s\" Yalephera kuyamba"
 
 #: xfsettingsd/accessibility.c:409
 msgid "Sticky keys are enabled"
-msgstr ""
+msgstr "Ma kiyi okakamila ayatsidwa"
 
 #: xfsettingsd/accessibility.c:411
 msgid "Sticky keys are disabled"
-msgstr ""
+msgstr "Ma kiyi okakamila azimitsidwa"
 
 #: xfsettingsd/accessibility.c:413
 msgid "Sticky keys"
-msgstr ""
+msgstr "Ma kiyi okakamila"
 
 #: xfsettingsd/accessibility.c:418
 msgid "Slow keys are enabled"
-msgstr ""
+msgstr "Ma kiyi ochedwetsa ayatsidwa"
 
 #: xfsettingsd/accessibility.c:420
 msgid "Slow keys are disabled"
-msgstr ""
+msgstr "Ma kiyi ochedwetsa azimitsidwa"
 
 #: xfsettingsd/accessibility.c:422
 msgid "Slow keys"
-msgstr ""
+msgstr "Ma kiyi ochedwetsa"
 
 #: xfsettingsd/accessibility.c:427
 msgid "Bounce keys are enabled"
-msgstr ""
+msgstr "Ma kiyi othamangira ayatsidwa"
 
 #: xfsettingsd/accessibility.c:429
 msgid "Bounce keys are disabled"
-msgstr ""
+msgstr "Ma kiyi othamangira azimitsidwa"
 
 #: xfsettingsd/accessibility.c:431
 msgid "Bounce keys"
-msgstr ""
+msgstr "Ma kiyi othamangira"
 
 #: xfsettingsd/keyboard-shortcuts.c:236
 #, c-format
@@ -1409,15 +1523,15 @@ msgstr "Zakanika kuyambitsa njira ya chidule \"%s\""
 
 #: xfsettingsd/main.c:94
 msgid "Fork to the background"
-msgstr ""
+msgstr "Gawani nkupitisa kumbuyo"
 
 #: xfsettingsd/main.c:95
 msgid "Do not wait for a window manager on startup"
-msgstr ""
+msgstr "Osadikira zosinthira ma windo kompyuta ikamayaka"
 
 #: xfsettingsd/main.c:96
 msgid "Replace running xsettings daemon (if any)"
-msgstr ""
+msgstr "Sinthani X zosintha za zipangizo ngati zilipo zomwe zikuyendetsedwa"
 
 #: xfsettingsd/workspaces.c:318 xfsettingsd/workspaces.c:375
 #, c-format
