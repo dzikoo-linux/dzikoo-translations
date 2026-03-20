@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-20 10:56+0200\n"
+"PO-Revision-Date: 2026-03-20 16:49+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -872,7 +872,7 @@ msgstr "Tsegulani <i>%s (%s)</i> ndi mitundu ina ya mafayilo \"%s\" ndi:"
 #: thunar/thunar-chooser-dialog.c:714
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
-msgstr ""
+msgstr "Tsegulani <i>%s</i> ndi mafayilo ena a mtundu \"%s\" ndi:"
 
 #: thunar/thunar-chooser-dialog.c:722
 #, c-format
@@ -1796,7 +1796,7 @@ msgstr "Zakanika kupanga fayilo lopanda kanthu \"%s\": %s"
 #: thunar/thunar-io-jobs.c:475
 #, c-format
 msgid "Failed to create directory \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kupanga foda \"%s\": %s"
 
 #: thunar/thunar-io-jobs.c:562
 msgid "Preparing..."
@@ -1805,27 +1805,27 @@ msgstr "Kukonza..."
 #: thunar/thunar-io-jobs.c:608
 #, c-format
 msgid "You do not have permission to delete the file \"%s\""
-msgstr ""
+msgstr "Mulibe chilolezo chofufuta fayilo ili \"%s\""
 
 #: thunar/thunar-io-jobs.c:696
 #, c-format
 msgid "Could not delete file \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kufufuta fayilo ili \"%s\": %s"
 
 #: thunar/thunar-io-jobs.c:1165
 #, c-format
 msgid "Failed to change the owner of \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kusintha mwini wa \"%s\": %s"
 
 #: thunar/thunar-io-jobs.c:1166
 #, c-format
 msgid "Failed to change the group of \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kusintha gulu la \"%s\": %s"
 
 #: thunar/thunar-io-jobs.c:1319
 #, c-format
 msgid "Failed to change the permissions of \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kusintha chilolezo cha \"%s\": %s"
 
 #: thunar/thunar-io-jobs.c:2087
 #, c-format
@@ -1854,6 +1854,10 @@ msgid ""
 "\n"
 "If you replace an existing file, its contents will be overwritten."
 msgstr ""
+"Fayilo \"%s\" (%s) lilipo kale. Kodi mufuna kulisintha?\n"
+"\n"
+"Ngati musinthe fayilo loti lilipo kale, za mkati mwake zonse zisinthidwa "
+"ndikulembedwa pamwamba."
 
 #: thunar/thunar-job.c:846
 #, c-format
@@ -1862,28 +1866,34 @@ msgid ""
 "\n"
 "If you replace an existing file, its contents will be overwritten."
 msgstr ""
+"Fayilo \"%s\" lilipo kale. Kodi mufuna kulisintha?\n"
+"\n"
+"Ngati musinthe fayilo loti lilipo kale, za mkati mwake zonse zisinthidwa "
+"ndikulembedwa pamwamba."
 
 #: thunar/thunar-job.c:932
 msgid "Do you want to overwrite it?"
-msgstr ""
+msgstr "Kodi mukufuna kulemba pamwamba?"
 
 #: thunar/thunar-job.c:989
 msgid "Do you want to permanently delete it?"
-msgstr ""
+msgstr "Kodi mukufuna kuchifufuta mpaka kale?"
 
 #: thunar/thunar-job.c:1043
 msgid "Do you want to create it?"
-msgstr ""
+msgstr "Kodi mukufuna kuchipanga?"
 
 #: thunar/thunar-job.c:1162
 msgid "Do you want to skip it?"
-msgstr ""
+msgstr "Kodi mukufuna kuchijowa?"
 
 #: thunar/thunar-job.c:1211
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr ""
+"Kulibe malo okwanira komwe chikupita. Yesani kufufuta ma fayilo ena kuti "
+"kukonze malo."
 
 #: thunar/thunar-job-operation.c:791 thunar/thunar-size-label.c:484
 #: thunar/thunar-util.c:1330
@@ -1898,92 +1908,102 @@ msgid ""
 "No operation which can be undone has been performed yet.\n"
 "(For some operations undo is not supported)"
 msgstr ""
+"Palibe ntchito imene yapangidwa yoti itha kubwezeretsedwa.\n"
+"(Ntchito zina sizilola kubwezeretsedwa)"
 
 #: thunar/thunar-job-operation-history.c:325
 msgid "There is no operation to undo"
-msgstr ""
+msgstr "Palibe ntchito yoti itha kubwezeretsedwa"
 
 #: thunar/thunar-job-operation-history.c:341
 msgid ""
 "The operation you are trying to undo does not have any files associated with "
 "it, and thus cannot be undone."
 msgstr ""
+"Ntchito imene mukufuna kubwezeretsa ilibe ma fayilo ogwirizana nayo, ndiye "
+"sizingatheke kubwezeretsedwa."
 
 #: thunar/thunar-job-operation-history.c:343
 #, c-format
 msgid "%s operation cannot be undone"
-msgstr ""
+msgstr "%s ntchitoyi singabwezeretsedwe"
 
 #: thunar/thunar-job-operation-history.c:355
 msgid ""
 "The following files were overwritten in the operation you are trying to undo "
 "and cannot be restored:\n"
 msgstr ""
+"Ma fayilowa anasinthidwa ndikulembedwa pamwamba muntchito imene mukufuna "
+"kubwezeretsa ndipo siingabwezeretsedwe:\n"
 
 #: thunar/thunar-job-operation-history.c:367
 #, c-format
 msgid "%s operation can only be partially undone"
-msgstr ""
+msgstr "%s ntchitoyi itha kungobwezeretsedwa pang'ono"
 
 #: thunar/thunar-job-operation-history.c:384
 #, c-format
 msgid "Failed to undo operation '%s'"
-msgstr ""
+msgstr "Zakanika kubwezeretsa ntchito iyi '%s'"
 
 #: thunar/thunar-job-operation-history.c:420
 msgid "No operation which can be redone available.\n"
-msgstr ""
+msgstr "Palibe ntchito imene itha kubwerezedwa.\n"
 
 #: thunar/thunar-job-operation-history.c:421
 msgid "There is no operation to redo"
-msgstr ""
+msgstr "Palibe ntchito yoti ibwerezedwe"
 
 #: thunar/thunar-job-operation-history.c:437
 msgid ""
 "The operation you are trying to redo does not have any files associated with "
 "it, and thus cannot be redone."
 msgstr ""
+"Ntchito imene mukufuna kubwereza ilibe ma fayilo ogwirizana nayo, ndiye "
+"sizingatheke kubwereza."
 
 #: thunar/thunar-job-operation-history.c:439
 #, c-format
 msgid "%s operation cannot be redone"
-msgstr ""
+msgstr "%s ntchitoyi singabwerezedwe"
 
 #: thunar/thunar-job-operation-history.c:451
 msgid ""
 "The following files were overwritten in the operation you are trying to redo "
 "and cannot be restored:\n"
 msgstr ""
+"Ma fayilowa anasinthidwa ndikulembedwa pamwamba muntchito imene mukufuna "
+"kubwereza ndipo siingabwezeretsedwe:\n"
 
 #: thunar/thunar-job-operation-history.c:463
 #, c-format
 msgid "%s operation can only be partially redone"
-msgstr ""
+msgstr "%s ntchitoyi itha kungobwerezedwa pang'ono"
 
 #: thunar/thunar-job-operation-history.c:478
 #, c-format
 msgid "Failed to redo operation '%s'"
-msgstr ""
+msgstr "Zakanika kubwereza ntchito iyi '%s'"
 
 #. TRANSLATORS: An example: 'Undo the latest 'copy' operation (2 files)
 #: thunar/thunar-job-operation-history.c:565
 #, c-format
 msgid "Undo the latest '%s' operation (%s)"
-msgstr ""
+msgstr "Bwezeretsani ya cha pompano '%s' ntchito (%s)"
 
 #: thunar/thunar-job-operation-history.c:570 thunar/thunar-window.c:669
 msgid "Undo the latest operation"
-msgstr ""
+msgstr "Bwezeretsani ntchito ya cha pompano"
 
 #. TRANSLATORS: An example: 'Redo the latest 'copy' operation (2 files)
 #: thunar/thunar-job-operation-history.c:590
 #, c-format
 msgid "Redo the latest '%s' operation (%s)"
-msgstr ""
+msgstr "Bwerezaninso ya cha pompano '%s' ntchito (%s)"
 
 #: thunar/thunar-job-operation-history.c:595 thunar/thunar-window.c:670
 msgid "Redo the latest operation"
-msgstr ""
+msgstr "Bwerezaninso ntchito yacha pompano"
 
 #: thunar/thunar-location-entry.c:364
 msgid "File does not exist"
@@ -1991,25 +2011,25 @@ msgstr "Fayilo mulibemo"
 
 #: thunar/thunar-notify.c:181
 msgid "Undo performed"
-msgstr ""
+msgstr "Zabwezeretsedwa"
 
 #: thunar/thunar-notify.c:182
 #, c-format
 msgid "%s operation was undone"
-msgstr ""
+msgstr "%s ntchitoyi yabwezeretsedwa"
 
 #: thunar/thunar-notify.c:187
 msgid "Redo performed"
-msgstr ""
+msgstr "Zabwerezedwa"
 
 #: thunar/thunar-notify.c:188
 #, c-format
 msgid "%s operation was redone"
-msgstr ""
+msgstr "%s ntchitoyi inabwerezedwa"
 
 #: thunar/thunar-notify.c:264
 msgid "Unmounting device"
-msgstr ""
+msgstr "Kuchotsa chipangizo pamwamba"
 
 #: thunar/thunar-notify.c:265
 #, c-format
@@ -2017,10 +2037,12 @@ msgid ""
 "The device \"%s\" is being unmounted by the system. Please do not remove the "
 "media or disconnect the drive"
 msgstr ""
+"Chipangizo \"%s\" chikuchotsedwa pamwamba ndi kompyuta. Chonde osachotsa "
+"chinthuchi kapena kuzula dilayivi"
 
 #: thunar/thunar-notify.c:272 thunar/thunar-notify.c:312
 msgid "Writing data to device"
-msgstr ""
+msgstr "Kulemba zinthu ku chipangizo"
 
 #: thunar/thunar-notify.c:273 thunar/thunar-notify.c:313
 #, c-format
@@ -2028,15 +2050,17 @@ msgid ""
 "There is data that needs to be written to the device \"%s\" before it can be "
 "removed. Please do not remove the media or disconnect the drive"
 msgstr ""
+"Pali zinthu zoti zikufunika kulembedwa kuchipangizo ichi \"%s\" "
+"chisanachotsedwe. CChonde osachotsa chinthuchi kapena kuzula dilayivi"
 
 #: thunar/thunar-notify.c:305
 msgid "Ejecting device"
-msgstr ""
+msgstr "Kutulusa chipangizo"
 
 #: thunar/thunar-notify.c:306
 #, c-format
 msgid "The device \"%s\" is being ejected. This may take some time"
-msgstr ""
+msgstr "Chipangizo \"%s\" chikuchotsedwa. Izi zitha kutenga nthawi"
 
 #: thunar/thunar-path-entry.c:238
 msgid "Icon size"
@@ -2044,17 +2068,19 @@ msgstr "Kukula kwa chizindikiro"
 
 #: thunar/thunar-path-entry.c:239
 msgid "The icon size for the path entry"
-msgstr ""
+msgstr "Kukula kwa chizindikiro cha polembera njira"
 
 #: thunar/thunar-path-entry.c:899
 msgid "Stop Search"
-msgstr ""
+msgstr "Imitsani kufufuza"
 
 #: thunar/thunar-path-entry.c:902
 msgid ""
 "Search is in progress...\n"
 "Press the cancel button or the Escape key to stop."
 msgstr ""
+"Kufufuza kudakali m'malo...\n"
+"Dinani batani loimitsira kapena batani lolemba Esc kuti muimitse."
 
 #: thunar/thunar-permissions-chooser.c:230
 msgid "Owner:"
@@ -2062,23 +2088,23 @@ msgstr "Mwini wake:"
 
 #: thunar/thunar-permissions-chooser.c:249
 msgid "_Access:"
-msgstr ""
+msgstr "_Owona:"
 
 #: thunar/thunar-permissions-chooser.c:277
 msgid "Gro_up:"
-msgstr ""
+msgstr "Gu_lu:"
 
 #: thunar/thunar-permissions-chooser.c:299
 msgid "Acc_ess:"
-msgstr ""
+msgstr "Owo_na"
 
 #: thunar/thunar-permissions-chooser.c:327
 msgid "Others"
-msgstr "Ena"
+msgstr "Zina"
 
 #: thunar/thunar-permissions-chooser.c:335
 msgid "Acce_ss:"
-msgstr ""
+msgstr "Owo_na"
 
 #: thunar/thunar-permissions-chooser.c:363
 msgid "Program:"
@@ -2086,27 +2112,31 @@ msgstr "Ma pulogalamu:"
 
 #: thunar/thunar-permissions-chooser.c:369
 msgid "Allow this file to _run as a program"
-msgstr ""
+msgstr "Lolani fayilo imeneyi kuti _iyende ngati pulogalamu"
 
 #: thunar/thunar-permissions-chooser.c:397
 #: thunar/thunar-preferences-dialog.c:1458
 msgid ""
 "Allowing untrusted programs to run presents a security risk to your system."
 msgstr ""
+"Kulola ma pulogalamu osakhulupilika kuti ayende zimabweretsa chiopsezo ku "
+"chitetezo cha kompyuta yanu."
 
 #: thunar/thunar-permissions-chooser.c:415
 msgid ""
 "The folder permissions are inconsistent, you may not be able to work with "
 "files in this folder."
 msgstr ""
+"Malolezo a foda ndi osagwirizana, simungathe kugwiritsanso ntchito ma fayilo "
+"mu foda imeneyi."
 
 #: thunar/thunar-permissions-chooser.c:431
 msgid "Correct _folder permissions..."
-msgstr ""
+msgstr "Zilolezo za _mafoda zololedwa..."
 
 #: thunar/thunar-permissions-chooser.c:432
 msgid "Click here to automatically fix the folder permissions."
-msgstr ""
+msgstr "Dinani apa kuti zilolezo za ma foda zikonzedwe zokha."
 
 #: thunar/thunar-permissions-chooser.c:445
 msgid "Please wait..."
@@ -2114,21 +2144,23 @@ msgstr "Chonde dikilani..."
 
 #: thunar/thunar-permissions-chooser.c:452
 msgid "Stop applying permissions recursively."
-msgstr ""
+msgstr "Imitsani kupanga zilolezo mobwerezabwereza."
 
 #: thunar/thunar-permissions-chooser.c:565
 msgid "Question"
-msgstr ""
+msgstr "Funso"
 
 #: thunar/thunar-permissions-chooser.c:589
 msgid "Apply recursively?"
-msgstr ""
+msgstr "Pangani mobwerezabwereza?"
 
 #: thunar/thunar-permissions-chooser.c:595
 msgid ""
 "Do you want to apply your changes recursively to\n"
 "all files and subfolders below the selected folder?"
 msgstr ""
+"Kodi mukufuna kukhazikitsa zosintha mobwerezabwereza ku\n"
+"mafayilo onse komanso ma foda ankatikati mwa foda losankhidwali?"
 
 #: thunar/thunar-permissions-chooser.c:601
 msgid ""
@@ -2136,14 +2168,17 @@ msgid ""
 "asked again. You can use the preferences dialog to alter your choice "
 "afterwards."
 msgstr ""
+"Ngati musankhe chisankho ichi chisankho chanu chikumbukiridwa ndipo "
+"simuzafunsidwanso. Mutha kugwiritsa ntchito posankhila makonda kuti musinthe "
+"chisankho chanu nthawi ina."
 
 #: thunar/thunar-permissions-chooser.c:969
 msgid "Mixed file owners"
-msgstr ""
+msgstr "Eni ma fayilo osakanikilana"
 
 #: thunar/thunar-permissions-chooser.c:969
 msgid "Unknown file owner"
-msgstr ""
+msgstr "Mwini fayilo osadziwika"
 
 #: thunar/thunar-permissions-chooser.c:1049
 #: plugins/thunar-uca/thunar-uca-editor.c:427
@@ -2153,27 +2188,27 @@ msgstr "Palibe"
 
 #: thunar/thunar-permissions-chooser.c:1050
 msgid "Write only"
-msgstr ""
+msgstr "Kulemba Kokha"
 
 #: thunar/thunar-permissions-chooser.c:1051
 msgid "Read only"
-msgstr ""
+msgstr "Kuwerenga Kokha"
 
 #: thunar/thunar-permissions-chooser.c:1052
 msgid "Read & Write"
-msgstr ""
+msgstr "Kuwerenga ndi Kulemba"
 
 #: thunar/thunar-permissions-chooser.c:1054
 msgid "Varying (no change)"
-msgstr ""
+msgstr "Zosiyana (zosasintha)"
 
 #: thunar/thunar-permissions-chooser.c:1181
 msgid "Correct folder permissions automatically?"
-msgstr ""
+msgstr "Kozani zilolezo za ma foda pozipanga zokha?"
 
 #: thunar/thunar-permissions-chooser.c:1182
 msgid "Folder permissions"
-msgstr ""
+msgstr "Zilolezo za mafoda zololedwa"
 
 #: thunar/thunar-permissions-chooser.c:1184
 msgid "Correct _folder permissions"
@@ -2192,7 +2227,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:268
 msgid "Thunar Preferences"
-msgstr ""
+msgstr "Zokonda mu Thunar"
 
 #: thunar/thunar-preferences-dialog.c:294
 msgid "Display"
@@ -2200,7 +2235,7 @@ msgstr "Kanema"
 
 #: thunar/thunar-preferences-dialog.c:304
 msgid "Window Settings"
-msgstr ""
+msgstr "Zokonda ku Windo"
 
 #: thunar/thunar-preferences-dialog.c:323
 msgid "Use custom window decorations (only applied to new windows)"
@@ -2222,7 +2257,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:349
 msgid "View Settings"
-msgstr ""
+msgstr "Onani Ku Zokonza"
 
 #: thunar/thunar-preferences-dialog.c:362
 msgid "View _new folders using:"
@@ -2231,20 +2266,20 @@ msgstr ""
 #: thunar/thunar-preferences-dialog.c:368
 #: thunar/thunar-preferences-dialog.c:510
 msgid "Icon View"
-msgstr ""
+msgstr "Kuonetsa mwa zizindikiro"
 
 #: thunar/thunar-preferences-dialog.c:369
 #: thunar/thunar-preferences-dialog.c:1558
 msgid "List View"
-msgstr ""
+msgstr "Kuonetsa zinthu mundandanda"
 
 #: thunar/thunar-preferences-dialog.c:370
 msgid "Compact View"
-msgstr ""
+msgstr "Kuonetsa zinthu mundandanda wo unjika"
 
 #: thunar/thunar-preferences-dialog.c:371
 msgid "Last Active View"
-msgstr ""
+msgstr "Powonesera pamagwira ntchito cha posachedwapa"
 
 #: thunar/thunar-preferences-dialog.c:387
 msgid "_Remember view settings for each folder"
@@ -2281,7 +2316,7 @@ msgstr ""
 #: thunar/thunar-preferences-dialog.c:1244
 #: thunar/thunar-preferences-dialog.c:1354
 msgid "Local Files Only"
-msgstr ""
+msgstr "Mafayilo a mu Kompyuta momuno mokha"
 
 #: thunar/thunar-preferences-dialog.c:465
 msgid "Only show thumbnails for files smaller than:"
@@ -2369,11 +2404,11 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:608
 msgid "Side Pane"
-msgstr ""
+msgstr "Gawo Lapambali"
 
 #: thunar/thunar-preferences-dialog.c:618
 msgid "Shortcuts Pane"
-msgstr ""
+msgstr "Gawo la Zachidule"
 
 #: thunar/thunar-preferences-dialog.c:634
 msgid "_Icon Size:"
@@ -2441,7 +2476,7 @@ msgstr "1024px"
 
 #: thunar/thunar-preferences-dialog.c:669
 msgid "Show icon _emblems"
-msgstr ""
+msgstr "Onesani _zizindikiro"
 
 #: thunar/thunar-preferences-dialog.c:675
 msgid ""
@@ -2468,7 +2503,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:791
 msgid "Tree Pane"
-msgstr ""
+msgstr "Gawo la Mtengo"
 
 #: thunar/thunar-preferences-dialog.c:807
 msgid "Icon _Size:"
@@ -2476,7 +2511,7 @@ msgstr "Kukula kwa _Chizindikiro:"
 
 #: thunar/thunar-preferences-dialog.c:841
 msgid "Show icon e_mblems"
-msgstr ""
+msgstr "Onetsani zi_zikiro"
 
 #: thunar/thunar-preferences-dialog.c:847
 msgid ""
@@ -2540,7 +2575,7 @@ msgstr ""
 
 #: thunar/thunar-preferences-dialog.c:1028
 msgid "Medium"
-msgstr ""
+msgstr "Chapakatikati"
 
 #: thunar/thunar-preferences-dialog.c:1033
 msgid "Long"
