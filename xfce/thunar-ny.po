@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-20 20:28+0200\n"
+"PO-Revision-Date: 2026-03-21 09:49+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -2587,6 +2587,10 @@ msgid ""
 "- Standalone: Image Preview uses a separate pane\n"
 "- Embedded: Image Preview is embedded in the left sidepane\n"
 msgstr ""
+"- Choima pachokha: Kuonetsa chithunzi pang'ono kugwiritsa ntchito gawo lina "
+"lapambali\n"
+"- Chokhala mkati: Kuonetsa chithunzi pang'ono kukhala mkati mwa gawo la "
+"pambali laku manzere\n"
 
 #: thunar/thunar-preferences-dialog.c:935
 msgid "Behavior"
@@ -2594,17 +2598,19 @@ msgstr "Khalidwe"
 
 #: thunar/thunar-preferences-dialog.c:945
 msgid "Mouse Interactions"
-msgstr ""
+msgstr "Kugwiritsa ntchito mausi"
 
 #: thunar/thunar-preferences-dialog.c:961
 msgid "_Single click to activate items"
-msgstr ""
+msgstr "_Kudina kamodzi kuti zinthu ziyatsidwe"
 
 #: thunar/thunar-preferences-dialog.c:986
 msgid ""
 "Specify the d_elay before an item gets selected\n"
 "when the mouse pointer is paused over it:"
 msgstr ""
+"Tchulani _kuchedwa chinthu chisanasankhidwe\n"
+"pamene kolodzera mausi kaimitsidwa pamwamba pake:"
 
 #: thunar/thunar-preferences-dialog.c:999
 msgid ""
@@ -2614,6 +2620,12 @@ msgid ""
 "behavior may be useful when single clicks activate items, and you want only "
 "to select the item without activating it."
 msgstr ""
+"Pamene upangiri odina-kamodzi wayatsidwa, kuyimitsa cholodzera mausi "
+"pamwamba pa chinthu chizisanhkidwa pachokha pakadutsa nthawi yakuchedwa "
+"yosankhidwa. Mutha kudzimitsa m'nkhalidwe umenewu posunthira ka mzera chaku "
+"mazere kweni kweni kumathero. Khalidwe limeneli litha kukhala lofunika "
+"pamene kudina kamodzi kuziyatsa zinthu, ndipo mukufuna kusankha zinthu "
+"posafunikira kuziyatsa kale."
 
 #: thunar/thunar-preferences-dialog.c:1028
 msgid "Medium"
@@ -2625,15 +2637,15 @@ msgstr "Chachitali"
 
 #: thunar/thunar-preferences-dialog.c:1042
 msgid "_Double click to activate items"
-msgstr ""
+msgstr "_Dinani kawiri kuti muyatse zinthu"
 
 #: thunar/thunar-preferences-dialog.c:1056
 msgid "_File Drag and Drop behavior:"
-msgstr ""
+msgstr "_Khalidwe la Kunyamula Fayilo ndiku Ponya:"
 
 #: thunar/thunar-preferences-dialog.c:1063
 msgid "Show menu only on Right Click"
-msgstr ""
+msgstr "Onetsani menyu pokhapokha mukadina Kumanja"
 
 #: thunar/thunar-preferences-dialog.c:1064
 msgid "Always show menu"
@@ -2657,6 +2669,21 @@ msgid ""
 "\t- [Shift]: Move\n"
 "\t- [Ctrl]+[Shift]: Create a Link"
 msgstr ""
+"Zodzimitsidwa:\n"
+"\t- Kunyalanyaza kunyamula fayilo.\n"
+"Onetsani menyu pokhapokha Mukadina Kumanja:\n"
+"\t- Dinani kumazere + Nyamulani:\n"
+"\t\tKu dilayivi yomweyo: Sunthani\n"
+"\t\tKu dilayivi yosiyana: Koperani\n"
+"\t- Dinani kumanja + Nyamulani:\n"
+"\t\tOnetsani menyu kuti musankhe ntchito.\n"
+"Onetsani menyu nthawi zonse:\n"
+"\t- Onetsani menyu kuti musankhe ntchito.\n"
+"\n"
+"Njira zachidule-zapa kiyibodi zosankhira ntchito chinthu chisanaponyedwe:\n"
+"\t- [Ctrl]: Koperani\n"
+"\t- [Shift]: Sunthani\n"
+"\t- [Ctrl]+[Shift]: Pangani Linki"
 
 #: thunar/thunar-preferences-dialog.c:1098
 msgid "Tabs and Windows"
@@ -2664,54 +2691,63 @@ msgstr "Matsamba ndi Mawindo"
 
 #: thunar/thunar-preferences-dialog.c:1114
 msgid "Open folders in new tabs on middle click"
-msgstr ""
+msgstr "Tsegulani ma foda mu matsamba atsopano mukadina pakati"
 
 #: thunar/thunar-preferences-dialog.c:1120
 msgid ""
 "Select this option to open a new tab on middle click instead of a new window"
 msgstr ""
+"Sankhani chisankho ichi kuti mutsegule tsamba latsopano mukadina pakati "
+"kusiyana ndikuti mutsegule windo lina"
 
 #: thunar/thunar-preferences-dialog.c:1127
 msgid "Open new thunar instances as tabs"
-msgstr ""
+msgstr "Tsegulani ntchito zina za thunar ngati matsamba"
 
 #: thunar/thunar-preferences-dialog.c:1133
 msgid ""
 "Select this option to open new thunar instances as tabs in an existing "
 "thunar window"
 msgstr ""
+"Sankhani chisankho ichi kuti mutsegule ntchito zina za thunar ngati matsamba "
+"mu ma windo a thunar oti alipo kale"
 
 #: thunar/thunar-preferences-dialog.c:1141
 msgid "Show full directory paths in tab titles"
-msgstr ""
+msgstr "Onetsani njira za ma foda za thunthu mu mitu ya matsamba"
 
 #: thunar/thunar-preferences-dialog.c:1147
 msgid ""
 "Select this option to show the full directory path in the tab title instead "
 "of only the directory name"
 msgstr ""
+"Sankhani chisankho ichi kuti muonetse njira ya thunthu ya foda mu mutu wa "
+"tsamba kusiyana ndikuonetsa zina la foda lokha basi"
 
 #: thunar/thunar-preferences-dialog.c:1154
 msgid "Restore tabs on startup"
-msgstr ""
+msgstr "Bwezeretsani matsamba kompyuta ikamayaka kumene"
 
 #: thunar/thunar-preferences-dialog.c:1160
 msgid ""
 "Select this option to restore your tabs as they were last time you used "
 "Thunar"
 msgstr ""
+"Sankhani chisankho ichi kuti mubwezeretse matsamba anu ngati momwe analili "
+"nthawi yatha mumagwiritsa ntchito Thunar"
 
 #: thunar/thunar-preferences-dialog.c:1171
 msgid "Context Menu"
-msgstr ""
+msgstr "Menyu ya Chinthu"
 
 #: thunar/thunar-preferences-dialog.c:1187
 msgid "Show action to permanently delete files and folders"
-msgstr ""
+msgstr "Onetsani ntchito yofufuta mafayilo onse ndi mafoda onse"
 
 #: thunar/thunar-preferences-dialog.c:1193
 msgid "Select this option to show the 'Delete' action in the context menu"
 msgstr ""
+"Sankhani chisankho ichi kuti muonetse ntchito 'Yofufuta' mu menyu ya chinthu"
 
 #: thunar/thunar-preferences-dialog.c:1202
 msgid "Advanced"
@@ -2737,18 +2773,31 @@ msgid ""
 "devices (disks, mount points), copies will be sequential\n"
 "- Never: all copies are done sequentially"
 msgstr ""
+"Imaonetsa khalidwe zikakhalapo zambiri zofanana ndikubwerezedwa:\n"
+"- Nthawi Zonse: zobwerezedwa zonse zimapangidwa nthawi imodzi\n"
+"- Ma Fayilo amu Kompyuta Momwemu: zobwerezedwa zomwe zimapangidwa nthawi "
+"imodzi za ma fayilo amu kompyuta momwemu (osati akutali, kapena ophatika "
+"moonjezera)\n"
+"- Ma Fayilo amu Kompyuta Momwemu (Zipangizo zofanana): ngati ma ma fayilo "
+"ali amu kompyuta momu koma pa zipangizo zosiyana (madisiki, zoikidwa "
+"pamwamba), zobwerezedwa zipangidwa motsatizana\n"
+"- Ma Fayilo amu Kompyuta Momwemu (Zipangizo zongokhala): ngati ma ma fayilo "
+"ali amu kompyuta momu koma pa zipangizo zotanganidwa (madisiki, zoikidwa "
+"pamwamba), zobwerezedwa zipangidwa motsatizana\n"
+"- Ayi Konse: zobwerezedwa zonse zipangidwa motsatizana"
 
 #: thunar/thunar-preferences-dialog.c:1245
 msgid "Local Files Only (Same Devices)"
-msgstr ""
+msgstr "Ma Fayilo amu Kompyuta Momwemu (Zipangizo zofanana)"
 
 #: thunar/thunar-preferences-dialog.c:1246
 msgid "Local Files Only (Idle Devices)"
-msgstr ""
+msgstr "Ma Fayilo amu Kompyuta Momwemu (Zipangizo zongokhala)"
 
 #: thunar/thunar-preferences-dialog.c:1265
 msgid "Use intermediate file on copy:"
 msgstr ""
+"Gwiritsani ntchito fayilo la mwasanga la pakatipati losungidwa kokopera:"
 
 #: thunar/thunar-preferences-dialog.c:1269
 msgid ""
@@ -2756,10 +2805,13 @@ msgid ""
 "fragmented files. The new file will only be shown after the copy was "
 "successfully finished."
 msgstr ""
+"Gwiritsani ntchito fayilo la mwasanga la pakatipati '*.partial~' kuti "
+"mukopere mafayilo. Izi zipewa mafayilo odukizana/ogawikana. Fayilo latsopano "
+"liwonetsedwa pokha pokha linakoperedwa bwino bwino ndikumalidza."
 
 #: thunar/thunar-preferences-dialog.c:1296
 msgid "Verify file contents on copy:"
-msgstr ""
+msgstr "Tsimikizani za mkati mwa ma fayilo pokopera:"
 
 #: thunar/thunar-preferences-dialog.c:1300
 msgid ""
@@ -2769,6 +2821,13 @@ msgid ""
 "comparison may not detect all instances of corruption. Enabling this option "
 "will increase copy time."
 msgstr ""
+"Fananizani za mkati mwa fayilo lenileni ndilokopera kuti mupeze "
+"ndikuzindikira kuonongeka. Pamene izi ziyetsa kufananiza za mkati zenizeni "
+"zimene zili ku malo kofikira, Thunar atha kukanika kubowoleza kosunga "
+"mafayilo ena mu kompyuta, ndiye fanizo limeneli silingathe kupeza komanso "
+"kuzindikira kuonongeka kwa njira zonse zimene zitha kukhalapo. Kuyatsa "
+"chisankho chimenechi kuonjezera nthawi imene ingafunike kuti fayilo litha "
+"kukoperedwa."
 
 #: thunar/thunar-preferences-dialog.c:1330
 msgid "Search"
@@ -2776,7 +2835,7 @@ msgstr "Fufuzani"
 
 #: thunar/thunar-preferences-dialog.c:1347
 msgid "Include subfolders:"
-msgstr ""
+msgstr "Onjezeraninso ma foda a mkatikati:"
 
 #: thunar/thunar-preferences-dialog.c:1371
 msgid "Folder Permissions"
@@ -2788,6 +2847,9 @@ msgid ""
 "can also apply the changes to the contents of the\n"
 "folder. Select the default behavior below:"
 msgstr ""
+"Pamene mukusintha zilolezo za ma foda, mutha\n"
+"kukhazikitsanso zosinthazi ku za mkati mwa\n"
+"foda. Sankhani pansipa khalibwe la pachiyambi:"
 
 #: thunar/thunar-preferences-dialog.c:1399
 #: thunar/thunar-preferences-dialog.c:1445
