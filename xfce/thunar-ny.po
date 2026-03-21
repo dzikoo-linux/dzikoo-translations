@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-21 09:49+0200\n"
+"PO-Revision-Date: 2026-03-21 14:38+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -2858,11 +2858,11 @@ msgstr "Funsani nthawi zonse"
 
 #: thunar/thunar-preferences-dialog.c:1400
 msgid "Apply to Folder and Contents"
-msgstr ""
+msgstr "Khazikitsani ku Foda ndi za Mkati momwe"
 
 #: thunar/thunar-preferences-dialog.c:1401
 msgid "Apply to Folder Only"
-msgstr ""
+msgstr "Khazikitsani ku Foda Lokha"
 
 #: thunar/thunar-preferences-dialog.c:1416
 msgid "Security"
@@ -2874,11 +2874,11 @@ msgstr "Yendetsani ma fayilo a mtundu wa shell:"
 
 #: thunar/thunar-preferences-dialog.c:1468
 msgid "Volume Management"
-msgstr ""
+msgstr "Kokonzera Za Kukukula kwa Malo mu Kompyuta"
 
 #: thunar/thunar-preferences-dialog.c:1485
 msgid "Enable _volume management"
-msgstr ""
+msgstr "Yatsani _Kokonzera Za Kukukula kwa Malo mu Kompyuta"
 
 #: thunar/thunar-preferences-dialog.c:1504
 msgid ""
@@ -2886,11 +2886,14 @@ msgid ""
 "drives,\n"
 "devices and media."
 msgstr ""
+"<a href=\"volman-config:\">Konzani</a> kagwiritsidwe ntchito ka ma dilayivi "
+"otha kuzulidwa,\n"
+"ndi zipangizo zotha kuchosedwa."
 
 #: thunar/thunar-preferences-dialog.c:1518
 #: thunar/thunar-properties-dialog.c:817
 msgid "Missing dependencies"
-msgstr ""
+msgstr "Zofunikira zosowekera"
 
 #: thunar/thunar-preferences-dialog.c:1526
 msgid ""
@@ -2901,6 +2904,13 @@ msgid ""
 "will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-"
 "filesystem#gnome_virtual_file_system\">[Read more]</a>"
 msgstr ""
+"Zikuoneka ngati <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> "
+"mulibemo.\n"
+"Zinthu zofunikira kuphatikizira zokhuza thumba losunga zofufutidwa,\n"
+"zipangizo zotha kuzulidwa komanso kusakatula ku malo akunja kwa kompyuta "
+"akutali\n"
+"sizigwira ntchito. <a href=\"https://docs.xfce.org/xfce/thunar/unix-"
+"filesystem#gnome_virtual_file_system\">[Werengani zambiri]</a>"
 
 #: thunar/thunar-preferences-dialog.c:1541
 msgid "Shortcuts"
@@ -2917,23 +2927,24 @@ msgstr "Mawonedwe"
 #: thunar/thunar-preferences-dialog.c:1559
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:546
 msgid "Launcher"
-msgstr ""
+msgstr "Choyambitsa"
 
 #: thunar/thunar-preferences-dialog.c:1560
 msgid "Status Bar"
-msgstr ""
+msgstr "Mzere Woonetsa m'mene zinthu zilili"
 
 #: thunar/thunar-preferences-dialog.c:1568
 msgid "The Shortcuts Editor requires a Thunar window to be present."
-msgstr ""
+msgstr "Posinthira njira za chidule pakufunika windo la Thunar likhale lilipo."
 
 #: thunar/thunar-preferences-dialog.c:1632
 msgid "Failed to display the volume management settings"
 msgstr ""
+"Zakanika kuonetsa kosinthira kokonzera za kukukula kwa malo mu kompyuta"
 
 #: thunar/thunar-progress-dialog.c:95
 msgid "File Operation Progress"
-msgstr ""
+msgstr "Ntchito ya Fayilo ikuchitika ndipo ili m'njira"
 
 #: thunar/thunar-progress-view.c:399
 msgid "Paused"
@@ -2953,7 +2964,7 @@ msgstr "Kuyimitsidwa..."
 
 #: thunar/thunar-progress-view.c:541
 msgid "Error while processing file operation"
-msgstr ""
+msgstr "Zakanika kupanga ntchito ya fayilo"
 
 #: thunar/thunar-progress-view.c:615
 msgid "Job queued"
@@ -2985,7 +2996,7 @@ msgstr "_Tsegulani ndi:"
 
 #: thunar/thunar-properties-dialog.c:471
 msgid "Link Target:"
-msgstr ""
+msgstr "Kopita Linki:"
 
 #. TRANSLATORS: Try to come up with a short translation of "Original Path" (which is the path
 #. * where the trashed file/folder was located before it was moved to the trash), otherwise the
@@ -2993,7 +3004,7 @@ msgstr ""
 #.
 #: thunar/thunar-properties-dialog.c:493 thunar/thunar-util.c:1477
 msgid "Original Path:"
-msgstr ""
+msgstr "Njira ya fayilo yoyambirila:"
 
 #: thunar/thunar-properties-dialog.c:511
 msgid "Location:"
@@ -3001,7 +3012,7 @@ msgstr "Malo:"
 
 #: thunar/thunar-properties-dialog.c:528
 msgid "Volume:"
-msgstr ""
+msgstr "Kukukula kwa Malo mu Kompyuta:"
 
 #: thunar/thunar-properties-dialog.c:570
 msgid "Created:"
@@ -3013,7 +3024,7 @@ msgstr "Tsiku lotsegulidwa:"
 
 #: thunar/thunar-properties-dialog.c:621
 msgid "Deleted:"
-msgstr ""
+msgstr "Tsiku lofufutidwa:"
 
 #: thunar/thunar-properties-dialog.c:667
 msgid "Size on Disk:"
@@ -3025,11 +3036,11 @@ msgstr "Za Mkati:"
 
 #: thunar/thunar-properties-dialog.c:712
 msgid "Capacity:"
-msgstr ""
+msgstr "Kukula Kwake:"
 
 #: thunar/thunar-properties-dialog.c:734
 msgid "Usage:"
-msgstr ""
+msgstr "Kagwiritsidwe Ntchito:"
 
 #: thunar/thunar-properties-dialog.c:771
 msgid "Emblems"
@@ -3037,7 +3048,7 @@ msgstr "Zizindikiro"
 
 #: thunar/thunar-properties-dialog.c:786
 msgid "Highlight"
-msgstr ""
+msgstr "Kutsindika"
 
 #: thunar/thunar-properties-dialog.c:825
 msgid ""
@@ -3046,6 +3057,10 @@ msgid ""
 "This feature will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-"
 "filesystem#gnome_virtual_file_system\">[Read more]</a>"
 msgstr ""
+"Zikuoneka ngati <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> "
+"mulibemo.\n"
+"Chipangizo ichi sichigwira. <a href=\"https://docs.xfce.org/xfce/thunar/unix-"
+"filesystem#gnome_virtual_file_system\">[Werengani Zambiri]</a>"
 
 #: thunar/thunar-properties-dialog.c:853
 msgid "Example.txt"
@@ -3053,7 +3068,7 @@ msgstr "Chitsanzo.txt"
 
 #: thunar/thunar-properties-dialog.c:870
 msgid "_Apply"
-msgstr ""
+msgstr "_Khazikitsani"
 
 #: thunar/thunar-properties-dialog.c:882
 msgid "_Reset"
@@ -3061,11 +3076,11 @@ msgstr "_Bwezeretsani Kuchiyambi"
 
 #: thunar/thunar-properties-dialog.c:893
 msgid "Set _Foreground"
-msgstr ""
+msgstr "Khazikitsani _Kutsogolo"
 
 #: thunar/thunar-properties-dialog.c:901
 msgid "Set _Background"
-msgstr ""
+msgstr "Khazikitsani _Kumbuyo"
 
 #: thunar/thunar-properties-dialog.c:1202
 #, c-format
@@ -3110,7 +3125,7 @@ msgstr "Makhalidwe/Mitundu"
 
 #: thunar/thunar-properties-dialog.c:1628
 msgid "Link Targets:"
-msgstr ""
+msgstr "Kopita ma Linki:"
 
 #: thunar/thunar-properties-dialog.c:1722
 msgid "mixed"
@@ -3118,11 +3133,13 @@ msgstr "zosakaniza"
 
 #: thunar/thunar-renamer-dialog.c:229
 msgid "_Add Files..."
-msgstr ""
+msgstr "_Onjezerani ma Fayilo..."
 
 #: thunar/thunar-renamer-dialog.c:229
 msgid "Include additional files in the list of files to be renamed"
 msgstr ""
+"Ikanimo ma fayilo oonjezera mu m'ndandanda wa mafayilo ofunika kusinthidwa "
+"dzina"
 
 #: thunar/thunar-renamer-dialog.c:231
 msgid "Clear"
@@ -3130,7 +3147,7 @@ msgstr "Chotsani ndi Kuyeretsa"
 
 #: thunar/thunar-renamer-dialog.c:231
 msgid "Clear the file list below"
-msgstr ""
+msgstr "Chotsani ndi Kuyeretsa m'ndandanda wa mafayilo pansipa"
 
 #: thunar/thunar-renamer-dialog.c:232 thunar/thunar-window.c:724
 msgid "_About"
@@ -3138,19 +3155,21 @@ msgstr "_Zambiri"
 
 #: thunar/thunar-renamer-dialog.c:232
 msgid "Display information about Thunar Bulk Rename"
-msgstr ""
+msgstr "Onetsani mauthenga okhuza kusintha mayina kwa zinthu zambiri mu Thunar"
 
 #: thunar/thunar-renamer-dialog.c:408 thunar/thunar-renamer-dialog.c:1837
 msgid "Rename Multiple Files"
-msgstr ""
+msgstr "Sinthani Mayina a Mafayilo Ambiri"
 
 #: thunar/thunar-renamer-dialog.c:412
 msgid "Close this window, cancel further changes."
-msgstr ""
+msgstr "Tsekani windoli, imitsani zosintha zina zili zonse za mtsogolo."
 
 #: thunar/thunar-renamer-dialog.c:420
 msgid "Rename items listed above, keep this window open."
 msgstr ""
+"Sinthani mayin azinthu zili mu mndandanda mwambamu, siyani windoli lotsegula "
+"chonchi."
 
 #: thunar/thunar-renamer-dialog.c:490
 msgid "New Name"
@@ -3159,6 +3178,8 @@ msgstr "Dzina latsopano"
 #: thunar/thunar-renamer-dialog.c:555
 msgid "Click here to view the documentation for the selected rename operation."
 msgstr ""
+"Dinani apa kuti muone buku ndi zolemba za ntchito yosintha mayina "
+"yasankhidwayi."
 
 #. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.* from $libdir/thunarx-2/,
 #. *              and opening the multi rename dialog by selecting multiple files and pressing F2.
@@ -3169,6 +3190,12 @@ msgid ""
 "installation or contact your system administrator. If you install Thunar\n"
 "from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
 msgstr ""
+"Palibe magawo okhudza kusintha mayina apezeka mu kompyuta muno. Chonde "
+"onani\n"
+"mene munalowetsera kapena awuzeni amene amathandiza ndi kuyang'anira ma "
+"kompyuta anu. Mukalowetsa Thunar\n"
+"muchokera kuchimake, onetsetsani kuti mwayatsa choonjezera ichi \"Simple "
+"Builtin Renamers\"."
 
 #: thunar/thunar-renamer-dialog.c:903
 msgid "Remove File"
@@ -3180,15 +3207,17 @@ msgstr[1] "Chotsani ma fayilo"
 msgid "Remove the selected file from the list of files to be renamed"
 msgid_plural "Remove the selected files from the list of files to be renamed"
 msgstr[0] ""
+"Chosani fayilo losankhidwa pa mndandanda wa mafayilo oti asinthidwa dzina"
 msgstr[1] ""
+"Chosani mafayilo osankhidwa pa mndandanda wa mafayilo oti asinthidwa mayina"
 
 #: thunar/thunar-renamer-dialog.c:1000
 msgid "Failed to open the documentation browser"
-msgstr ""
+msgstr "Zakanika kutsegula kosakatula zolemba ndi mabuku"
 
 #: thunar/thunar-renamer-dialog.c:1101
 msgid "Select files to rename"
-msgstr ""
+msgstr "Sankhani ma fayilo oti musinthe mayina"
 
 #: thunar/thunar-renamer-dialog.c:1117
 msgid "Audio Files"
@@ -3204,22 +3233,25 @@ msgstr "Za Mtundu wa ma Vidiyo"
 
 #: thunar/thunar-renamer-dialog.c:1263
 msgid "Bulk Rename"
-msgstr ""
+msgstr "Sinthani mayina a zinthu zambiri"
 
 #: thunar/thunar-renamer-dialog.c:1263
 msgid ""
 "Thunar Bulk Rename is a powerful and extensible\n"
 "tool to rename multiple files at once."
 msgstr ""
+"Kusintha mayina azinthu zambiri amu Thunar ndi ntchito yamphamvu komanso "
+"yokuzidwa\n"
+"kutheka kusinthira mayina a mafayilo ambiri pakamodzi."
 
 #: thunar/thunar-renamer-dialog.c:1837
 msgid "Bulk Rename - Rename Multiple Files"
-msgstr ""
+msgstr "Sinthani mayina a zinthu zambiri - Kumasintha Mayina a Zinthu Zambiri"
 
 #: thunar/thunar-renamer-progress.c:170
 #, c-format
 msgid "Failed to rename \"%s\" to \"%s\"."
-msgstr ""
+msgstr "Zakanika kusintha dzina la \"%s\" kukhala \"%s\"."
 
 #: thunar/thunar-renamer-progress.c:182
 msgid ""
@@ -3227,19 +3259,25 @@ msgid ""
 "files, or revert the previously renamed files to their previous names, or "
 "cancel the operation without reverting previous changes."
 msgstr ""
+"Mutha kusankha kuti mudumphe fayilo imeneyi ndikupitiliza kusintha mayina a "
+"mafayilo otsala, kapena kubwezeretsa ma fayilo amane asinthidwa mayina cha "
+"pompano ku mayina awo a kale, kapena kuimitsa ntchitoyi posabwezeretsa "
+"zimene zasinthidwa cha pompano."
 
 #: thunar/thunar-renamer-progress.c:187
 msgid "_Revert Changes"
-msgstr ""
+msgstr "_Bwezeretsani Zosinthidwa"
 
 #: thunar/thunar-renamer-progress.c:188 thunar/thunar-renamer-progress.c:197
 msgid "_Skip This File"
-msgstr ""
+msgstr "_Dumphani Fayilo Imeneyi"
 
 #: thunar/thunar-renamer-progress.c:194
 msgid ""
 "Do you want to skip this file and continue to rename the remaining files?"
 msgstr ""
+"Kodi mukufuna kudumpha fayilo imeneyi ndikupitiliza kusintha mayina a "
+"mafayilo otsala?"
 
 #: thunar/thunar-shortcuts-model.c:677 thunar/thunar-shortcuts-model.c:1060
 #: thunar/thunar-window.c:708
@@ -3249,7 +3287,7 @@ msgstr "Sakatulani kompyuta"
 #: thunar/thunar-shortcuts-model.c:711
 #, c-format
 msgid "Mount and open %s (%s)"
-msgstr ""
+msgstr "Ikani pamwamba ndikutsegula %s (%s)"
 
 #: thunar/thunar-shortcuts-model.c:724 plugins/thunar-tpa/thunar-tpa.c:304
 msgid "Trash is empty"
@@ -3259,8 +3297,8 @@ msgstr "Thumba losungila zofufutidwa lilibe kanthu"
 #, c-format
 msgid "Trash contains %d file"
 msgid_plural "Trash contains %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Thumba losunga zofufutidwa likusunga fayilo ili %d"
+msgstr[1] "Thumba losunga zofufutidwa likusunga mafayilo awa %d"
 
 #: thunar/thunar-shortcuts-model.c:1053
 msgid "Devices"
@@ -3272,11 +3310,11 @@ msgstr "Netiweki"
 
 #: thunar/thunar-shortcuts-model.c:1104
 msgid "Browse Network"
-msgstr ""
+msgstr "Sakatulani Netiweki"
 
 #: thunar/thunar-shortcuts-model.c:1105 thunar/thunar-window.c:718
 msgid "Browse local network connections"
-msgstr ""
+msgstr "Sakatulani zolumikiza ma netiweki a chifupi ndi kompyuta"
 
 #: thunar/thunar-shortcuts-model.c:1127
 msgid "Places"
@@ -3284,11 +3322,11 @@ msgstr "Malo"
 
 #: thunar/thunar-shortcuts-model.c:1139
 msgid "Open the home folder"
-msgstr ""
+msgstr "Tsegulani foda la pa khomo"
 
 #: thunar/thunar-shortcuts-model.c:1156
 msgid "Open the desktop folder"
-msgstr ""
+msgstr "Tsegulani foda la pa desikitopu"
 
 #: thunar/thunar-shortcuts-model.c:1204
 msgid "Computer"
@@ -3304,28 +3342,28 @@ msgstr "Za Cha Pompano"
 
 #: thunar/thunar-shortcuts-model.c:1218
 msgid "Browse recently used files"
-msgstr ""
+msgstr "Sakatulani mafayilo amene agwiritsidwa ntchito cha pompano"
 
 #: thunar/thunar-shortcuts-view.c:265
 msgid "Re_name Shortcut"
-msgstr ""
+msgstr "Chidule Cho_sinthira Dzina"
 
 #: thunar/thunar-shortcuts-view.c:266
 msgid "_Remove Shortcut"
-msgstr ""
+msgstr "Chidule Cho_chotsera"
 
 #: thunar/thunar-shortcuts-view.c:1719
 #, c-format
 msgid "The path \"%s\" does not refer to a directory"
-msgstr ""
+msgstr "Njira iyi \"%s\" siikukulodza ku foda lina lili lonse"
 
 #: thunar/thunar-shortcuts-view.c:1739
 msgid "Failed to add new shortcut"
-msgstr ""
+msgstr "Zakanika kuonjezera njira yaifupi yatsopano"
 
 #: thunar/thunar-size-label.c:195
 msgid "Click here to stop calculating the total size of the folder."
-msgstr ""
+msgstr "Dinani apa kuti musiye kuwerengera kukula kwa thunthu kwa fodali."
 
 #: thunar/thunar-size-label.c:205 thunar/thunar-size-label.c:362
 msgid "Calculating..."
@@ -3357,7 +3395,7 @@ msgstr[1] "%u zinthu (%s, %s)"
 #. * directories were not accessible
 #: thunar/thunar-size-label.c:495
 msgid "(some contents unreadable)"
-msgstr ""
+msgstr "(zinthu zina za mkati ndizosawerengeka)"
 
 #: thunar/thunar-standard-view.c:496
 msgid "Select _all Files"
@@ -3365,35 +3403,36 @@ msgstr "Sankhani ma _fayilo onse"
 
 #: thunar/thunar-standard-view.c:496
 msgid "Select all files in this window"
-msgstr ""
+msgstr "Sankhani ma fayilo onse ali mu windo ili"
 
 #: thunar/thunar-standard-view.c:497
 msgid "Select _by Pattern..."
-msgstr ""
+msgstr "Sankhani _ndi Chitsanzo..."
 
 #: thunar/thunar-standard-view.c:497
 msgid "Select all files that match a certain pattern"
 msgstr ""
+"Sankhani ma fayilo onse amene akufanana/kugwirizana ndi chitsanzo china chake"
 
 #: thunar/thunar-standard-view.c:498
 msgid "_Invert Selection"
-msgstr ""
+msgstr "_Zondosani Kusankha"
 
 #: thunar/thunar-standard-view.c:498
 msgid "Select all files but not those currently selected"
-msgstr ""
+msgstr "Sankhani ma fayilo onse koma osati amene asankhidwa kale"
 
 #: thunar/thunar-standard-view.c:499
 msgid "U_nselect all Files"
-msgstr ""
+msgstr "Osa_sankha ma fayilo onse"
 
 #: thunar/thunar-standard-view.c:499
 msgid "Unselect all files in this window"
-msgstr ""
+msgstr "Osasankha ma fayilo onse mu windo ili"
 
 #: thunar/thunar-standard-view.c:500
 msgid "Arran_ge Items"
-msgstr ""
+msgstr "Kuko_nza Zinthu"
 
 #: thunar/thunar-standard-view.c:501
 msgid "_Reversed Order"
@@ -3401,7 +3440,7 @@ msgstr "_Dongosolo Lobwerera M'mbuyo"
 
 #: thunar/thunar-standard-view.c:501
 msgid "Reverse the sort order"
-msgstr ""
+msgstr "Sinthani dongosolo la kusanja poika mobwerera m'mbuyo"
 
 #: thunar/thunar-standard-view.c:502
 msgid "By _Name"
@@ -3409,7 +3448,7 @@ msgstr "Ndi _Dzina"
 
 #: thunar/thunar-standard-view.c:502
 msgid "Keep items sorted by their name"
-msgstr ""
+msgstr "Sanjani zinthu motsatira mayina a zinthu"
 
 #: thunar/thunar-standard-view.c:503
 msgid "By _Size"
@@ -3417,7 +3456,7 @@ msgstr "Ndi _Kukula"
 
 #: thunar/thunar-standard-view.c:503
 msgid "Keep items sorted by their size"
-msgstr ""
+msgstr "Sanjani zinthu motsatira kukula kwa zinthu"
 
 #: thunar/thunar-standard-view.c:504
 msgid "By _Type"
@@ -3425,23 +3464,23 @@ msgstr "Ndi _Mtundu"
 
 #: thunar/thunar-standard-view.c:504
 msgid "Keep items sorted by their type"
-msgstr ""
+msgstr "Sanjani zinthu motsatira mtundu wa zinthu"
 
 #: thunar/thunar-standard-view.c:505
 msgid "By _Modification Date"
-msgstr ""
+msgstr "Ndi Tsiku _Losinthidwira"
 
 #: thunar/thunar-standard-view.c:505
 msgid "Keep items sorted by their modification date"
-msgstr ""
+msgstr "Sanjani zinthu motsatira tsiku losinthidwira la zinthu"
 
 #: thunar/thunar-standard-view.c:506
 msgid "By D_eletion Date"
-msgstr ""
+msgstr "Ndi Tsiku _Lofufutidwira"
 
 #: thunar/thunar-standard-view.c:506
 msgid "Keep items sorted by their deletion date"
-msgstr ""
+msgstr "Sanjani zinthu motsatira tsiku lofufutidwira la zinthu"
 
 #: thunar/thunar-standard-view.c:507
 msgid "_Ascending"
@@ -3449,7 +3488,7 @@ msgstr "_Kukwera"
 
 #: thunar/thunar-standard-view.c:507
 msgid "Sort items in ascending order"
-msgstr ""
+msgstr "Sanjani zinthu mu dongosolo lokwera mwamba"
 
 #: thunar/thunar-standard-view.c:508
 msgid "_Descending"
@@ -3457,7 +3496,7 @@ msgstr "_Kutsika"
 
 #: thunar/thunar-standard-view.c:508
 msgid "Sort items in descending order"
-msgstr ""
+msgstr "Sanjani zinthu mu dongosolo lotsika pansi"
 
 #: thunar/thunar-standard-view.c:509
 msgid "_Folders First"
@@ -3465,7 +3504,7 @@ msgstr "_Ayambe ma Foda"
 
 #: thunar/thunar-standard-view.c:509
 msgid "Sort folders before files"
-msgstr ""
+msgstr "Sanjani kaye ma foda musanasanje ma fayilo"
 
 #. TRANSLATORS: You can swap the order of the arguments if required.
 #: thunar/thunar-standard-view.c:1378
@@ -3899,7 +3938,7 @@ msgstr ""
 
 #: thunar/thunar-window.c:680
 msgid "_Text Style"
-msgstr ""
+msgstr "_Mtundu wa Mawu"
 
 #: thunar/thunar-window.c:680
 msgid "Traditional text box showing the current path"
@@ -3907,7 +3946,7 @@ msgstr ""
 
 #: thunar/thunar-window.c:681
 msgid "_Buttons Style"
-msgstr ""
+msgstr "_Mtundu wama Batani"
 
 #: thunar/thunar-window.c:681
 msgid "Modern approach with buttons that correspond to folders"
@@ -3915,11 +3954,11 @@ msgstr ""
 
 #: thunar/thunar-window.c:682
 msgid "_Side Pane"
-msgstr ""
+msgstr "_Gawo Lapambali"
 
 #: thunar/thunar-window.c:683
 msgid "_Shortcuts"
-msgstr ""
+msgstr "_Zidule"
 
 #: thunar/thunar-window.c:683
 msgid "Toggles the visibility of the shortcuts pane"
@@ -3927,7 +3966,7 @@ msgstr ""
 
 #: thunar/thunar-window.c:684
 msgid "_Tree"
-msgstr ""
+msgstr "_Mtengo"
 
 #: thunar/thunar-window.c:684
 msgid "Toggles the visibility of the tree pane"
@@ -3935,7 +3974,7 @@ msgstr ""
 
 #: thunar/thunar-window.c:686
 msgid "_Image Preview"
-msgstr ""
+msgstr "_Onetsani Chithunzi Moyeserera"
 
 #: thunar/thunar-window.c:686
 msgid "Change the visibility of this window's image preview"
@@ -3943,7 +3982,7 @@ msgstr ""
 
 #: thunar/thunar-window.c:687
 msgid "St_atusbar"
-msgstr ""
+msgstr "Mze_re Woonetsa m'mene zinthu zilili"
 
 #: thunar/thunar-window.c:687
 msgid "Change the visibility of this window's statusbar"
