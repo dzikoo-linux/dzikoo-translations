@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce4-panel 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-03 22:01+0200\n"
-"PO-Revision-Date: 2026-03-12 17:53+0200\n"
+"PO-Revision-Date: 2026-03-22 11:45+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -115,7 +115,7 @@ msgstr "Thetsani ntchito imayendetsedwa kale ya panelo"
 
 #: panel/main.c:72
 msgid "Do not wait for a window manager on startup"
-msgstr ""
+msgstr "Osadikira zosinthira ma windo kompyuta ikamayaka"
 
 #: panel/main.c:73
 msgid "Print version information and exit"
@@ -185,6 +185,9 @@ msgid ""
 "Do you want to start the panel? If you do, make sure you save the session on "
 "logout, so the panel is automatically started the next time you login."
 msgstr ""
+"Kodi mukufuna kuyambitsa panelo? Ngati mukufuna, chonde onetsetsani kuti "
+"mwasunga zochita potuluka, chifukwa choti panelo izayambitsidwanso lokha "
+"pamene mwasiyirapo mukamadzalowanso mu kompyuta."
 
 #: panel/main.c:448
 msgid "Execute"
@@ -200,6 +203,8 @@ msgid ""
 "Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel "
 "configuration?"
 msgstr ""
+"Choonjezera \"%s\" chakanika kutsegula, mufuna kuti muchichotse ku zokonza "
+"za panelo la xfce4?"
 
 #: panel/panel-application.c:349
 #, c-format
@@ -210,6 +215,12 @@ msgid ""
 "backup of the current configuration using %s, before checking your "
 "installation and trying to start xfce4-panel again."
 msgstr ""
+"Choonjezera ichi chili mu zokonza za tsopano za panelo la xfce4 koma "
+"chakanika kutsegula, mwina cha chifukwa choti sichinalowetsedwe bwino mu "
+"kompyuta mu. Ngati muli odziwa chimene mukupanga. mutha kuchichotsa mpaka "
+"kale, koma ngati simukudziwa mutseke ndikusunga pambali zimene zimagwira "
+"ntchito bwino bwino panopa pogwiritsa ntchito %s, musanafufuze za m'mene "
+"munalowetsera mu kompyuta komanso kuyambitsanso panelo la xfce4 kachikena."
 
 #: panel/panel-application.c:356
 msgid "Plugin loading failure"
@@ -224,23 +235,27 @@ msgid ""
 "This will create a new launcher plugin on the panel and inserts the dropped "
 "files as menu items."
 msgstr ""
+"Izi zipanga choyambitsira china choonjezera chatsopano pa panelo "
+"ndikulowetsa ma fayilo oponyedwa ngati zokhala pa menyu."
 
 #: panel/panel-application.c:1041
 msgid "Create _Launcher"
-msgstr ""
+msgstr "Pangani _Choyambitsira"
 
 #: panel/panel-application.c:1042
 #, c-format
 msgid "Create new launcher from %d desktop file"
 msgid_plural "Create new launcher from %d desktop files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pangani choyambitsira kuchoka ku fayilo ili la desikitopu %d"
+msgstr[1] "Pangani choyambitsira kuchoka ku ma fayilo awa a desikitopu %d"
 
 #: panel/panel-application.c:1809
 msgid ""
 "You have started X without session manager. Clicking Quit will close the X "
 "server."
 msgstr ""
+"Mwayambitsa X popanda chokonzera ma seshoni. Kudina Potsekera zitseka seva "
+"ya X."
 
 #: panel/panel-application.c:1812
 msgid "Quit"
@@ -253,30 +268,34 @@ msgstr "Mukutsimikiza kuti mukufuna kutseka panelo?"
 #: panel/panel-application.c:1820
 #, c-format
 msgid "Failed to execute command \"%s\""
-msgstr ""
+msgstr "Zakanika kuyendetsa lamulo ili \"%s\""
 
 #: panel/panel-dbus-client.c:209
 msgid ""
 "Invalid plugin event syntax specified. Use PLUGIN-NAME:NAME[:TYPE:VALUE]."
 msgstr ""
+"Choonjezera chochitika molembedwa molakwika chaperekedwa. Gwiritsani ntchito "
+"PLUGIN-NAME:NAME[:TYPE:VALUE]."
 
 #: panel/panel-dbus-client.c:239
 #, c-format
 msgid ""
 "Invalid hint type \"%s\". Valid types are bool, double, int, string and uint."
 msgstr ""
+"Chidziwitso cholakwika cha mtundu \"%s\". Mitundu yolondola ndi mlingo wa "
+"bool, mlingo wa double, mlingo wa int, mlingo wa string ndi mlingo wa uint."
 
 #: panel/panel-dialogs.c:53
 msgid "Unable to open the e-mail address"
-msgstr ""
+msgstr "Zakanika kutsegula imelo"
 
 #: panel/panel-dialogs.c:79
 msgid "The panel of the Xfce Desktop Environment"
-msgstr ""
+msgstr "Panelo la malo ogwirira ntchito a Desikitopu la Xfce"
 
 #: panel/panel-dialogs.c:83
 msgid "translator-credits"
-msgstr ""
+msgstr "kuzindikira-omasulira"
 
 #: panel/panel-dialogs.c:157
 msgid "Add New Item"
@@ -295,7 +314,7 @@ msgstr "_Onjezerani"
 
 #: panel/panel-dialogs.c:168
 msgid "Please choose a panel for the new plugin:"
-msgstr ""
+msgstr "Chonde sankhani panelo la choonjezera chatsopano:"
 
 #: panel/panel-dialogs.c:188 panel/panel-preferences-dialog.c:1023
 #, c-format
@@ -307,10 +326,12 @@ msgid ""
 "Because the panel is running in kiosk mode, you are not allowed to make "
 "changes to the panel configuration as a regular user"
 msgstr ""
+"Chifukwa panelo ikugwira ntchito mu njira ya kiyosiki, simukuloledwa kuti "
+"musinthe zokonza ku panelo ngati ogwiritsa ntchito wa wamba"
 
 #: panel/panel-dialogs.c:229
 msgid "Modifying the panel is not allowed"
-msgstr ""
+msgstr "Kusintha panelo sikukuloledwa"
 
 #: panel/panel-item-dialog.c:192
 msgid "Add New Items"
@@ -347,6 +368,9 @@ msgid ""
 "Execute the panel will try to restart the plugin otherwise it will be "
 "permanently removed from the panel."
 msgstr ""
+"Choonjezera chinayambiranso koposa kamodzi mu ma sekondi %d apitawo. "
+"Mukadina Yendetsani panelo iyetsa kuyambiranso zoonjezera kapena zichotsedwa "
+"mpaka kale ku panelo."
 
 #: panel/panel-plugin-external.c:419
 msgid "Plugin Restart"
@@ -370,7 +394,7 @@ msgstr "Choyambirira"
 
 #: panel/panel-preferences-dialog.c:1075
 msgid "The panel and plugin configurations will be permanently removed"
-msgstr ""
+msgstr "Panelo ndi zokonza ku zoonjezera zichotsedwa mpaka kale"
 
 #: panel/panel-preferences-dialog.c:1084
 #, c-format
@@ -388,15 +412,17 @@ msgid ""
 "Internal name: %s-%d\n"
 "PID: %d"
 msgstr ""
+"Dzina la mkati: %s-%d\n"
+"PID: %d"
 
 #: panel/panel-preferences-dialog.c:1393
 #, c-format
 msgid "Internal name: %s-%d"
-msgstr ""
+msgstr "Dzina la mkati: %s-%d"
 
 #: panel/panel-preferences-dialog.c:1508
 msgid "If you remove the item from the panel, it is permanently lost."
-msgstr ""
+msgstr "Mukachotsa chinthu ku panelo, chitayidwa mpaka kale."
 
 #: panel/panel-preferences-dialog.c:1512 plugins/launcher/launcher-dialog.c:930
 #, c-format
@@ -457,7 +483,7 @@ msgstr "Kasinthidwe ka panelo katheka."
 
 #: plugins/actions/actions.c:32
 msgid "Session Menu"
-msgstr ""
+msgstr "Menyu la Seshoni"
 
 #: plugins/actions/actions.c:163
 msgid "Log Out"
@@ -515,15 +541,15 @@ msgstr "Kodi mufuna kuimitsa disiki?"
 #: plugins/actions/actions.c:195
 #, c-format
 msgid "Hibernating computer in %d seconds."
-msgstr "Kumpyuta izima kwa kanthawi mu ma sekondi %d."
+msgstr "Kompyuta izima kwa kanthawi mu ma sekondi %d."
 
 #: plugins/actions/actions.c:200
 msgid "Hybrid Sleep"
-msgstr ""
+msgstr "Kupuma kwa Pakatikati"
 
 #: plugins/actions/actions.c:201
 msgid "_Hybrid Sleep"
-msgstr ""
+msgstr "_Kupuma kwa Pakatikati"
 
 #: plugins/actions/actions.c:202
 msgid "Do you want to hibernate and suspend the system?"
@@ -532,7 +558,7 @@ msgstr "Kodi mufuna kuimitsa ndi kuzimitsa Sisitimu kwa kanthawi?"
 #: plugins/actions/actions.c:203
 #, c-format
 msgid "Hibernating and Suspending computer in %d seconds."
-msgstr ""
+msgstr "Kompyuta Iima ndikuzima kwa kanthawi mu ma sekondi %d "
 
 #: plugins/actions/actions.c:208
 msgid "Suspend"
@@ -628,7 +654,7 @@ msgstr "Posinthira_zaNthawi"
 
 #: plugins/clock/clock.c:513
 msgid "Failed to execute clock command"
-msgstr ""
+msgstr "Zakanika kuyendetsa komandi ya zanthawi"
 
 #: plugins/clock/clock.c:1011
 msgid "Custom Format"
@@ -637,6 +663,7 @@ msgstr "Maonekedwe Opanga Nokha"
 #: plugins/clock/clock.c:1062
 msgid "Configuration tool not found, please set it in the settings dialog"
 msgstr ""
+"Chipangizo chosinthira sichinapezeke, chonde khazikitsani kosinthira zokonza"
 
 #: plugins/clock/clock-fuzzy.c:75
 msgid "Night"
@@ -737,7 +764,7 @@ msgstr "%1 koloko"
 
 #: plugins/directorymenu/directorymenu.c:293
 msgid "Directory Menu"
-msgstr ""
+msgstr "Menyu la ma Foda"
 
 #: plugins/directorymenu/directorymenu.c:690
 #, c-format
@@ -747,7 +774,7 @@ msgstr "Zakanika kuyambitsa chipangizo \"%s\""
 #: plugins/directorymenu/directorymenu.c:721
 #, c-format
 msgid "Failed to query content type for \"%s\""
-msgstr ""
+msgstr "Zakanika kufufuza mtundu wa za mkati waza \"%s\""
 
 #: plugins/directorymenu/directorymenu.c:730
 #, c-format
@@ -886,15 +913,17 @@ msgid ""
 "Most likely another widget took over the function of a notification area. "
 "This area will be unused."
 msgstr ""
+"Nzotheka kuti pali chida china chimene chalanda ntchito yoonetsa zinthu "
+"pamalo pokhala ma uthenga. Malo amenewa sagwiratso ntchito."
 
 #: plugins/systray/systray.c:411
 msgid "The notification area lost selection"
-msgstr ""
+msgstr "Kosankhila kathawa pa malo oonetsera mauthenga"
 
 #: plugins/systray/systray-manager.c:382
 #, c-format
 msgid "Failed to acquire manager selection for screen %d"
-msgstr ""
+msgstr "Zakanika kupeza zokonza posankhira za kanema %d"
 
 #: plugins/tasklist/tasklist-widget.c:3230
 #, c-format
