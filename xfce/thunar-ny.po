@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar 4.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 09:45+0200\n"
-"PO-Revision-Date: 2026-03-21 14:38+0200\n"
+"PO-Revision-Date: 2026-03-22 10:14+0200\n"
 "Last-Translator: Finlyson Mwadambo Msiska <finlysonmsiska@gmail.com>\n"
 "Language-Team: Dzikoo Linux\n"
 "Language: ny\n"
@@ -3519,11 +3519,11 @@ msgstr "Fufuzani mu %s"
 
 #: thunar/thunar-standard-view.c:1995
 msgid "Loading folder content..."
-msgstr ""
+msgstr "Kutsegula za mkati mwa foda..."
 
 #: thunar/thunar-standard-view.c:2001
 msgid "Loading statusbar information..."
-msgstr ""
+msgstr "Kutsegula uthenga wapa mzera oonetsa m'mene zinthu zilili..."
 
 #: thunar/thunar-standard-view.c:2683
 #, c-format
@@ -3534,20 +3534,20 @@ msgstr[1] "%d ma fayilo apezeka"
 
 #: thunar/thunar-standard-view.c:2725
 msgid "Loading selection information..."
-msgstr ""
+msgstr "Kutsegula uthenga wa zonsankha..."
 
 #: thunar/thunar-standard-view.c:2857 thunar/thunar-window.c:4769
 msgid "Failed to open the home folder"
-msgstr ""
+msgstr "Zakanika kutsegula foda la pakhomo"
 
 #: thunar/thunar-standard-view.c:3431
 msgid "Invalid filename provided by XDS drag site"
-msgstr ""
+msgstr "Dzina la fayilo lolakwika yopatsidwa ndi malo onyamula a XDS"
 
 #: thunar/thunar-standard-view.c:3627
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
-msgstr ""
+msgstr "Zakanika kupanga linki ya URL \"%s\""
 
 #: thunar/thunar-standard-view.c:3674
 msgid "Untitled document"
@@ -3556,7 +3556,7 @@ msgstr "Dokumenti lopanda dzina"
 #: thunar/thunar-standard-view.c:4174 thunar/thunar-window.c:4866
 #, c-format
 msgid "Failed to open directory \"%s\""
-msgstr ""
+msgstr "Zakanika kutsegula foda \"%s\""
 
 #: thunar/thunar-statusbar.c:90
 msgid "Show size"
@@ -3584,7 +3584,7 @@ msgstr "Dzina Lowonetsa"
 
 #: thunar/thunar-statusbar.c:93
 msgid "Show display name"
-msgstr ""
+msgstr "Onetsani dzina lowonetsedwa"
 
 #: thunar/thunar-statusbar.c:94
 msgid "Last Modified"
@@ -3592,25 +3592,28 @@ msgstr "Chinasinthidwa Komaliza Pa"
 
 #: thunar/thunar-statusbar.c:94
 msgid "Show last modified"
-msgstr ""
+msgstr "Onetsani nthawi yomaliza kusinthidwa"
 
 #: thunar/thunar-statusbar.c:95
 msgid "Hidden Files Count"
-msgstr ""
+msgstr "Chiwerengero cha ma Fayilo Obitsika"
 
 #: thunar/thunar-statusbar.c:95
 msgid "Show hidden files count"
-msgstr ""
+msgstr "Onetsani chiwerengero cha ma fayilo obitsika"
 
 #: thunar/thunar-toolbar-editor.c:147
 msgid "Configure the Toolbar"
-msgstr ""
+msgstr "Konzani mzere wa Zipangizo"
 
 #: thunar/thunar-toolbar-editor.c:162
 msgid ""
 "Configure the order and visibility of toolbar items.\n"
 "Note that toolbar items are always executed for the current directory."
 msgstr ""
+"Konzani ndondomeko ndi kaonedwe ka zinthu pa mzere wa zipangizo.\n"
+"Dziwani kuti zinthu za pa mzere wa zipangizo ziziseweredwa kuchokera mu foda "
+"limene likugwiritsidwa ntchito."
 
 #: thunar/thunar-toolbar-editor.c:255
 msgid "De_fault Order"
@@ -3623,24 +3626,26 @@ msgstr "_Zizindikiro zogwirizira"
 #: thunar/thunar-toolbar-editor.c:267
 msgid "Use symbolic icons instead of regular ones (if available)."
 msgstr ""
+"Gwiritsani ntchito zizindikiro zogwirizira kusiyana ndi za wamba za nthawi "
+"zonse (ngati zilipo)."
 
 #: thunar/thunar-toolbar-editor.c:622
 msgid "Only visible when the menubar is hidden"
-msgstr ""
+msgstr "Zizingooneka pamene mzera wa menyu wabisika"
 
 #: thunar/thunar-transfer-job.c:630
 msgid "Verifying file contents..."
-msgstr ""
+msgstr "Kutsimikizira za mkati mwa ma fayilo..."
 
 #: thunar/thunar-transfer-job.c:926
 #, c-format
 msgid "Failed to move file \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kusuntha fayilo \"%s\": %s"
 
 #: thunar/thunar-transfer-job.c:1024
 #, c-format
 msgid "Failed to copy file \"%s\": %s"
-msgstr ""
+msgstr "Zakanika kukopera fayilo \"%s\": %s"
 
 #: thunar/thunar-transfer-job.c:1107
 #, c-format
@@ -3648,11 +3653,13 @@ msgid ""
 "Error while copying to \"%s\": %s more space is required to copy to the "
 "destination"
 msgstr ""
+"Zalephera pokopera ku \"%s\": %s malo ambiri akufunika kuti zikoperedwe ku "
+"malowo"
 
 #: thunar/thunar-transfer-job.c:1140
 #, c-format
 msgid "Trying to restore \"%s\""
-msgstr ""
+msgstr "Kuyetsera kubwezeretsa \"%s\""
 
 #: thunar/thunar-transfer-job.c:1168
 #, c-format
@@ -3846,7 +3853,7 @@ msgstr "Tabu _Latsopano"
 
 #: thunar/thunar-window.c:661
 msgid "Open a new tab for the displayed location"
-msgstr ""
+msgstr "Tsegulani tsamba lina la malo akuonetsedwawa"
 
 #: thunar/thunar-window.c:662
 msgid "New _Window"
@@ -3854,11 +3861,11 @@ msgstr "Windo _Latsopano"
 
 #: thunar/thunar-window.c:662
 msgid "Open a new Thunar window for the displayed location"
-msgstr ""
+msgstr "Tsegulani windo lina la Thunar la malo akuonetsedwawa"
 
 #: thunar/thunar-window.c:663
 msgid "Detac_h Tab"
-msgstr ""
+msgstr "Patula_ni Tsamba"
 
 #: thunar/thunar-window.c:663
 msgid "Open current folder in a new window"
@@ -3906,7 +3913,7 @@ msgstr "Zo_konda..."
 
 #: thunar/thunar-window.c:671
 msgid "Edit Thunar's Preferences"
-msgstr ""
+msgstr "Konzani zokonda ku Thunar"
 
 #: thunar/thunar-window.c:673
 msgid "_View"
@@ -3918,23 +3925,23 @@ msgstr "_Yambiraninso"
 
 #: thunar/thunar-window.c:674
 msgid "Reload the current folder"
-msgstr ""
+msgstr "Tsegulaninso foda limeneli"
 
 #: thunar/thunar-window.c:677
 msgid "S_plit View"
-msgstr ""
+msgstr "Kuonetsa mo_gawa pakati"
 
 #: thunar/thunar-window.c:677
 msgid "Open/Close Split View"
-msgstr ""
+msgstr "Tsegulani/Tsekani Kuonetsa Mogawa Pakati"
 
 #: thunar/thunar-window.c:678
 msgid "Switch Focused Split View Pane"
-msgstr ""
+msgstr "Sinthani Molunjika Kuonetsa Mogawa Pakati Kumbali"
 
 #: thunar/thunar-window.c:679
 msgid "Locatio_n Selector"
-msgstr ""
+msgstr "Posankhi_la Malo"
 
 #: thunar/thunar-window.c:680
 msgid "_Text Style"
@@ -3942,7 +3949,7 @@ msgstr "_Mtundu wa Mawu"
 
 #: thunar/thunar-window.c:680
 msgid "Traditional text box showing the current path"
-msgstr ""
+msgstr "Malo olembapo oonetsa njira ya panopa"
 
 #: thunar/thunar-window.c:681
 msgid "_Buttons Style"
@@ -3950,7 +3957,7 @@ msgstr "_Mtundu wama Batani"
 
 #: thunar/thunar-window.c:681
 msgid "Modern approach with buttons that correspond to folders"
-msgstr ""
+msgstr "Njira za makono za mabatani zogwirizana ndi ma foda"
 
 #: thunar/thunar-window.c:682
 msgid "_Side Pane"
@@ -3962,7 +3969,7 @@ msgstr "_Zidule"
 
 #: thunar/thunar-window.c:683
 msgid "Toggles the visibility of the shortcuts pane"
-msgstr ""
+msgstr "Kumasintha kuwonekera kwa gawo la pambali la zidule"
 
 #: thunar/thunar-window.c:684
 msgid "_Tree"
@@ -3970,7 +3977,7 @@ msgstr "_Mtengo"
 
 #: thunar/thunar-window.c:684
 msgid "Toggles the visibility of the tree pane"
-msgstr ""
+msgstr "Kumasintha kuwonekera kwa gawo la pambali la mtengo"
 
 #: thunar/thunar-window.c:686
 msgid "_Image Preview"
@@ -3978,7 +3985,7 @@ msgstr "_Onetsani Chithunzi Moyeserera"
 
 #: thunar/thunar-window.c:686
 msgid "Change the visibility of this window's image preview"
-msgstr ""
+msgstr "Kusintha kuwonekera kwa kuonetsa chithunzi moyeserera mu windo li"
 
 #: thunar/thunar-window.c:687
 msgid "St_atusbar"
@@ -3986,57 +3993,59 @@ msgstr "Mze_re Woonetsa m'mene zinthu zilili"
 
 #: thunar/thunar-window.c:687
 msgid "Change the visibility of this window's statusbar"
-msgstr ""
+msgstr "Kusintha kuwonekera kwa mzera oonetsa m'mene zinthu zilili mu windo li"
 
 #: thunar/thunar-window.c:688
 msgid "_Menubar"
-msgstr ""
+msgstr "_Mzera wa menyu"
 
 #: thunar/thunar-window.c:688
 msgid "Change the visibility of this window's menubar"
-msgstr ""
+msgstr "Kusintha kuwonekera kwa mzera wa menyu mu windo li"
 
 #: thunar/thunar-window.c:690
 msgid "_Terminal"
-msgstr ""
+msgstr "_Temino"
 
 #: thunar/thunar-window.c:690
 msgid "Toggle the visibility of the terminal emulator"
-msgstr ""
+msgstr "Kusintha kuwonekera kwa temino emyuleta"
 
 #: thunar/thunar-window.c:692
 msgid "Configure _Toolbar..."
-msgstr ""
+msgstr "Konzani _Mzera wa zipangizo..."
 
 #: thunar/thunar-window.c:692
 msgid "Configure the toolbar"
-msgstr ""
+msgstr "Konzani mzere wa Zipangizo"
 
 #: thunar/thunar-window.c:693
 msgid "Cl_ear Saved Folder View Settings"
-msgstr ""
+msgstr "Cho_tsani Zokonza za Zoonetsa Zosungidwa za ma Foda"
 
 #: thunar/thunar-window.c:693
 msgid "Delete saved view settings for this folder"
-msgstr ""
+msgstr "Fufutani Zokonza za Zoonetsa Zosungidwa za Foda ili"
 
 #: thunar/thunar-window.c:694
 msgid "Show _Hidden Files"
-msgstr ""
+msgstr "Onetsani ma fayilo _obitsika"
 
 #: thunar/thunar-window.c:694
 msgid "Toggles the display of hidden files in the current window"
-msgstr ""
+msgstr "Kumasintha mawonedwe a ma fayilo obisika mu windo la panopali"
 
 #: thunar/thunar-window.c:695
 msgid "Show _File Highlight"
-msgstr ""
+msgstr "Onetsani Kutsindika kwa _Fayilo"
 
 #: thunar/thunar-window.c:695
 msgid ""
 "Toggles the display of file highlight which can be configured in the file "
 "specific property dialog"
 msgstr ""
+"Kumasintha mawonedwe a kutsindika kwa fayilo zimene zitha kusinthidwa mu "
+"malo osinthira makhalidwe achindunji pa fayilopo"
 
 #: thunar/thunar-window.c:696
 msgid "Zoom I_n"
@@ -4235,6 +4244,8 @@ msgstr "Onetsani posankhila"
 #: thunar/thunar-window.c:1092
 msgid "Warning: you are using the root account. You may harm your system."
 msgstr ""
+"Chenjezo: mukugwiritsa ntchito akaunti ya mzizi. Mutha kuononga kompyuta "
+"yanu."
 
 #: thunar/thunar-window.c:1163
 msgid "Size: "
@@ -4281,7 +4292,7 @@ msgstr "Zambiri za ma tempuleti"
 
 #: thunar/thunar-window.c:4976
 msgid "All files in this folder will appear in the \"Create Document\" menu."
-msgstr ""
+msgstr "Ma fayilo onse mu foda ili aoneka mu menyu la \"Pangani Dokumenti\"."
 
 #: thunar/thunar-window.c:4983
 msgid ""
@@ -4292,44 +4303,53 @@ msgid ""
 "You can then select the entry from the \"Create Document\" menu and a copy "
 "of the document will be created in the directory you are viewing."
 msgstr ""
+"Ngati muzipanga panga ma dokumenti a mtundu wina wake pafupi pafupi, "
+"koperani chimodzi ndikuyika mu foda li. Thunar aphatikiza dokumenti li mu "
+"menyu la \"Pangani Dokumenti\".\n"
+"\n"
+"Mutha kusankha ponena kuti \"Pangani Dokumenti\" pa menyu ndipo dokumenti "
+"langati limeli lipangidwa mu foda limene muli mo."
 
 #: thunar/thunar-window.c:4995
 msgid "Do _not display this message again"
-msgstr ""
+msgstr "Osa _onetsanso uthenga uwu kachikena"
 
 #: thunar/thunar-window.c:5029
 msgid "Failed to open the file system root folder"
-msgstr ""
+msgstr "Zakanika kutsegula foda ya mzizi ya ma fayilo a mu kompyuta"
 
 #: thunar/thunar-window.c:5065
 msgid "Failed to display `Recent`"
-msgstr ""
+msgstr "Zakanika kuonesa `Za cha Pompano`"
 
 #: thunar/thunar-window.c:5101
 msgid "Failed to display the contents of the trash can"
-msgstr ""
+msgstr "Zakanika kuonetsa za mkati mwa thumba losunga zofufutidwa"
 
 #: thunar/thunar-window.c:5137
 msgid "Failed to browse the network"
-msgstr ""
+msgstr "Zakanika kutsakatula netiweki"
 
 #: thunar/thunar-window.c:5296
 msgid ""
 "Thunar is a fast and easy to use file manager\n"
 "for the Xfce Desktop Environment."
 msgstr ""
+"Thunar ndi njira yokonzera ndikutsegurila mafayilo wachangu komanso mosavuta "
+"kugwiritsa ntchito\n"
+"pa malo a Desikitopu a Xfce."
 
 #: thunar/thunar-window.c:6413
 msgid "Select an image to preview"
-msgstr ""
+msgstr "Sankhani chithunzi kuti muwone"
 
 #: thunar/thunar-window.c:6557
 msgid "Failed to launch search with Catfish"
-msgstr ""
+msgstr "Zakanika kuyambitsa kufufuza ndi Catfish"
 
 #: thunar/thunar-window.c:6888
 msgid "Change the active view type"
-msgstr ""
+msgstr "Sinthani mtundu wamaonedwe apanopa"
 
 #: thunar/thunar-window.c:6891 thunar/thunar-window.c:6916
 msgid "View Switcher"
@@ -4345,15 +4365,15 @@ msgstr "Chizindikiro"
 
 #: thunarx/thunarx-property-page.c:112
 msgid "Text of the page's label"
-msgstr ""
+msgstr "Mawu a chizindikiro cha patsamba"
 
 #: thunarx/thunarx-property-page.c:124
 msgid "Label widget"
-msgstr ""
+msgstr "Chida cholemba dzina"
 
 #: thunarx/thunarx-property-page.c:125
 msgid "A widget to display in place of the usual page label"
-msgstr ""
+msgstr "Chida choonetsa m'malo mwa chizindikiro cha zolemba pa tsamba"
 
 #: thunarx/thunarx-provider-plugin.c:80
 msgid "Resident"
@@ -4361,7 +4381,7 @@ msgstr "Wokhalamo"
 
 #: thunarx/thunarx-provider-plugin.c:81
 msgid "Don't unload the plugin from memory"
-msgstr ""
+msgstr "Osatsegula choonjezera kuchoka kosunga"
 
 #: thunarx/thunarx-renamer.c:155
 msgid "Help URL"
@@ -4385,6 +4405,8 @@ msgid ""
 "The generic name of the entry, for example \"Web Browser\" in case of "
 "Firefox."
 msgstr ""
+"Dzina losavuta polowetsa, mwa chitsanzo \"Makina Otsakatulira Intaneti\" "
+"kusiyana ndi leni leni Firefox."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:281
 msgid "Command:"
@@ -4400,7 +4422,7 @@ msgstr "Foda yogwirira Ntchito:"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:314
 msgid "The working directory for the program."
-msgstr ""
+msgstr "Foda logwira ntchito la pulogalamu."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:333
 msgid "URL:"
@@ -4420,6 +4442,9 @@ msgid ""
 "Tooltip for the entry, for example \"View sites on the Internet\" in case of "
 "Firefox. Should not be redundant with the name or the description."
 msgstr ""
+"Chidziwitso cha zida polowetsa, mwa chitsanzo \"Onani matsamba pa Intaneti\" "
+"kusiyana ndi dzina leni leni ngati FIrefox. Zisakhale zobwereza bwereza ndi "
+"dzinalo kapena mofotokozera."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:398
 msgid "Options:"
@@ -4427,7 +4452,7 @@ msgstr "Zosankhapo:"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:404
 msgid "Use _startup notification"
-msgstr ""
+msgstr "Gwiritsani _ntchito zidziwitso zoyambira"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:405
 msgid ""
@@ -4435,6 +4460,9 @@ msgid ""
 "from the file manager or the menu. Not every application supports startup "
 "notification."
 msgstr ""
+"Sankhani chochita ichi kuti muyatse zidziwitso zoyambira pamene komandi "
+"ikuyendetsedwa kuchoka kokonzera ma fayilo kapena pa menyu. Si chipangizo "
+"chilichonse chimalola zidziwitso zoyambira."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:425
 msgid "Run in _terminal"
@@ -4458,6 +4486,8 @@ msgid ""
 "Select this to enable executable permission bit(+x). Thunar will not launch "
 "the .desktop file if not set."
 msgstr ""
+"Sankhani ich kuti muyatse zilolezo za mlingo wa bit(+x) zoyendetsedwa. "
+"Thunar sayambitsa fayilo la mtundu wa .desktop ngati sizinakhazikitsidwe."
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:469
 msgid "Set this file as trusted"
@@ -4470,6 +4500,11 @@ msgid ""
 "protect from malicious launchers which e.g. pretend to be a picture, having "
 "the executable flag pre-set"
 msgstr ""
+"Sankhani chisankho ichi kuti mutsindikidze fayilo la .desktop kukhala "
+"lokhulupilika. Izi zipanga chitsimikizo choti fayilo ndi la thunthu "
+"ndikusunga mu mtundu wa gvfs. Kutsimikidza kowonjezera kuthandiza kutetedza "
+"ku zoyambitsa zoononga zimene mwachitsanzo zimanamizila kukhala ngati "
+"chithuzi, kukhala ndi zobitsa zoyendetsa kuseliku zoikidwa mkati"
 
 #: plugins/thunar-apr/thunar-apr-desktop-page.c:839
 #, c-format
@@ -4700,7 +4735,7 @@ msgstr "Lembani mawu ofuna kufufuzidwa mu mayina a mafayilo."
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:234
 msgid "Regular _Expression"
-msgstr ""
+msgstr "Zolemba _za Chidule Zothandiza Kufufuza Mwachangu"
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:236
 msgid ""
@@ -4708,6 +4743,11 @@ msgid ""
 "expression and matched using the Perl-compatible regular expressions (PCRE). "
 "Check the documentation for details about the regular expression syntax."
 msgstr ""
+"Ngati musankhe chisankho ichi, zitsanzo zitengedwa ngati zolemba zachidule "
+"zothandiza kufufuza mwachangu ndikufafaniza ndi zolingana ndi mtundu wa Perl-"
+"compatible regular expressions (PCRE). Onani kuzolemba kapena buku kuti "
+"muone zambiri zokhudzana ndi malembedwe a zolemba zachidule zothandiza "
+"kufufuza mwachangu."
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:243
 msgid "Replace _With:"
@@ -4727,11 +4767,16 @@ msgid ""
 "If you enable this option, the pattern will be searched in a case-sensitive "
 "manner. The default is to use a case-insensitive search."
 msgstr ""
+"Mukaasankha chisankho ichi, zitsanzo zifufuzidwa motsata malembo ndi kukula "
+"kwake. Pachiyambi zimakhala motero kuti zofufuzidwa zimatsata malembo ndi "
+"kukula kwake pofufuza."
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:554
 #, c-format
 msgid "Invalid regular expression, at character position %ld: %s"
 msgstr ""
+"Zolemba za chidule zothandiza kufufuza mwachangu zolakwika, pa malo awa a "
+"malembo %ld: %s"
 
 #: plugins/thunar-sbr/thunar-sbr-replace-renamer.c:595
 msgid "Search & Replace"
